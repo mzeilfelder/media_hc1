@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<dialog>
+	<skin name="skin1" default_type="CLASSIC" font="ui/gun4fc.ttf">
+		<color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+		<color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+		<color type="3D_DARK_SHADOW" a="0"/>
+		<color type="3D_SHADOW" a="0"/>
+		<color type="3D_HIGH_LIGHT" a="0"/>
+	</skin>
+	
+	<gui type="IMAGE" name="insert" 
+		 x="140" y="180" w="360" h="140" 
+		 texture="ui/gui_insert.tga">
+	</gui>
+	 
+	<gui type="BUTTON" name="id_ok" 
+		x="160" y="280" w="80" h="24"  
+		text="id_ok" alpha="255"
+        tex_focused="ui/ui_selector.tga"
+		tex_pressed="ui/ui_selector_pressed.tga" 
+		border="1" word_wrap="0" fill_bk="0"
+		font_size="14"
+		font="ui/gun4fc.ttf">
+	</gui>
+		
+	<gui type="BUTTON" name="id_cancel" default_focus="1"
+		x="350" y="280" w="120" h="24"  
+		text="id_cancel" alpha="255"
+        tex_focused="ui/ui_selector.tga"
+		tex_pressed="ui/ui_selector_pressed.tga" 
+		border="1" word_wrap="0" fill_bk="0"
+		font_size="14"
+		font="ui/gun4fc.ttf">
+	</gui>	 
+
+	<gui type="STATIC" name="id_dummytext" 
+		x="180" y="200" w="280" h="60"  
+		text="id_dummytext" alpha="255"
+		border="1" word_wrap="1" fill_bk="0"
+		hcenter="80"
+		font_size="12"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+</dialog>

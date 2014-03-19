@@ -1,0 +1,218 @@
+<?xml version="1.0" ?>
+<dialog>
+	<skin name="skin1" 
+		   default_type="CLASSIC" 
+		   font="ui/gun4fc.ttf"
+		   >
+		 <color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+		 <color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+		 <color type="3D_DARK_SHADOW" a="0"/>
+		 <color type="3D_SHADOW" a="0"/>
+		 <color type="3D_HIGH_LIGHT" a="0"/>
+	 </skin>
+
+	<gui 
+		type="IMAGE" name="img1" 
+		 x="0" y="0" w="640" h="480" 
+		 texture="ui/mainmenu01.jpg">
+	</gui>
+	<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1">
+	</gui>
+	<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2">
+	</gui>
+
+
+
+	<gui type="STATIC" name="Title" 
+		 x="240" y="8" w="160" h="30"  
+		 text="id_timeattack" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="STATIC" name="id_trackdiff" 
+		 x="240" y="42" w="160" h="30"  
+		 text="id_trackdiff" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+
+	<gui type="TEXTSLIDER" name="difficulty"
+		 tex_focused="ui/ui_selector_slider.tga"
+		 btn_aspect_ratio = "1.0"
+		 x="220" y="67" w="200" h="30"
+		 alpha="255"
+		 font_size="12"
+		 font="ui/gun4fc.ttf"
+		 left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga"
+		 >
+	</gui>
+  
+	<gui type="STATIC" name="id_track" 
+		 x="240" y="98" w="160" h="30"  
+		 text="id_track" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+    
+    <gui type="TEXTSLIDER" name="track"
+		 tex_focused="ui/ui_selector_slider.tga"
+		 btn_aspect_ratio = "1.0"
+		 x="220" y="123" w="200" h="30"
+		 alpha="255"
+		 font_size="12"
+		 font="ui/gun4fc.ttf"
+		 left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga"
+		 >
+	</gui>	
+	
+	<gui type="STATIC" name="id_racemode" 
+		 x="240" y="154" w="160" h="30"  
+		 text="id_racemode" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+		
+	<gui type="TEXTSLIDER" name="racemode"
+		 tex_focused="ui/ui_selector_slider.tga"
+		 btn_aspect_ratio = "1.0"
+		 x="220" y="179" w="200" h="30"
+		 alpha="255"
+		 font_size="12"
+		 font="ui/gun4fc.ttf"
+		 left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga"
+		 >
+	</gui>
+  
+  <gui type="STATIC" name="id_ghost" 
+		 x="240" y="210" w="160" h="30"  
+		 text="id_ghost" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+
+    <gui type="TEXTSLIDER" name="ghost"
+		 tex_focused="ui/ui_selector_slider.tga"
+		 btn_aspect_ratio = "1.0"
+		 x="220" y="235" w="200" h="30"
+		 alpha="255"
+		 font_size="12"
+		 font="ui/gun4fc.ttf"
+		 left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga"
+		 >
+	</gui>
+	
+	<gui type="STATIC" name="id_highscore" 
+		 x="240" y="274" w="160" h="20"  
+		 text="id_highscore" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+  	
+	<gui type="STATIC" name="highscore" 
+		 x="215" y="286" w="210" h="20"  
+		 text="CuAl Lap 00.50.54 Track 02.34.77" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+     <color r="73" g="211" b="246" a="255"/>	 
+	</gui>
+	
+	<gui type="STATIC" name="ghost_highscore" 
+		 x="215" y="296" w="210" h="20"  
+		 text="ghostghost track 00.50.54" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+     	 
+	</gui>
+
+<gui type="BUTTON" name="id_ghostexport" default_focus="1"
+		 x="240" y="315" w="160" h="26"  
+		 text="id_ghostexport" alpha="255"
+		 tex_focused="ui/ui_selector.tga"
+				   tex_pressed="ui/ui_selector_pressed.tga" 
+		 border="1" word_wrap="0" fill_bk="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+	</gui>	
+	
+	<gui type="STATIC" name="id_targettime" 
+		 x="240" y="347" w="160" h="20"  
+		 text="id_ldtargettime" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+	
+	<gui type="STATIC" name="tr_targettime" 
+		 x="215" y="360" w="210" h="20"  
+		 text="03.10.00" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 
+	</gui>
+
+	<gui type="BUTTON" name="id_start" default_focus="1"
+		 x="240" y="395" w="160" h="30"  
+		 text="id_start" alpha="255"
+		 tex_focused="ui/ui_selector.tga"
+				   tex_pressed="ui/ui_selector_pressed.tga" 
+		 border="1" word_wrap="0" fill_bk="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+	</gui>
+		
+	<gui type="BUTTON" name="id_back" 
+		 x="240" y="430" w="160" h="30"  
+		 text="id_mainmenu" alpha="255"
+		 tex_focused="ui/ui_selector.tga"
+				   tex_pressed="ui/ui_selector_pressed.tga" 
+		 border="1" word_wrap="0" fill_bk="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+	</gui>
+	
+	<gui type="STATIC" name="act_profile" 
+		x="530" y="8" w="160" h="16"  
+		text="id_activeprofile" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="0"
+		font_size="8"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="act_profile2" 
+		x="530" y="18" w="160" h="16"  
+		text="id_showactiveprofile" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="0"
+		font_size="10"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	
+</dialog>

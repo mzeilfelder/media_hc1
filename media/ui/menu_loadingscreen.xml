@@ -1,0 +1,174 @@
+<?xml version="1.0" ?>
+<dialog>
+
+	<skin name="skin1" 
+		   default_type="CLASSIC" 
+		 font="ui/gun4fc.ttf"
+		   >
+		<color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+		<color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+        <color type="3D_DARK_SHADOW" a="0"/>
+		<color type="3D_SHADOW" a="0"/>
+		<color type="3D_HIGH_LIGHT" a="0"/>
+	 </skin>
+
+
+
+
+	<gui 
+		type="IMAGE" name="img1" 
+		 x="0" y="0" w="640" h="480" 
+		 texture="ui/bg_load01.jpg">
+	</gui>
+	<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1">
+	</gui>
+	<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2">
+	</gui>
+	
+	<gui 
+		type="IMAGE" name="img_tutorial" 
+		 x="0" y="0" w="640" h="480" 
+		 texture="ui/bg_load_tutorial.jpg">
+	</gui>
+
+
+
+
+
+
+	<gui type="STATIC" name="loading" 
+		 x="220" y="440" w="200" h="30"   
+		 text="id_ldload" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="110"
+		 font_size="16"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="STATIC" name="track" 
+		 x="10" y="12" w="280" h="30"  
+		 text="id_ldtrack" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="0"
+		 font_size="16"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="STATIC" name="laps" 
+		 x="310" y="12" w="280" h="30"  
+		 text="id_ldlaps" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="0"
+		 font_size="16"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="STATIC" name="opponents" 
+		 x="410" y="12" w="280" h="30"  
+		 text="id_ldopponents" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="0"
+		 font_size="16"
+		 font="ui/gun4fc.ttf">
+	 </gui>
+
+	 <gui type="STATIC" name="time" 
+		 x="410" y="12" w="280" h="30"  
+		 text="id_ldtargettime" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="0"
+		 font_size="16"
+		 font="ui/gun4fc.ttf">
+	</gui>
+		
+	<gui type="STATIC" name="player_info" 
+		 x="410" y="12" w="280" h="30"  
+		 text="id_ldplayer" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="0"
+		 font_size="16"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+
+	<gui type="STATIC" name="tut01_text01" 
+		 x="10" y="155" w="260" h="30"  
+		 text="id_tut01_text01" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+
+	<gui type="STATIC" name="tut01_text02" 
+		 x="10" y="195" w="500" h="200"  
+		 text="id_tut01_text02" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+	</gui>
+		
+	<gui type="STATIC" name="tut01_text02B" 
+		 x="10" y="270" w="500" h="200"  
+		 text="id_tut01_text02B" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="STATIC" name="tut01_text03" 
+		 x="10" y="400" w="500" h="200"  
+		 text="id_tut01_text03" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+
+	<gui type="STATIC" name="tut02_text01" 
+		 x="10" y="155" w="260" h="30"  
+		 text="id_tut02_text01" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+
+	<gui type="STATIC" name="tut02_text02" 
+		 x="10" y="195" w="500" h="200"  
+		 text="id_tut02_text02" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="STATIC" name="tut02_text03" 
+		 x="10" y="400" w="600" h="200"  
+		 text="id_tut02_text03" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+
+
+	<gui type="BUTTON" name="id_start" 
+		 x="220" y="440" w="200" h="30"  
+		 text="id_start" alpha="255"
+		 tex_focused="ui/ui_selector.tga"
+		 tex_pressed="ui/ui_selector_pressed.tga" 
+		 border="1" word_wrap="0" fill_bk="0"
+		 font_size="18"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+
+
+</dialog>

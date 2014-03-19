@@ -1,0 +1,315 @@
+newmtl Preset_Barriers:blinn8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_arrows02.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Barriers:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.93 0.93 0.93
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Preset_Barriers:lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.40 0.40 0.40
+map_Kd race_invisible.tga
+Ni 1.00
+newmtl Preset_Barriers:race_darkmetal_small01SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_darkmetal01_small.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_CamLine:blinn9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_darkmetal01_small.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_CamLine:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.93 0.93 0.93
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Preset_CamLine02_blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_metal01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_CamLine02_lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.93 0.93 0.93
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Preset_CamLine02_race_supp03SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_supp03.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Halo:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_metal01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Halo:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_supp01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Halo:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.93 0.93 0.93
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Preset_Halo:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.97 0.97 0.97
+Tf 1.00 1.00 1.00
+map_Kd race_lightgrid01.tga
+Ni 1.00
+newmtl Preset_Halo:race_supp01_transSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_supp01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Halo:race_supp02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_supp02.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Halo:race_supp03SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_supp03.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Promoboard:blinn9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.69 0.69 0.69
+Tf 1.00 1.00 1.00
+map_Kd race_promo01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Promoboard:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.93 0.93 0.93
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Preset_Promoboard:race_darkmetal_small01SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_darkmetal01_small.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Promoboard:race_promo02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.74 0.74 0.74
+Tf 1.00 1.00 1.00
+map_Kd race_promo02.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_metal01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_rim02.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 400
+newmtl blinn3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_object01.tga
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_trackstop01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_halfpipe01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_teleport01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_lamp01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_darkmetal01_small.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd camline01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_supp01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.93 0.93 0.93
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.97 0.97 0.97
+Tf 1.00 1.00 1.00
+map_Kd race_lightgrid01.tga
+Ni 1.00
+newmtl lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_floor02.jpg
+Ni 1.00
+newmtl lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.84 0.84 0.84
+Tf 1.00 1.00 1.00
+map_Kd race_lightbeam01.tga
+Ni 1.00
+newmtl race_floor01startergrid02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_floor02startergrid02.jpg
+Ni 1.00
+newmtl race_floor01startergridSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_floor02startergrid.jpg
+Ni 1.00
+newmtl race_rim01sSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_rim02s.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 400
+newmtl race_supp01_transSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_supp01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl race_supp02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_supp02.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl race_supp03SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_supp03.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50

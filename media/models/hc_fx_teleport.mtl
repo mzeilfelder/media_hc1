@@ -1,0 +1,139 @@
+newmtl Hoover01_02_bumpmapped_blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd hover01_uv01.tga
+bump hover01_uv01_Bump.tga -bm 0.1
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Hoover01_02_bumpmapped_hoover01_uv02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd hover01_uv02.tga
+bump hover01_uv02_Bump.tga -bm 0.1
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Hoover01_02_bumpmapped_lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.88 0.88 0.88
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Hoover01_02_bumpmapped_lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd hover_enginelight01.jpg
+Ni 1.00
+newmtl Hoover02_02_bumpmapped_blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd hover02_uv1.tga
+bump hover02_uv1_Bump.tga -bm 0.1
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Hoover02_02_bumpmapped_lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.88 0.88 0.88
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Hoover02_02_bumpmapped_lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd hover_enginelight01.jpg
+Ni 1.00
+newmtl Hoover03_02_blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd hover03_uv01.tga
+bump hover03_uv01_Bump.tga -bm 0.1
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Hoover03_02_hoover01_uv02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd hover03_uv02.tga
+bump hover03_uv02_Bump.tga -bm 0.1
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Hoover03_02_lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.88 0.88 0.88
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Hoover03_02_lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd hover_enginelight01.jpg
+Ni 1.00
+newmtl Hoover03_02_pasted__lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd ALPHA_race_shipstream01.tga
+Ni 1.00
+newmtl hoover02_uv02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd hover02_uv2.tga
+bump hover02_uv2_Bump.tga -bm 0.1
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd ALPHA_race_shipstream01.tga
+Ni 1.00
+newmtl lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.83 0.83 0.83
+Tf 1.00 1.00 1.00
+map_Kd ALPHA_hc_fx_teleport.tga
+Ni 1.00
+newmtl pasted__blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd h01uv01.tga
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.88 0.88 0.88
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl pasted__lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd ALPHA_race_shipstream01.tga
+Ni 1.00

@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<dialog>
+	 <skin name="skin1" 
+		   default_type="METALLIC" 
+		   font="ui/fontcourier.bmp"
+		   >
+		 <color type="3D_DARK_SHADOW" a="0"/>
+		 <color type="3D_SHADOW" a="0"/>
+		 <color type="3D_HIGH_LIGHT" a="0"/>
+		 
+		 <color type="BUTTON_TEXT" r="0" g="0" b="0" a="255"/>
+		 <color type="3D_FACE" r="0" g="240" b="255" a="100"/>
+	 </skin>
+	
+	<gui type="WINDOW" name="aidialog"
+		 x="0" y="50" w="180" h="450" 
+		 text="AI">
+		<gui type="CHECKBOX" name="cbShowTrack"
+			 x="10" y="25" w="150" h="20"
+			 text="Show Track">
+		</gui>
+		<gui type="BUTTON" name="btnRecordToTrack" 
+			 x="10" y="50" w="150" h="20" 
+			 text="Record-to-Track">
+		</gui>
+		<gui type="BUTTON" name="btnFixedSteps" 
+			 x="10" y="75" w="150" h="20" 
+			 text="Make fixed stepsizes">
+		</gui>
+		<gui type="BUTTON" name="btnSmoothCenters" 
+			 x="10" y="100" w="150" h="20" 
+			 text="Smooth centers">
+		</gui>
+		<gui type="BUTTON" name="btnMakeBorders" 
+			 x="10" y="125" w="150" h="20" 
+			 text="Make borders">
+		</gui>
+		<gui type="BUTTON" name="btnRealBorders" 
+			 x="10" y="150" w="150" h="20" 
+			 text="Find real borders">
+		</gui>
+		<gui type="BUTTON" name="btnCenters" 
+			 x="10" y="175" w="150" h="20" 
+			 text="Center centers">
+		</gui>
+		<gui type="BUTTON" name="btnSmoothAll" 
+			 x="10" y="200" w="150" h="20" 
+			 text="Smooth all">
+		</gui>
+		<gui type="BUTTON" name="btnSmoothLeft" 
+			 x="10" y="225" w="150" h="20" 
+			 text="Smooth left borders">
+		</gui>
+		<gui type="BUTTON" name="btnSmoothRight" 
+			 x="10" y="250" w="150" h="20" 
+			 text="Smooth right borders">
+		</gui>
+		<gui type="BUTTON" name="btnRecordSpeed" 
+			 x="10" y="275" w="150" h="20" 
+			 text="Record speeds">
+		</gui>
+		<gui type="BUTTON" name="btnRecordLine" 
+			 x="10" y="300" w="150" h="20" 
+			 text="Record idealline">
+		</gui>
+		<gui type="BUTTON" name="btnSmoothIdealLine" 
+			 x="10" y="325" w="150" h="20" 
+			 text="Smooth idealline">
+		</gui>
+		<gui type="BUTTON" name="btnFixTp" 
+			 x="10" y="350" w="150" h="20" 
+			 text="Fix Teleport">
+		</gui>
+		<gui type="CHECKBOX" name="cbAiTraining" 
+			 x="10" y="400" w="150" h="20" 
+			 text="AI training">
+		</gui>
+	 </gui>	
+</dialog>

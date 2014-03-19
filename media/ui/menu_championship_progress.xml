@@ -1,0 +1,1491 @@
+<?xml version="1.0" ?>
+<dialog>
+
+<skin name="skin1" 
+		   default_type="CLASSIC" 
+		 font="ui/gun4fc.ttf"
+		   >
+		 <color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+             <color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+             <color type="3D_DARK_SHADOW" a="0"/>
+		 <color type="3D_SHADOW" a="0"/>
+		 <color type="3D_HIGH_LIGHT" a="0"/>
+                          
+	 </skin>
+
+
+
+	<gui type="IMAGE" name="img1" 
+		x="0" y="0" w="640" h="480" 
+		texture="ui/hc_infoscreen.jpg">
+	</gui>
+	<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1">
+	</gui>
+	<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2">
+	</gui>
+
+
+<gui type="STATIC" name="headline" 
+			 x="10" y="14" w="300" h="20"  
+			 text="H-CrAFT CHAMPiONSHiP" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="18"
+		 font="ui/gun4fc.ttf">
+		</gui>
+
+<gui type="STATIC" name="1ch_title" 
+			 x="10" y="50" w="200" h="15"  
+			 text="id_1ch_title" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="2ch_title" 
+			 x="215" y="50" w="200" h="15"  
+			 text="id_2ch_title" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="3ch_title" 
+			 x="420" y="50" w="200" h="15"  
+			 text="id_3ch_title" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		
+		
+		
+		
+		<gui type="IMAGE" name="grid"
+			 x="10" y="90" w="170" h="65"
+			 texture="ui/hc_champ_grid1.tga">
+	</gui>
+	<gui type="IMAGE" name="grid"
+			 x="10" y="180" w="170" h="65"
+			 texture="ui/hc_champ_grid1.tga">
+	</gui>
+	<gui type="IMAGE" name="grid"
+			 x="10" y="270" w="170" h="65"
+			 texture="ui/hc_champ_grid1.tga">
+	</gui>
+	<gui type="IMAGE" name="grid"
+			 x="10" y="360" w="170" h="65"
+			 texture="ui/hc_champ_grid1.tga">
+	</gui>
+	
+	<gui type="IMAGE" name="grid"
+			 x="215" y="90" w="170" h="65"
+			 texture="ui/hc_champ_grid2.tga">
+	</gui>
+	<gui type="IMAGE" name="grid"
+			 x="215" y="180" w="170" h="65"
+			 texture="ui/hc_champ_grid2.tga">
+	</gui>
+	<gui type="IMAGE" name="grid"
+			 x="215" y="270" w="170" h="65"
+			 texture="ui/hc_champ_grid2.tga">
+	</gui>
+	<gui type="IMAGE" name="grid"
+			 x="215" y="360" w="170" h="65"
+			 texture="ui/hc_champ_grid2.tga">
+	</gui>
+	
+	<gui type="IMAGE" name="grid"
+			 x="420" y="90" w="170" h="65"
+			 texture="ui/hc_champ_grid3.tga">
+	</gui>
+	<gui type="IMAGE" name="grid"
+			 x="420" y="180" w="170" h="65"
+			 texture="ui/hc_champ_grid3.tga">
+	</gui>
+	<gui type="IMAGE" name="grid"
+			 x="420" y="270" w="170" h="65"
+			 texture="ui/hc_champ_grid3.tga">
+	</gui>
+	<gui type="IMAGE" name="grid"
+			 x="420" y="360" w="170" h="65"
+			 texture="ui/hc_champ_grid3.tga">
+	</gui>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<gui type="STATIC" name="required1" 
+			 x="10" y="76" w="210" h="15"  
+			 text="id_s1q1req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="required2" 
+			 x="10" y="166" w="210" h="15"  
+			 text="id_s1q2req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="required3" 
+			 x="10" y="256" w="210" h="15"  
+			 text="id_s1q3req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="required4" 
+			 x="10" y="346" w="210" h="15"  
+			 text="id_s1q4req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="STATIC" name="required5" 
+			 x="215" y="76" w="210" h="15"  
+			 text="id_s2q1req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="required6" 
+			 x="215" y="166" w="210" h="15"  
+			 text="id_s2q2req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="required7" 
+			 x="215" y="256" w="210" h="15"  
+			 text="id_s2q3req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="required8" 
+			 x="215" y="346" w="210" h="15"  
+			 text="id_s2q4req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="STATIC" name="required9" 
+			 x="420" y="76" w="210" h="15"  
+			 text="id_s3q1req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="required10" 
+			 x="420" y="166" w="210" h="15"  
+			 text="id_s3q2req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="required11" 
+			 x="420" y="256" w="210" h="15"  
+			 text="id_s3q3req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="required12" 
+			 x="420" y="346" w="210" h="15"  
+			 text="id_s3q4req" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		
+		
+		
+		<gui type="STATIC" name="race_name1" 
+			 x="12" y="92" w="200" h="15"  
+			 text="id_1ch01" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name2" 
+			 x="12" y="108" w="200" h="15"  
+			 text="id_1ch02" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name3" 
+			 x="12" y="124" w="200" h="15"  
+			 text="id_1ch03" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext1" 
+			 x="12" y="140" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_name4" 
+			 x="12" y="182" w="200" h="15"  
+			 text="id_1ch05" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name5" 
+			 x="12" y="198" w="200" h="15"  
+			 text="id_1ch06" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name6" 
+			 x="12" y="214" w="200" h="15"  
+			 text="id_1ch07" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext2" 
+			 x="12" y="230" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_name7" 
+			 x="12" y="272" w="200" h="15"  
+			 text="id_1ch09" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name8" 
+			 x="12" y="288" w="200" h="15"  
+			 text="id_1ch10" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name9" 
+			 x="12" y="304" w="200" h="15"  
+			 text="id_1ch11" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext3" 
+			 x="12" y="320" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_name10" 
+			 x="12" y="362" w="200" h="15"  
+			 text="id_1ch13" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name11" 
+			 x="12" y="378" w="200" h="15"  
+			 text="id_1ch14" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name12" 
+			 x="12" y="394" w="200" h="15"  
+			 text="id_1ch15" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext4" 
+			 x="12" y="410" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+	
+		<gui type="STATIC" name="race_name13" 
+			 x="217" y="92" w="200" h="15"  
+			 text="id_2ch01" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name14" 
+			 x="217" y="108" w="200" h="15"  
+			 text="id_2ch02" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name15" 
+			 x="217" y="124" w="200" h="15"  
+			 text="id_2ch03" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext5" 
+			 x="217" y="140" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_name16" 
+			 x="217" y="182" w="200" h="15"  
+			 text="id_2ch05" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name17" 
+			 x="217" y="198" w="200" h="15"  
+			 text="id_2ch06" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name18" 
+			 x="217" y="214" w="200" h="15"  
+			 text="id_2ch07" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext6" 
+			 x="217" y="230" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_name19" 
+			 x="217" y="272" w="200" h="15"  
+			 text="id_2ch09" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name20" 
+			 x="217" y="288" w="200" h="15"  
+			 text="id_2ch10" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name21" 
+			 x="217" y="304" w="200" h="15"  
+			 text="id_2ch11" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext7" 
+			 x="217" y="320" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_name22" 
+			 x="217" y="362" w="200" h="15"  
+			 text="id_2ch13" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name23" 
+			 x="217" y="378" w="200" h="15"  
+			 text="id_2ch14" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name24" 
+			 x="217" y="394" w="200" h="15"  
+			 text="id_2ch15" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext8" 
+			 x="217" y="410" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>	
+	
+		<gui type="STATIC" name="race_name25" 
+			 x="422" y="92" w="200" h="15"  
+			 text="id_3ch01" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name26" 
+			 x="422" y="108" w="200" h="15"  
+			 text="id_3ch02" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name27" 
+			 x="422" y="124" w="200" h="15"  
+			 text="id_3ch03" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext9" 
+			 x="422" y="140" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_name28" 
+			 x="422" y="182" w="200" h="15"  
+			 text="id_3ch05" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name29" 
+			 x="422" y="198" w="200" h="15"  
+			 text="id_3ch06" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name30" 
+			 x="422" y="214" w="200" h="15"  
+			 text="id_3ch07" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext10" 
+			 x="422" y="230" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_name31" 
+			 x="422" y="272" w="200" h="15"  
+			 text="id_3ch09" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name32" 
+			 x="422" y="288" w="200" h="15"  
+			 text="id_3ch10" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name33" 
+			 x="422" y="304" w="200" h="15"  
+			 text="id_3ch11" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext11" 
+			 x="422" y="320" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_name34" 
+			 x="422" y="362" w="200" h="15"  
+			 text="id_3ch13" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name35" 
+			 x="422" y="378" w="200" h="15"  
+			 text="id_3ch14" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_name36" 
+			 x="422" y="394" w="200" h="15"  
+			 text="id_3ch15" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="restext12" 
+			 x="422" y="410" w="200" h="15"  
+			 text="id_quat_res_text" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>	
+		
+		
+		
+		
+		
+		
+		<gui type="STATIC" name="race_res1" 
+			 x="141" y="92" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res2" 
+			 x="141" y="108" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res3" 
+			 x="141" y="124" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat1" 
+			 x="54" y="140" w="200" h="15"  
+			 text="30/39" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_res4" 
+			 x="141" y="182" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res5" 
+			 x="141" y="198" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res6" 
+			 x="141" y="214" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat2" 
+			 x="54" y="230" w="200" h="15"  
+			 text="30/39" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_res7" 
+			 x="141" y="272" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res8" 
+			 x="141" y="288" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res9" 
+			 x="141" y="304" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat3" 
+			 x="54" y="320" w="200" h="15"  
+			 text="30/39" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_res10" 
+			 x="141" y="362" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res11" 
+			 x="141" y="378" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res12" 
+			 x="141" y="394" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat4" 
+			 x="54" y="410" w="200" h="15"  
+			 text="30/30" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="STATIC" name="race_res13" 
+			 x="346" y="92" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res14" 
+			 x="346" y="108" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res15" 
+			 x="346" y="124" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat5" 
+			 x="259" y="140" w="200" h="15"  
+			 text="40/49" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_res16" 
+			 x="346" y="182" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res17" 
+			 x="346" y="198" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res18" 
+			 x="346" y="214" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat6" 
+			 x="259" y="230" w="200" h="15"  
+			 text="40/49" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_res19" 
+			 x="346" y="272" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res20" 
+			 x="346" y="288" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res21" 
+			 x="346" y="304" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat7" 
+			 x="259" y="320" w="200" h="15"  
+			 text="30/29" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_res22" 
+			 x="346" y="362" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res23" 
+			 x="346" y="378" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res24" 
+			 x="346" y="394" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat8" 
+			 x="259" y="410" w="200" h="15"  
+			 text="50/59" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="STATIC" name="race_res25" 
+			 x="551" y="92" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res26" 
+			 x="551" y="108" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res27" 
+			 x="551" y="124" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat9" 
+			 x="464" y="140" w="200" h="15"  
+			 text="20/29" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_res28" 
+			 x="551" y="182" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res29" 
+			 x="551" y="198" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res30" 
+			 x="551" y="214" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat10" 
+			 x="464" y="230" w="200" h="15"  
+			 text="20/29" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_res31" 
+			 x="551" y="272" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res32" 
+			 x="551" y="288" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res33" 
+			 x="551" y="304" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat11" 
+			 x="464" y="320" w="200" h="15"  
+			 text="50/59" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="race_res34" 
+			 x="551" y="362" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res35" 
+			 x="551" y="378" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="race_res36" 
+			 x="551" y="394" w="200" h="15"  
+			 text="0/3" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="STATIC" name="res_quat12" 
+			 x="464" y="410" w="200" h="15"  
+			 text="70/79" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="1"
+		 font_size="11"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		
+		
+		
+		
+		
+
+		<gui type="STATIC" name="ch_totalpoints" 
+			 x="10" y="440" w="260" h="18"  
+			 text="id_ch_totalpoints" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="16"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		
+		
+		
+		<gui type="BUTTON" name="retry1" 
+			 x="10" y="90" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry2" 
+			 x="10" y="106" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry3" 
+			 x="10" y="122" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="BUTTON" name="retry4" 
+			 x="10" y="180" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry5" 
+			 x="10" y="196" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry6" 
+			 x="10" y="212" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="BUTTON" name="retry7" 
+			 x="10" y="270" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry8" 
+			 x="10" y="286" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry9" 
+			 x="10" y="302" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="BUTTON" name="retry10" 
+			 x="10" y="360" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry11" 
+			 x="10" y="376" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry12" 
+			 x="10" y="392" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		
+		
+		
+		
+		<gui type="BUTTON" name="retry13" 
+			 x="215" y="90" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry14" 
+			 x="215" y="106" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry15" 
+			 x="215" y="122" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="BUTTON" name="retry16" 
+			 x="215" y="180" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry17" 
+			 x="215" y="196" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry18" 
+			 x="215" y="212" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="BUTTON" name="retry19" 
+			 x="215" y="270" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry20" 
+			 x="215" y="286" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry21" 
+			 x="215" y="302" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="BUTTON" name="retry22" 
+			 x="215" y="360" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry23" 
+			 x="215" y="376" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry24" 
+			 x="215" y="392" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		
+		
+		<gui type="BUTTON" name="retry25" 
+			 x="420" y="90" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry26" 
+			 x="420" y="106" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry27" 
+			 x="420" y="122" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="BUTTON" name="retry28" 
+			 x="420" y="180" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry29" 
+			 x="420" y="196" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry30" 
+			 x="420" y="212" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="BUTTON" name="retry31" 
+			 x="420" y="270" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry32" 
+			 x="420" y="286" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry33" 
+			 x="420" y="302" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+		<gui type="BUTTON" name="retry34" 
+			 x="420" y="360" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry35" 
+			 x="420" y="376" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="retry36" 
+			 x="420" y="392" w="197" h="17"  
+			  text=" " alpha="255"
+			 	tex_norm="ui/hc_champ_button01.tga"
+				   tex_focused="ui/hc_champ_button03.tga"
+				   tex_pressed="ui/hc_champ_button02.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="BUTTON" name="id_quit" 
+			 x="400" y="440" w="100" h="22"  
+			 text="id_exit" alpha="255"
+			 tex_focused="ui/ui_selector.tga"
+				   tex_pressed="ui/ui_selector_pressed.tga" 
+			  border="1" word_wrap="0" fill_bk="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+	<gui type="BUTTON" name="id_continue" default_focus="1"
+			 x="500" y="440" w="120" h="22"  
+			 text="id_hdnextrace" alpha="255"
+			 tex_focused="ui/ui_selector.tga"
+				   tex_pressed="ui/ui_selector_pressed.tga" 
+			  border="1" word_wrap="0" fill_bk="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>	
+		
+		<gui type="STATIC" name="act_profile" 
+		x="530" y="14" w="160" h="16"  
+		text="id_activeprofile" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="0"
+		font_size="8"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="act_profile2" 
+		x="530" y="24" w="160" h="16"  
+		text="id_showactiveprofile" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="0"
+		font_size="10"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+		
+		
+		
+
+
+</dialog>

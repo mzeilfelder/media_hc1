@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<dialog>
+
+	<skin name="skin1" 
+		   default_type="CLASSIC" 
+		 font="ui/gun4fc.ttf"
+		   >
+		<color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+		<color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+        <color type="3D_DARK_SHADOW" a="0"/>
+		<color type="3D_SHADOW" a="0"/>
+		<color type="3D_HIGH_LIGHT" a="0"/>
+	 </skin>
+
+	
+	<gui 
+		type="IMAGE" name="img_tutorial03" 
+		 x="0" y="0" w="640" h="480" 
+		 texture="ui/bg_load_tutorial.jpg">
+	</gui>
+	<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1">
+	</gui>
+	<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2">
+	</gui>	
+	
+	<gui type="STATIC" name="tut03_text01" 
+		 x="10" y="175" w="500" h="200"  
+		 text="id_tut03_text01" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+	</gui>	
+
+	<gui type="STATIC" name="tut03_text02" 
+		 x="10" y="205" w="500" h="200"  
+		 text="id_tut03_text02" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+
+
+
+
+
+
+
+	<gui type="BUTTON" name="id_continue" default_focus="1" 
+		 x="220" y="440" w="200" h="30"  
+		 text="id_hdcontinue" alpha="255"
+		 tex_focused="ui/ui_selector.tga"
+		 tex_pressed="ui/ui_selector_pressed.tga" 
+		 border="1" word_wrap="0" fill_bk="0"
+		 font_size="18"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+
+
+
+</dialog>

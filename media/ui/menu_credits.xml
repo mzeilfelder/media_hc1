@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<dialog>
+
+	<skin name="skin1" default_type="CLASSIC" font="ui/gun4fc.ttf" >
+		<color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+		<color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+		<color type="3D_DARK_SHADOW" a="0"/>
+		<color type="3D_SHADOW" a="0"/>
+		<color type="3D_HIGH_LIGHT" a="0"/>
+	 </skin>
+
+
+
+	<gui type="IMAGE" name="img1" 
+		x="0" y="0" w="640" h="480" 
+		texture="ui/mainmenu01.jpg">
+	</gui>
+	<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1">
+	</gui>
+	<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2">
+	</gui>
+
+
+	<gui type="STATIC" name="Title" 
+		x="240" y="8" w="160" h="30"  
+		text="CrEDiTS" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="14"
+		font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="STATIC" name="credit" 
+		x="220" y="50" w="200" h="12"  
+		text="developed by" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="10"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="creditname" 
+		x="220" y="63" w="200" h="12"  
+		text="irrgheist" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="12"
+		font="ui/gun4fc.ttf">
+	</gui>
+		
+	<gui type="STATIC" name="credit" 
+		x="220" y="85" w="200" h="12"  
+		text="Design" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="10"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="creditname" 
+		x="220" y="98" w="200" h="12"  
+		text="Philipp Lossack" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="12"
+		font="ui/gun4fc.ttf">
+	</gui>
+		
+	<gui type="STATIC" name="credit" 
+		x="220" y="115" w="200" h="12"  
+		text="Programming" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="10"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="creditname" 
+		x="220" y="128" w="200" h="12"  
+		text="Michael Zeilfelder" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="12"
+		font="ui/gun4fc.ttf">
+	</gui>
+		
+	<gui type="STATIC" name="credit" 
+		x="220" y="145" w="200" h="24"  
+		text="Music with friendly allowance from" alpha="255"
+		border="0" word_wrap="1" fill_bk="0"
+		hcenter="80"
+		font_size="10"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="creditname" 
+		x="220" y="170" w="200" h="12"  
+		text="Manolo Camp" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="12"
+		font="ui/gun4fc.ttf">
+	</gui>
+		
+	<gui type="STATIC" name="creditname" 
+		x="220" y="220" w="200" h="90"  
+		text="Portions of this software are copyright (2006) by The FreeType Project (www.freetype.org). All rights reserved." alpha="255"
+		border="1" word_wrap="1" fill_bk="0"
+		hcenter="80"
+		font_size="10"
+		font="ui/gun4fc.ttf">
+	</gui>
+		
+	<gui type="STATIC" name="creditname" 
+		 x="220" y="280" w="200" h="50"  
+		 text="This software is based in part on the work of the Independent JPEG Group." alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+	</gui>
+	
+	<gui type="STATIC" name="credit" 
+		 x="220" y="356" w="200" h="12"  
+		 text="powered by" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+	 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+		
+	<gui type="IMAGE" name="irrlicht" 
+		 x="255" y="370" w="130" h="32" 
+		 texture="ui/irrlichtlogo.jpg">
+	</gui>
+		
+	<gui type="BUTTON" name="id_back" default_focus="1"
+		x="240" y="430" w="160" h="30"  
+		text="id_back" alpha="255"
+        tex_focused="ui/ui_selector.tga"
+		tex_pressed="ui/ui_selector_pressed.tga" 
+		border="1" word_wrap="0" fill_bk="0"
+		font_size="14"
+		font="ui/gun4fc.ttf">
+	</gui>
+
+
+</dialog>

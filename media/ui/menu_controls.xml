@@ -1,0 +1,282 @@
+<?xml version="1.0" ?>
+<dialog>
+
+<skin name="skin1" 
+		   default_type="CLASSIC" 
+		 font="ui/gun4fc.ttf"
+		   >
+		 <color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+             <color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+             <color type="3D_DARK_SHADOW" a="0"/>
+		 <color type="3D_SHADOW" a="0"/>
+		 <color type="3D_HIGH_LIGHT" a="0"/>
+	 </skin>
+
+
+
+	<gui type="IMAGE" name="img1" 
+			 x="0" y="0" w="640" h="480" 
+			 texture="ui/mainmenu01.jpg">
+	</gui>
+	<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1">
+	</gui>
+	<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2">
+	</gui>
+
+
+
+<gui type="STATIC" name="Title" 
+			 x="240" y="8" w="160" h="30"  
+			 text="id_controls" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+
+<gui type="STATIC" name="id_analogsteer" 
+			 x="240" y="50" w="160" h="30"  
+			 text="id_analogsteer" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="BUTTON" name="analogsteer" 
+			 x="250" y="72" w="140" h="18"  
+			 text="STICK1 X-AXIS" alpha="255"
+			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		
+		<gui type="STATIC" name="id_analogacc" 
+			 x="240" y="85" w="160" h="30"  
+			 text="id_analogacc" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="BUTTON" name="analogacc" 
+			 x="250" y="107" w="140" h="18"  
+			 text="STICK1 X-AXIS" alpha="255"
+			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		
+		<gui type="STATIC" name="id_analogbr" 
+			 x="240" y="120" w="160" h="30"  
+			 text="id_analogbr" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="BUTTON" name="analogbrake" 
+			 x="250" y="142" w="140" h="18"  
+			 text="STICK1 X-AXIS" alpha="255"
+			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="STATIC" name="id_steerleft" 
+			 x="240" y="155" w="160" h="30"  
+			 text="id_steerleft" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="BUTTON" name="steerleft" 
+			 x="250" y="177" w="140" h="18"  
+			 text="a" alpha="255"
+			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+				<gui type="STATIC" name="id_steerright" 
+			 x="240" y="190" w="160" h="30"  
+			 text="id_steerright" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="BUTTON" name="steerright" 
+			 x="250" y="212" w="140" h="18"  
+			 text="d" alpha="255"
+			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+				<gui type="STATIC" name="id_accelerate" 
+			 x="240" y="225" w="160" h="30"  
+			 text="id_accelerate" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="BUTTON" name="accelerate" 
+			 x="250" y="247" w="140" h="18"  
+			 text="w" alpha="255"
+			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+				<gui type="STATIC" name="id_brake" 
+			 x="240" y="260" w="160" h="30"  
+			 text="id_brake" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="BUTTON" name="brake" 
+			 x="250" y="282" w="140" h="18"  
+			 text="s" alpha="255"
+			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		
+				<gui type="STATIC" name="id_pause" 
+			 x="240" y="295" w="160" h="30"  
+			 text="id_pause" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="BUTTON" name="pause" 
+			 x="250" y="317" w="140" h="18"  
+			 text="p" alpha="255"
+			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="id_cam" 
+			 x="240" y="330" w="160" h="30"  
+			 text="id_cam" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="BUTTON" name="camera" 
+			 x="250" y="352" w="140" h="18"  
+			 text="c" alpha="255"
+			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+		</gui>
+
+
+
+	<gui type="BUTTON" name="id_accept" default_focus="1"
+			 x="240" y="395" w="160" h="30"  
+			 text="id_accept" alpha="255"
+                   tex_focused="ui/ui_selector.tga"
+				   tex_pressed="ui/ui_selector_pressed.tga" 
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="BUTTON" name="id_cancel" 
+			 x="240" y="430" w="160" h="30"  
+			 text="id_cancel" alpha="255"
+                   tex_focused="ui/ui_selector.tga"
+				   tex_pressed="ui/ui_selector_pressed.tga" 
+			  border="1" word_wrap="0" fill_bk="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="act_profile" 
+		x="530" y="8" w="160" h="16"  
+		text="id_activeprofile" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="0"
+		font_size="8"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="act_profile2" 
+		x="530" y="18" w="160" h="16"  
+		text="id_showactiveprofile" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="0"
+		font_size="10"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	
+	<gui type="IMAGE" name="insert" 
+		 x="173" y="380" w="300" h="100" 
+		 texture="ui/gui_insert.tga">
+	</gui>
+	
+	<gui type="STATIC" name="id_waiting" 
+			 x="220" y="396" w="200" h="30"  
+			 text="id_waiting" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="18"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="STATIC" name="id_abort" 
+			 x="220" y="426" w="200" h="30"  
+			 text="id_abort" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="18"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+
+
+
+</dialog>

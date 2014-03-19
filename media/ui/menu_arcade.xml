@@ -1,0 +1,182 @@
+<?xml version="1.0" ?>
+<dialog>
+
+<skin name="skin1" 
+		   default_type="CLASSIC" 
+		 font="ui/gun4fc.ttf"
+		   >
+		 <color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+             <color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+             <color type="3D_DARK_SHADOW" a="0"/>
+		 <color type="3D_SHADOW" a="0"/>
+		 <color type="3D_HIGH_LIGHT" a="0"/>
+	 </skin>
+
+
+	<gui 
+		type="IMAGE" name="img1" 
+		 x="0" y="0" w="640" h="480" 
+		 texture="ui/mainmenu01.jpg">
+	</gui>
+	<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1">
+	</gui>
+	<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2">
+	</gui>
+
+
+<gui type="STATIC" name="Title" 
+			 x="240" y="8" w="160" h="30"  
+			 text="id_Tarcade" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+
+<gui type="STATIC" name="id_trackdiff" 
+			 x="240" y="60" w="160" h="30"  
+			 text="id_trackdiff" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+
+<gui type="TEXTSLIDER" name="difficulty"
+		tex_focused="ui/ui_selector_slider.tga"
+		btn_aspect_ratio = "1.0"
+		x="220" y="85" w="200" h="30"
+		alpha="255"
+		font_size="12"
+		font="ui/gun4fc.ttf"
+		left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga"
+		 >
+	</gui>
+  
+  <gui type="STATIC" name="id_track" 
+			 x="240" y="120" w="160" h="30"  
+			 text="id_track" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+    
+    <gui type="TEXTSLIDER" name="track"
+		 tex_focused="ui/ui_selector_slider.tga"
+		 btn_aspect_ratio = "1.0"
+		 x="220" y="145" w="200" h="30"
+		 alpha="255"
+		 font_size="12"
+		 font="ui/gun4fc.ttf"
+		 left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga"
+		 >
+	</gui>	
+	
+	<gui type="STATIC" name="id_laps" 
+			 x="240" y="180" w="160" h="30"  
+			 text="id_laps" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		
+		<gui type="TEXTSLIDER" name="laps"
+		 tex_focused="ui/ui_selector_slider.tga"
+		 btn_aspect_ratio = "1.0"
+		 x="220" y="205" w="200" h="30"
+		 alpha="255"
+		 font_size="12"
+		 font="ui/gun4fc.ttf"
+		 left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga"
+		 >
+	</gui>
+  
+  <gui type="STATIC" name="id_opponents" 
+			 x="240" y="240" w="160" h="30"  
+			 text="id_opponents" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+    
+    <gui type="TEXTSLIDER" name="opponents"
+		 tex_focused="ui/ui_selector_slider.tga"
+		 btn_aspect_ratio = "1.0"
+		 x="220" y="265" w="200" h="30"
+		 alpha="255"
+		 font_size="12"
+		 font="ui/gun4fc.ttf"
+		 left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga"
+		 >
+	</gui>	
+	
+	<gui type="STATIC" name="id_arc_diff" 
+			 x="240" y="300" w="160" h="30"  
+			 text="id_arc_diff" alpha="255"
+			 border="1" word_wrap="0" fill_bk="0"
+			 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+    
+    <gui type="TEXTSLIDER" name="arc_difficulty"
+		 tex_focused="ui/ui_selector_slider.tga"
+		 btn_aspect_ratio = "1.0"
+		 x="220" y="325" w="200" h="30"
+		 alpha="255"
+		 font_size="12"
+		 font="ui/gun4fc.ttf"
+		 left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga"
+		 >
+	</gui>	
+	
+	<gui type="BUTTON" name="id_start" default_focus="1"
+			 x="240" y="395" w="160" h="30"  
+			 text="id_start" alpha="255"
+                   tex_focused="ui/ui_selector.tga"
+				   tex_pressed="ui/ui_selector_pressed.tga" 
+			 border="1" word_wrap="0" fill_bk="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="BUTTON" name="id_back" 
+			 x="240" y="430" w="160" h="30"  
+			 text="id_mainmenu" alpha="255"
+                   tex_focused="ui/ui_selector.tga"
+				   tex_pressed="ui/ui_selector_pressed.tga" 
+			  border="1" word_wrap="0" fill_bk="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		</gui>
+		
+		<gui type="STATIC" name="act_profile" 
+		x="530" y="8" w="160" h="16"  
+		text="id_activeprofile" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="0"
+		font_size="8"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="act_profile2" 
+		x="530" y="18" w="160" h="16"  
+		text="id_showactiveprofile" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="0"
+		font_size="10"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+
+
+
+</dialog>

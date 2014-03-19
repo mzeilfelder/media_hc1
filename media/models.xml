@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<models>
+    <node type="mesh" name="track01objects" file="levels/track01objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track02objects" file="levels/track02objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track03objects" file="levels/track03objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track04objects" file="levels/track04objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track05objects" file="levels/track05objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track06objects" file="levels/track06objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track07objects" file="levels/track07objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track08objects" file="levels/track08objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track09objects" file="levels/track09objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track10objects" file="levels/track10objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track11objects" file="levels/track11objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track12objects" file="levels/track12objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track13objects" file="levels/track13objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track14objects" file="levels/track14objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track15objects" file="levels/track15objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track16objects" file="levels/track16objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track17objects" file="levels/track17objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track18objects" file="levels/track18objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track19objects" file="levels/track19objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track20objects" file="levels/track20objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track21objects" file="levels/track21objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track22objects" file="levels/track22objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track23objects" file="levels/track23objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track24objects" file="levels/track24objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track25objects" file="levels/track25objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track26objects" file="levels/track26objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="track27objects" file="levels/track27objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="unknown" name="hover1">
+        <node type="mesh" name="hoover01" file="models/hoover01.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    </node>
+    <node type="unknown" name="Teleport_Animated">
+        <node type="anim_mesh" name="Teleport_light01" file="levels/Teleport_light01.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="0" anim_speed="25"/>
+        <node type="anim_mesh" name="Teleport_light02" file="levels/Teleport_light02.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="0" anim_speed="25"/>
+        <node type="anim_mesh" name="Teleport_light03" file="levels/Teleport_light03.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="0" anim_speed="25"/>
+        <node type="anim_mesh" name="Teleport_light04" file="levels/Teleport_light04.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="0" anim_speed="25"/>
+        <node type="anim_mesh" name="Teleport_light05" file="levels/Teleport_light05.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="0" anim_speed="25"/>
+        <node type="anim_mesh" name="Teleport_light06" file="levels/Teleport_light06.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="0" anim_speed="25"/>
+        <node type="mesh" name="Teleport_Body01" file="levels/Teleport_Body01.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    </node>
+    <node type="unknown" name="Halo_Animated">
+        <node type="mesh" name="hc_halo_body" file="levels/hc_halo_body.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+        <node type="anim_mesh" name="hc_halo_grid01_anim" file="levels/hc_halo_grid01_anim.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="1" anim_speed="25"/>
+        <node type="anim_mesh" name="hc_halo_grid02_anim" file="levels/hc_halo_grid02_anim.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="1" anim_speed="25"/>
+    </node>
+    <node type="unknown" name="Camera_short_Animation">
+        <node type="anim_mesh" name="Camera_short_Anim" file="levels/Camera_short_Anim.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="1" anim_speed="25"/>
+    </node>
+    <node type="unknown" name="Camera_long_Anim">
+        <node type="anim_mesh" name="Camera_long_Anim" file="levels/Camera_long_Anim.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="1" anim_speed="25"/>
+    </node>
+    <node type="unknown" name="Lighttunnel_Anim">
+        <node type="anim_mesh" name="Lighttunnel_Anim" file="levels/Lighttunnel_Anim.X" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="100.000000" s_y="100.000000" s_z="100.000000" backface_culling="0" anim_speed="25"/>
+    </node>
+    <node type="mesh" name="Hover02" file="models/Hover02_Body.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1">
+        <node type="mesh" name="Hover_fire" file="models/Hover_fire_single.obj" c_x="24.500000" c_y="-7.500000" c_z="-125.500000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+        	<animator type="anirot" r_x="0.000000" r_y="0.000000" r_z="0.400000"/>
+        </node>
+        <node type="mesh" name="Hover_fire" file="models/Hover_fire_single.obj" c_x="-24.500000" c_y="-7.500000" c_z="-125.500000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+        	<animator type="anirot" r_x="0.000000" r_y="0.000000" r_z="0.400000"/>
+        </node>
+
+		<node type="unknown" name="fireparticles">
+			<node type="particle" name="_fire01" default_emitter="0" c_x="-24.500000" c_y="-7.500000" c_z="-154.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="20.000000" width="16.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="0" target_g="0" target_b="0" target_a="0" time_fadedout="200"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="-0.000000" particles_sec_min="29" particles_sec_max="38" min_r="190" min_g="150" min_b="120" min_a="0" max_r="200" max_g="200" max_b="200" max_a="0" life_min="150" life_max="200" angle_max="0" maxx="-0.200000" maxy="-0.100000" maxz="-25.100000" minx="0.200000" miny="0.100000" minz="0.100000"/>
+			</node>
+			<node type="particle" name="_fire02" default_emitter="0" c_x="24.500000" c_y="-7.500000" c_z="-154.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="20.000000" width="16.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="0" target_g="0" target_b="0" target_a="0" time_fadedout="200"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="-0.000000" particles_sec_min="29" particles_sec_max="38" min_r="190" min_g="150" min_b="120" min_a="0" max_r="200" max_g="200" max_b="200" max_a="0" life_min="150" life_max="200" angle_max="0" maxx="-0.200000" maxy="-0.100000" maxz="-25.100000" minx="0.200000" miny="0.100000" minz="0.100000"/>
+			</node>
+			<node type="particle" name="blend01" default_emitter="0" c_x="24.500000" c_y="-7.500000" c_z="-130.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="20.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="255" target_g="235" target_b="55" target_a="0" time_fadedout="1000"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="0.000000" particles_sec_min="1" particles_sec_max="1" min_r="250" min_g="200" min_b="100" min_a="0" max_r="255" max_g="220" max_b="100" max_a="0" life_min="1000" life_max="1000" angle_max="0.0" maxx="-0.1" maxy="-0.1" maxz="-0.1" minx="0.1" miny="0.1" minz="0.1"/>
+			</node>
+			<node type="particle" name="blend02" default_emitter="0" c_x="-24.500000" c_y="-7.500000" c_z="-130.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="20.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="255" target_g="220" target_b="90" target_a="0" time_fadedout="1000"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="0.000000" particles_sec_min="1" particles_sec_max="1" min_r="250" min_g="200" min_b="100" min_a="0" max_r="255" max_g="220" max_b="100" max_a="0" life_min="1000" life_max="1000" angle_max="0.0" maxx="-0.1" maxy="-0.1" maxz="-0.1" minx="0.1" miny="0.1" minz="0.1"/>
+			</node>
+		</node>
+        
+        <node type="mesh" name="Hover_All_Rotor" file="models/Hover_All_Rotor.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1">
+            <animator type="anirot" r_x="0.000000" r_y="5.000000" r_z="0.000000"/>
+        </node>
+        <node type="mesh" name="teleport_fx" file="models/hc_fx_teleport.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="15.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+            <animator type="anirot" r_x="0.000000" r_y="1.000000" r_z="0.000000"/>
+        </node>
+        <node type="mesh" name="teleport_fx2" file="models/hc_fx_teleport.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="-15.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+            <animator type="anirot" r_x="0.000000" r_y="1.000000" r_z="0.000000"/>
+        </node>
+        <node type="particle" name="dust01" default_emitter="0" c_x="25.000000" c_y="-15.000000" c_z="-80.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="30.000000" width="30.000000" mat_type="12" tex1="ALPHA_dust01.tga" light="0" param1="0.001000">
+            <effector type="fade" target_r="0" target_g="0" target_b="30" target_a="0" time_fadedout="900"/>
+            <emitter type="box" dir_x="0.070000" dir_y="0.00000" dir_z="-0.000000" particles_sec_min="20" particles_sec_max="40" min_r="80" min_g="50" min_b="50" min_a="0" max_r="150" max_g="150" max_b="150" max_a="0" life_min="700" life_max="900" angle_max="45" maxx="-5.500000" maxy="-2.500000" maxz="-5.500000" minx="5.500000" miny="2.500000" minz="5.500000"/>
+        </node>
+        <node type="particle" name="dust02" default_emitter="0" c_x="-30.000000" c_y="-15.000000" c_z="-80.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="30.000000" width="30.000000" mat_type="12" tex1="ALPHA_dust01.tga" light="0" param1="0.001000">
+            <effector type="fade" target_r="0" target_g="0" target_b="30" target_a="0" time_fadedout="900"/>
+            <emitter type="box" dir_x="-0.070000" dir_y="0.00000" dir_z="-0.000000" particles_sec_min="20" particles_sec_max="40" min_r="80" min_g="50" min_b="50" min_a="0" max_r="150" max_g="150" max_b="150" max_a="0" life_min="700" life_max="900" angle_max="45" maxx="-5.500000" maxy="-2.500000" maxz="-5.500000" minx="5.500000" miny="2.500000" minz="5.500000"/>
+        </node>
+        
+        <node type="particle" name="smoke01" default_emitter="0" c_x="-24.500000" c_y="-18.200000" c_z="-189.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="64.000000" width="24.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="160" target_g="160" target_b="150" target_a="0" time_fadedout="800"/>
+            <emitter type="box" dir_x="0.000000" dir_y="-0.050000" dir_z="-0.010000" particles_sec_min="60" particles_sec_max="90" min_r="20" min_g="20" min_b="20" min_a="0" max_r="80" max_g="30" max_b="30" max_a="0" life_min="700" life_max="800" angle_max="2" maxx="-2.600000" maxy="-1.800000" maxz="-35.500000" minx="2.600000" miny="1.800000" minz="1.500000"/>
+        </node>
+        <node type="particle" name="smoke02" default_emitter="0" c_x="24.500000" c_y="-18.200000" c_z="-189.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="64.000000" width="24.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="160" target_g="160" target_b="150" target_a="0" time_fadedout="800"/>
+            <emitter type="box" dir_x="0.000000" dir_y="-0.050000" dir_z="-0.010000" particles_sec_min="60" particles_sec_max="90" min_r="20" min_g="20" min_b="20" min_a="0" max_r="80" max_g="30" max_b="30" max_a="0" life_min="700" life_max="800" angle_max="2" maxx="-2.600000" maxy="-1.800000" maxz="-35.500000" minx="2.600000" miny="1.800000" minz="1.500000"/>
+        </node>
+        <node type="particle" name="sparkles01" default_emitter="0" c_x="-47.900000" c_y="-3.000000" c_z="-112.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="22.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="75" target_g="255" target_b="255" target_a="0" time_fadedout="150"/>
+            <emitter type="box" dir_x="0.000000" dir_y="0.00000" dir_z="0.00000" particles_sec_min="5" particles_sec_max="10" min_r="100" min_g="150" min_b="200" min_a="0" max_r="150" max_g="200" max_b="250" max_a="0" life_min="150" life_max="150" angle_max="20.0" maxx="-0.1" maxy="-0.1" maxz="-35.9" minx="0.1" miny="0.1" minz="5.9"/>
+        </node>
+        <node type="particle" name="sparkles02" default_emitter="0" c_x="47.900000" c_y="-3.000000" c_z="-112.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="22.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="75" target_g="255" target_b="255" target_a="0" time_fadedout="150"/>
+            <emitter type="box" dir_x="0.000000" dir_y="0.00000" dir_z="0.00000" particles_sec_min="5" particles_sec_max="10" min_r="100" min_g="150" min_b="200" min_a="0" max_r="150" max_g="200" max_b="250" max_a="0" life_min="150" life_max="150" angle_max="20.0" maxx="-0.1" maxy="-0.1" maxz="-35.9" minx="0.1" miny="0.1" minz="5.9"/>
+        </node> 
+	</node>
+    
+    <node type="mesh" name="Hover01" file="models/Hover01_Body.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1">
+        <node type="mesh" name="Hover_fire" file="models/Hover_fire_single.obj" c_x="24.500000" c_y="-7.500000" c_z="-113.500000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+        	<animator type="anirot" r_x="0.000000" r_y="0.000000" r_z="0.400000"/>
+        </node>
+        <node type="mesh" name="Hover_fire" file="models/Hover_fire_single.obj" c_x="-24.500000" c_y="-7.500000" c_z="-113.500000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+        	<animator type="anirot" r_x="0.000000" r_y="0.000000" r_z="0.400000"/>
+        </node>
+        
+		<node type="unknown" name="fireparticles">
+        	<node type="particle" name="_fire01" default_emitter="0" c_x="-24.500000" c_y="-7.500000" c_z="-142.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="20.000000" width="16.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+            	<effector type="fade" target_r="0" target_g="0" target_b="0" target_a="0" time_fadedout="200"/>
+            	<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="-0.000000" particles_sec_min="29" particles_sec_max="38" min_r="190" min_g="150" min_b="120" min_a="0" max_r="200" max_g="200" max_b="200" max_a="0" life_min="150" life_max="200" angle_max="0" maxx="-0.200000" maxy="-0.100000" maxz="-25.100000" minx="0.200000" miny="0.100000" minz="0.100000"/>
+        	</node>
+			<node type="particle" name="_fire02" default_emitter="0" c_x="24.500000" c_y="-7.500000" c_z="-142.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="20.000000" width="16.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="0" target_g="0" target_b="0" target_a="0" time_fadedout="200"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="-0.000000" particles_sec_min="29" particles_sec_max="38" min_r="190" min_g="150" min_b="120" min_a="0" max_r="200" max_g="200" max_b="200" max_a="0" life_min="150" life_max="200" angle_max="0" maxx="-0.200000" maxy="-0.100000" maxz="-25.100000" minx="0.200000" miny="0.100000" minz="0.100000"/>
+			</node>
+			<node type="particle" name="blend01" default_emitter="0" c_x="24.500000" c_y="-7.500000" c_z="-118.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="20.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="255" target_g="235" target_b="55" target_a="0" time_fadedout="1000"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="0.000000" particles_sec_min="1" particles_sec_max="1" min_r="250" min_g="200" min_b="100" min_a="0" max_r="255" max_g="220" max_b="100" max_a="0" life_min="1000" life_max="1000" angle_max="0.0" maxx="-0.1" maxy="-0.1" maxz="-0.1" minx="0.1" miny="0.1" minz="0.1"/>
+			</node>
+			<node type="particle" name="blend02" default_emitter="0" c_x="-24.500000" c_y="-7.500000" c_z="-118.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="20.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="255" target_g="220" target_b="90" target_a="0" time_fadedout="1000"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="0.000000" particles_sec_min="1" particles_sec_max="1" min_r="250" min_g="200" min_b="100" min_a="0" max_r="255" max_g="220" max_b="100" max_a="0" life_min="1000" life_max="1000" angle_max="0.0" maxx="-0.1" maxy="-0.1" maxz="-0.1" minx="0.1" miny="0.1" minz="0.1"/>
+			</node>
+		</node>
+        
+        <node type="mesh" name="Hover_All_Rotor" file="models/Hover_All_Rotor.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1">
+            <animator type="anirot" r_x="0.000000" r_y="5.000000" r_z="0.000000"/>
+        </node>
+        <node type="mesh" name="teleport_fx" file="models/hc_fx_teleport.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="15.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+            <animator type="anirot" r_x="0.000000" r_y="1.000000" r_z="0.000000"/>
+        </node>
+        <node type="mesh" name="teleport_fx2" file="models/hc_fx_teleport.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="-15.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+            <animator type="anirot" r_x="0.000000" r_y="1.000000" r_z="0.000000"/>
+        </node>
+        <node type="particle" name="dust01" default_emitter="0" c_x="25.000000" c_y="-15.000000" c_z="-80.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="30.000000" width="30.000000" mat_type="12" tex1="ALPHA_dust01.tga" light="0" param1="0.001000">
+            <effector type="fade" target_r="0" target_g="0" target_b="30" target_a="0" time_fadedout="900"/>
+            <emitter type="box" dir_x="0.070000" dir_y="0.00000" dir_z="-0.000000" particles_sec_min="20" particles_sec_max="40" min_r="80" min_g="50" min_b="50" min_a="0" max_r="150" max_g="150" max_b="150" max_a="0" life_min="700" life_max="900" angle_max="45" maxx="-5.500000" maxy="-2.500000" maxz="-5.500000" minx="5.500000" miny="2.500000" minz="5.500000"/>
+        </node>
+        <node type="particle" name="dust02" default_emitter="0" c_x="-30.000000" c_y="-15.000000" c_z="-80.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="30.000000" width="30.000000" mat_type="12" tex1="ALPHA_dust01.tga" light="0" param1="0.001000">
+            <effector type="fade" target_r="0" target_g="0" target_b="30" target_a="0" time_fadedout="900"/>
+            <emitter type="box" dir_x="-0.070000" dir_y="0.00000" dir_z="-0.000000" particles_sec_min="20" particles_sec_max="40" min_r="80" min_g="50" min_b="50" min_a="0" max_r="150" max_g="150" max_b="150" max_a="0" life_min="700" life_max="900" angle_max="45" maxx="-5.500000" maxy="-2.500000" maxz="-5.500000" minx="5.500000" miny="2.500000" minz="5.500000"/>
+        </node>
+        
+        <node type="particle" name="smoke01" default_emitter="0" c_x="-24.500000" c_y="-18.200000" c_z="-189.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="64.000000" width="24.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="160" target_g="160" target_b="150" target_a="0" time_fadedout="800"/>
+            <emitter type="box" dir_x="0.000000" dir_y="-0.050000" dir_z="-0.010000" particles_sec_min="60" particles_sec_max="90" min_r="20" min_g="20" min_b="20" min_a="0" max_r="80" max_g="30" max_b="30" max_a="0" life_min="700" life_max="800" angle_max="2" maxx="-2.600000" maxy="-1.800000" maxz="-35.500000" minx="2.600000" miny="1.800000" minz="1.500000"/>
+        </node>
+        <node type="particle" name="smoke02" default_emitter="0" c_x="24.500000" c_y="-18.200000" c_z="-189.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="64.000000" width="24.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="160" target_g="160" target_b="150" target_a="0" time_fadedout="800"/>
+            <emitter type="box" dir_x="0.000000" dir_y="-0.050000" dir_z="-0.010000" particles_sec_min="60" particles_sec_max="90" min_r="20" min_g="20" min_b="20" min_a="0" max_r="80" max_g="30" max_b="30" max_a="0" life_min="700" life_max="800" angle_max="2" maxx="-2.600000" maxy="-1.800000" maxz="-35.500000" minx="2.600000" miny="1.800000" minz="1.500000"/>
+        </node>
+        <node type="particle" name="sparkles01" default_emitter="0" c_x="-47.900000" c_y="-3.000000" c_z="-112.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="22.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="75" target_g="255" target_b="255" target_a="0" time_fadedout="150"/>
+            <emitter type="box" dir_x="0.000000" dir_y="0.00000" dir_z="0.00000" particles_sec_min="5" particles_sec_max="10" min_r="100" min_g="150" min_b="200" min_a="0" max_r="150" max_g="200" max_b="250" max_a="0" life_min="150" life_max="150" angle_max="20.0" maxx="-0.1" maxy="-0.1" maxz="-35.9" minx="0.1" miny="0.1" minz="5.9"/>
+        </node>
+        <node type="particle" name="sparkles02" default_emitter="0" c_x="47.900000" c_y="-3.000000" c_z="-112.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="22.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="75" target_g="255" target_b="255" target_a="0" time_fadedout="150"/>
+            <emitter type="box" dir_x="0.000000" dir_y="0.00000" dir_z="0.00000" particles_sec_min="5" particles_sec_max="10" min_r="100" min_g="150" min_b="200" min_a="0" max_r="150" max_g="200" max_b="250" max_a="0" life_min="150" life_max="150" angle_max="20.0" maxx="-0.1" maxy="-0.1" maxz="-35.9" minx="0.1" miny="0.1" minz="5.9"/>
+        </node>
+	</node>
+	
+    
+    <node type="mesh" name="Hover03" file="models/Hover03_Body.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1">
+        <node type="mesh" name="Hover_fire" file="models/Hover_fire_single.obj" c_x="22.500000" c_y="-1.500000" c_z="-131.500000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+        	<animator type="anirot" r_x="0.000000" r_y="0.000000" r_z="0.400000"/>
+        </node>
+        <node type="mesh" name="Hover_fire" file="models/Hover_fire_single.obj" c_x="-22.500000" c_y="-1.500000" c_z="-131.500000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+        	<animator type="anirot" r_x="0.000000" r_y="0.000000" r_z="0.400000"/>
+        </node>
+
+		<node type="unknown" name="fireparticles">
+        	<node type="particle" name="_fire01" default_emitter="0" c_x="-22.500000" c_y="-1.500000" c_z="-165.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="22.000000" width="18.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="0" target_g="0" target_b="0" target_a="0" time_fadedout="200"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="-0.000000" particles_sec_min="29" particles_sec_max="38" min_r="190" min_g="150" min_b="120" min_a="0" max_r="200" max_g="200" max_b="200" max_a="0" life_min="150" life_max="200" angle_max="0" maxx="-0.200000" maxy="-0.100000" maxz="-27.100000" minx="0.200000" miny="0.100000" minz="0.100000"/>
+	        </node> 
+			<node type="particle" name="_fire02" default_emitter="0" c_x="22.500000" c_y="-1.500000" c_z="-165.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="22.000000" width="18.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="0" target_g="0" target_b="0" target_a="0" time_fadedout="200"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="-0.000000" particles_sec_min="29" particles_sec_max="38" min_r="190" min_g="150" min_b="120" min_a="0" max_r="200" max_g="200" max_b="200" max_a="0" life_min="150" life_max="200" angle_max="0" maxx="-0.200000" maxy="-0.100000" maxz="-27.100000" minx="0.200000" miny="0.100000" minz="0.100000"/>
+			</node>
+			<node type="particle" name="blend01" default_emitter="0" c_x="22.500000" c_y="-1.500000" c_z="-138.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="20.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="255" target_g="235" target_b="55" target_a="0" time_fadedout="1000"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="0.000000" particles_sec_min="1" particles_sec_max="1" min_r="250" min_g="200" min_b="100" min_a="0" max_r="255" max_g="220" max_b="100" max_a="0" life_min="1000" life_max="1000" angle_max="0.0" maxx="-0.1" maxy="-0.1" maxz="-0.1" minx="0.1" miny="0.1" minz="0.1"/>
+			</node>
+			<node type="particle" name="blend02" default_emitter="0" c_x="-22.500000" c_y="-1.500000" c_z="-138.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="20.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+				<effector type="fade" target_r="255" target_g="220" target_b="90" target_a="0" time_fadedout="1000"/>
+				<emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="0.000000" particles_sec_min="1" particles_sec_max="1" min_r="250" min_g="200" min_b="100" min_a="0" max_r="255" max_g="220" max_b="100" max_a="0" life_min="1000" life_max="1000" angle_max="0.0" maxx="-0.1" maxy="-0.1" maxz="-0.1" minx="0.1" miny="0.1" minz="0.1"/>
+			</node>
+		</node>
+
+        <node type="mesh" name="Hover_All_Rotor" file="models/Hover_All_Rotor.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1">
+            <animator type="anirot" r_x="0.000000" r_y="5.000000" r_z="0.000000"/>
+        </node>
+        <node type="mesh" name="teleport_fx" file="models/hc_fx_teleport.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="15.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+            <animator type="anirot" r_x="0.000000" r_y="1.000000" r_z="0.000000"/>
+        </node>
+        <node type="mesh" name="teleport_fx2" file="models/hc_fx_teleport.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="-15.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+            <animator type="anirot" r_x="0.000000" r_y="1.000000" r_z="0.000000"/>
+        </node>
+        <node type="particle" name="dust01" default_emitter="0" c_x="25.000000" c_y="-15.000000" c_z="-80.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="30.000000" width="30.000000" mat_type="12" tex1="ALPHA_dust01.tga" light="0" param1="0.001000">
+            <effector type="fade" target_r="0" target_g="0" target_b="30" target_a="0" time_fadedout="900"/>
+            <emitter type="box" dir_x="0.070000" dir_y="0.00000" dir_z="-0.000000" particles_sec_min="20" particles_sec_max="40" min_r="80" min_g="50" min_b="50" min_a="0" max_r="150" max_g="150" max_b="150" max_a="0" life_min="700" life_max="900" angle_max="45" maxx="-5.500000" maxy="-2.500000" maxz="-5.500000" minx="5.500000" miny="2.500000" minz="5.500000"/>
+        </node>
+        <node type="particle" name="dust02" default_emitter="0" c_x="-30.000000" c_y="-15.000000" c_z="-80.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="30.000000" width="30.000000" mat_type="12" tex1="ALPHA_dust01.tga" light="0" param1="0.001000">
+            <effector type="fade" target_r="0" target_g="0" target_b="30" target_a="0" time_fadedout="900"/>
+            <emitter type="box" dir_x="-0.070000" dir_y="0.00000" dir_z="-0.000000" particles_sec_min="20" particles_sec_max="40" min_r="80" min_g="50" min_b="50" min_a="0" max_r="150" max_g="150" max_b="150" max_a="0" life_min="700" life_max="900" angle_max="45" maxx="-5.500000" maxy="-2.500000" maxz="-5.500000" minx="5.500000" miny="2.500000" minz="5.500000"/>
+        </node>
+
+        <node type="particle" name="smoke01" default_emitter="0" c_x="-22.500000" c_y="-18.200000" c_z="-189.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="64.000000" width="24.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="160" target_g="160" target_b="150" target_a="0" time_fadedout="800"/>
+            <emitter type="box" dir_x="0.000000" dir_y="-0.050000" dir_z="-0.010000" particles_sec_min="60" particles_sec_max="90" min_r="20" min_g="20" min_b="20" min_a="0" max_r="80" max_g="30" max_b="30" max_a="0" life_min="700" life_max="800" angle_max="2" maxx="-2.600000" maxy="-1.800000" maxz="-35.500000" minx="2.600000" miny="1.800000" minz="1.500000"/>
+        </node>
+        <node type="particle" name="smoke02" default_emitter="0" c_x="22.500000" c_y="-18.200000" c_z="-189.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="64.000000" width="24.000000" mat_type="12" tex1="ALPHA_P_egf01.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="160" target_g="160" target_b="150" target_a="0" time_fadedout="800"/>
+            <emitter type="box" dir_x="0.000000" dir_y="-0.050000" dir_z="-0.010000" particles_sec_min="60" particles_sec_max="90" min_r="20" min_g="20" min_b="20" min_a="0" max_r="80" max_g="30" max_b="30" max_a="0" life_min="700" life_max="800" angle_max="2" maxx="-2.600000" maxy="-1.800000" maxz="-35.500000" minx="2.600000" miny="1.800000" minz="1.500000"/>
+        </node>
+        <node type="particle" name="sparkles01" default_emitter="0" c_x="-47.900000" c_y="-3.000000" c_z="-112.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="22.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="75" target_g="255" target_b="255" target_a="0" time_fadedout="150"/>
+            <emitter type="box" dir_x="0.000000" dir_y="0.00000" dir_z="0.00000" particles_sec_min="5" particles_sec_max="10" min_r="100" min_g="150" min_b="200" min_a="0" max_r="150" max_g="200" max_b="250" max_a="0" life_min="150" life_max="150" angle_max="20.0" maxx="-0.1" maxy="-0.1" maxz="-35.9" minx="0.1" miny="0.1" minz="5.9"/>
+        </node>
+        <node type="particle" name="sparkles02" default_emitter="0" c_x="47.900000" c_y="-3.000000" c_z="-112.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="22.000000" width="36.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="75" target_g="255" target_b="255" target_a="0" time_fadedout="150"/>
+            <emitter type="box" dir_x="0.000000" dir_y="0.00000" dir_z="0.00000" particles_sec_min="5" particles_sec_max="10" min_r="100" min_g="150" min_b="200" min_a="0" max_r="150" max_g="200" max_b="250" max_a="0" life_min="150" life_max="150" angle_max="20.0" maxx="-0.1" maxy="-0.1" maxz="-35.9" minx="0.1" miny="0.1" minz="5.9"/>
+        </node> 
+	</node>
+	
+    <node type="mesh" name="hover_player" file="models/Hover02_Body.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1">
+        <node type="mesh" name="Hover02_fire" file="models/Hover02_fire.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+        <node type="mesh" name="Hover_All_Rotor" file="models/Hover_All_Rotor.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1">
+            <animator type="anirot" r_x="0.000000" r_y="5.000000" r_z="0.000000"/>
+        </node>
+        <node type="mesh" name="teleport_fx" file="models/hc_fx_teleport.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="15.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+            <animator type="anirot" r_x="0.000000" r_y="1.000000" r_z="0.000000"/>
+        </node>
+        <node type="mesh" name="teleport_fx2" file="models/hc_fx_teleport.obj" c_x="0.000000" c_y="0.000000" c_z="-74.000000" r_x="0.000000" r_y="0.000000" r_z="-15.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="0">
+            <animator type="anirot" r_x="0.000000" r_y="1.000000" r_z="0.000000"/>
+        </node>
+    </node>
+    <node type="mesh" name="hc_halo_ring" file="levels/hc_halo_ring.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1">
+        <animator type="anirot" r_x="0.090000" r_y="0.000000" r_z="0.000000"/>
+        <node type="light" name="light" c_x="0.000000" c_y="-10000.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" shadow="0" lighttype="0" radius="35.000000" d_r="162.000000" d_g="252.000000" d_b="255.000000" d_a="0.000000" s_r="0.000000" s_g="0.000000" s_b="0.000000" s_a="0.000000"/>
+        <node type="light" name="light" c_x="0.000000" c_y="10000.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" shadow="0" lighttype="0" radius="35.000000" d_r="255.000000" d_g="252.000000" d_b="162.000000" d_a="0.000000" s_r="0.000000" s_g="0.000000" s_b="0.000000" s_a="0.000000"/>
+        <node type="particle" name="blend03" default_emitter="0" c_x="0.000000" c_y="-27000.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="3048.000000" width="12192.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="255" target_g="255" target_b="255" target_a="0" time_fadedout="1000"/>
+            <emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="0.000000" particles_sec_min="1" particles_sec_max="1" min_r="255" min_g="255" min_b="255" min_a="0" max_r="255" max_g="255" max_b="255" max_a="0" life_min="1000" life_max="1000" angle_max="0.0" maxx="-0.1" maxy="-0.1" maxz="-0.1" minx="0.1" miny="0.1" minz="0.1"/>
+        </node>
+        <node type="particle" name="blend03" default_emitter="0" c_x="0.000000" c_y="27000.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="3048.000000" width="12192.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="255" target_g="255" target_b="255" target_a="0" time_fadedout="1000"/>
+            <emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="0.000000" particles_sec_min="1" particles_sec_max="1" min_r="255" min_g="255" min_b="255" min_a="0" max_r="255" max_g="255" max_b="255" max_a="0" life_min="1000" life_max="1000" angle_max="0.0" maxx="-0.1" maxy="-0.1" maxz="-0.1" minx="0.1" miny="0.1" minz="0.1"/>
+        </node>
+        <node type="particle" name="blend03_static" default_emitter="0" c_x="26800.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="2048.000000" width="10192.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="255" target_g="255" target_b="255" target_a="0" time_fadedout="1000"/>
+            <emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="0.000000" particles_sec_min="1" particles_sec_max="1" min_r="255" min_g="255" min_b="255" min_a="0" max_r="255" max_g="255" max_b="255" max_a="0" life_min="1000" life_max="1000" angle_max="0.0" maxx="-0.1" maxy="-0.1" maxz="-0.1" minx="0.1" miny="0.1" minz="0.1"/>
+        </node>
+        <node type="particle" name="blend03_static" default_emitter="0" c_x="-26800.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="0" height="2048.000000" width="10192.000000" mat_type="12" tex1="ALPHA_blendlight02.tga" light="0" param1="0.020000">
+            <effector type="fade" target_r="255" target_g="255" target_b="255" target_a="0" time_fadedout="1000"/>
+            <emitter type="box" dir_x="0.000000" dir_y="0.000000" dir_z="0.000000" particles_sec_min="1" particles_sec_max="1" min_r="255" min_g="255" min_b="255" min_a="0" max_r="255" max_g="255" max_b="255" max_a="0" life_min="1000" life_max="1000" angle_max="0.0" maxx="-0.1" maxy="-0.1" maxz="-0.1" minx="0.1" miny="0.1" minz="0.1"/>
+        </node>
+    </node>
+    <node type="mesh" name="_TEST_spec" file="levels/_TEST_spec.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1">
+        <node type="light" name="light" c_x="0.000000" c_y="60.000000" c_z="80.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" shadow="1" lighttype="0" radius="100.000000" d_r="0.000000" d_g="0.000000" d_b="0.000000" d_a="0.000000" s_r="0.000000" s_g="200.000000" s_b="200.000000" s_a="0.000000"/>
+    </node>
+    <node type="mesh" name="tutorial01objects" file="levels/tutorial01objects.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="hc_shadow" file="models/hc_shadow.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="light" name="specular_light" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" shadow="0" lighttype="0" radius="100.000000" d_r="1.000000" d_g="1.000000" d_b="1.000000" d_a="1.000000" s_r="130.000000" s_g="130.000000" s_b="130.000000" s_a="0.000000"/>
+    <node type="mesh" name="bg_fleet" file="levels/bg_fleet.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="9.500000" s_y="9.500000" s_z="9.500000" backface_culling="1">
+        <animator type="anirot" r_x="0.000000" r_y="-0.020000" r_z="0.000000"/>
+    </node>
+    <node type="mesh" name="bg_asteroids" file="levels/bg_asteroids.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="9.500000" s_y="9.500000" s_z="9.500000" backface_culling="1">
+        <animator type="anirot" r_x="0.000000" r_y="-0.010000" r_z="0.000000"/>
+    </node>
+    <node type="mesh" name="bg_stars" file="levels/bg_stars.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="9.500000" s_y="9.500000" s_z="9.500000" backface_culling="1">
+        <animator type="anirot" r_x="0.000000" r_y="-0.030000" r_z="0.000000"/>
+    </node>
+    <node type="mesh" name="lamp_lightbeam01" file="levels/lamp_lightbeam01.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="tr08_beginner" file="levels/tr08_beginner.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="hc_blobshadow" file="models/hc_blobshadow.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="cam_block01" file="levels/cam_block01.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="cam_block02" file="levels/cam_block02.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+    <node type="mesh" name="cam_block03" file="levels/cam_block03.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+	<node type="mesh" name="drift_marker" file="models/Hover_fire_single.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
+	
+	<node type="skybox" name="skybox1" up="sky_up01.jpg" down="sky_dn01.jpg" left="sky_lf01.jpg" right="sky_rt01.jpg" front="sky_ft01.jpg" back="sky_bk01.jpg">
+		<animator type="anirot" r_x="0.0" r_y="0.01" r_z="0.0"/>
+	</node>
+	<node type="skybox" name="skybox2" up="sky_up02.jpg" down="sky_dn02.jpg" left="sky_lf02.jpg" right="sky_rt02.jpg" front="sky_ft02.jpg" back="sky_bk02.jpg">
+		<animator type="anirot" r_x="0.0" r_y="-0.01" r_z="0.0"/>
+		</node>
+	<node type="skybox" name="skybox3" up="sky_up03.jpg" down="sky_dn03.jpg" left="sky_lf03.jpg" right="sky_rt03.jpg" front="sky_ft03.jpg" back="sky_bk03.jpg">
+    <animator type="anirot" r_x="0.0" r_y="-0.01" r_z="0.0"/>
+	</node>	
+	<node type="skybox" name="skybox4" up="sky_up04.jpg" down="sky_dn04.jpg" left="sky_lf04.jpg" right="sky_rt04.jpg" front="sky_ft04.jpg" back="sky_bk04.jpg">
+		<animator type="anirot" r_x="0.0" r_y="0.013" r_z="0.0"/>
+	</node>
+	
+	<node type="particle" name="snow" default_emitter="0" c_x="0.000000" c_y="300.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="512.000000" width="32.000000" mat_type="12" tex1="ALPHA_snow01.tga" light="0" param1="0.001000">
+            <effector type="fade" target_r="0" target_g="0" target_b="0" target_a="0" time_fadedout="2500"/>
+            <emitter type="box" dir_x="-0.000000" dir_y="-0.03000" dir_z="-0.000000" particles_sec_min="200" particles_sec_max="300" min_r="250" min_g="250" min_b="250" min_a="0" max_r="250" max_g="250" max_b="250" max_a="0" life_min="2500" life_max="2500" angle_max="65" maxx="1100.500000" maxy="150.500000" maxz="1100.500000" minx="-1100.500000" miny="-150.500000" minz="-1100.500000"/>
+	</node>
+	<node type="particle" name="mysticglow" default_emitter="0" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="32.000000" width="32.000000" mat_type="12" tex1="ALPHA_mysticglow01.tga" light="0" param1="0.001000">
+            <effector type="fade" target_r="240" target_g="240" target_b="250" target_a="0" time_fadedout="2900"/>
+            <emitter type="box" dir_x="-0.020000" dir_y="0.02000" dir_z="-0.020000" particles_sec_min="15" particles_sec_max="40" min_r="0" min_g="0" min_b="0" min_a="0" max_r="50" max_g="50" max_b="50" max_a="0" life_min="2900" life_max="2900" angle_max="180" maxx="1500.500000" maxy="80.500000" maxz="1500.500000" minx="-1500.500000" miny="-80.500000" minz="-1500.500000"/>
+	</node>
+	<node type="particle" name="rain" default_emitter="0" c_x="0.000000" c_y="900.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="562.000000" width="20.000000" mat_type="12" tex1="ALPHA_rain01.tga" light="0" param1="0.001000">
+            <effector type="fade" target_r="0" target_g="0" target_b="0" target_a="0" time_fadedout="400"/>
+            <emitter type="box" dir_x="-0.060000" dir_y="-0.28000" dir_z="-0.060000" particles_sec_min="180" particles_sec_max="270" min_r="35" min_g="35" min_b="35" min_a="0" max_r="53" max_g="53" max_b="53" max_a="0" life_min="320" life_max="400" angle_max="7" maxx="900.500000" maxy="220.500000" maxz="900.500000" minx="-900.500000" miny="-220.500000" minz="-900.500000"/>
+	</node>
+	<node type="particle" name="fog" default_emitter="0" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" global="1" height="256.000000" width="1024.000000" mat_type="12" tex1="ALPHA_fog01.tga" light="0" param1="0.001000">
+            <effector type="fade" target_r="0" target_g="0" target_b="0" target_a="0" time_fadedout="1400"/>
+            <emitter type="box" dir_x="-0.040000" dir_y="0.01000" dir_z="-0.040000" particles_sec_min="25" particles_sec_max="40" min_r="40" min_g="40" min_b="40" min_a="0" max_r="60" max_g="60" max_b="60" max_a="0" life_min="1200" life_max="1400" angle_max="25" maxx="700.500000" maxy="100.500000" maxz="700.500000" minx="-700.500000" miny="-100.500000" minz="-700.500000"/>
+	</node>
+</models>

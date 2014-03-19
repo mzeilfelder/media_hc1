@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<championship>
+	<entry type="REQ" points="0"/>
+	<entry type="QUAL" level_id="28" time1="56" time2="65" time3="75" laps="3"/>
+	<entry type="RACE" level_id="34" laps="3"/>
+	<entry type="RACE" level_id="26" laps="3"/>
+	<entry type="REQ" points="6"/>
+	<entry type="RACE" level_id="5" laps="4"/>
+	<entry type="RACE" level_id="1" laps="4"/>
+	<entry type="RACE" level_id="4" laps="4"/>
+	<entry type="REQ" points="12"/>
+	<entry type="QUAL" level_id="10" time1="49" time2="51" time3="53" laps="2"/>
+	<entry type="RACE" level_id="7" laps="4"/>
+	<entry type="RACE" level_id="6" laps="3"/>
+	<entry type="REQ" points="18"/>
+	<entry type="RACE" level_id="8" laps="4"/>
+	<entry type="RACE" level_id="25" laps="4"/>
+	<entry type="RACE" level_id="30" laps="4"/>
+	
+	<entry type="REQ" points="28"/>
+	<entry type="QUAL" level_id="17" time1="79" time2="80" time3="82" laps="2"/>
+	<entry type="RACE" level_id="2" laps="4"/>
+	<entry type="RACE" level_id="23" laps="3"/>
+	<entry type="REQ" points="36"/>
+	<entry type="RACE" level_id="14" laps="3"/>
+	<entry type="RACE" level_id="24" laps="4"/>
+	<entry type="RACE" level_id="32" laps="4"/>
+	<entry type="REQ" points="44"/>
+	<entry type="QUAL" level_id="18" time1="69.5" time2="71" time3="73" laps="2"/>
+	<entry type="RACE" level_id="20" laps="3"/>
+	<entry type="RACE" level_id="17" laps="3"/>
+	<entry type="REQ" points="52"/>
+	<entry type="RACE" level_id="27" laps="3"/>
+	<entry type="RACE" level_id="9" laps="4"/>
+	<entry type="RACE" level_id="31" laps="3"/>
+	
+	<entry type="REQ" points="68"/>
+	<entry type="QUAL" level_id="29" time1="85" time2="86" time3="88" laps="2"/>
+	<entry type="RACE" level_id="11" laps="3"/>
+	<entry type="RACE" level_id="12" laps="3"/>
+	<entry type="REQ" points="74"/>
+	<entry type="RACE" level_id="13" laps="3"/>
+	<entry type="RACE" level_id="19" laps="3"/>
+	<entry type="RACE" level_id="15" laps="3"/>
+	<entry type="REQ" points="82"/>
+	<entry type="QUAL" level_id="16" time1="140" time2="73" time3="75" laps="2"/>
+	<entry type="RACE" level_id="33" laps="3"/>
+	<entry type="RACE" level_id="20" laps="3"/>
+	<entry type="REQ" points="90"/>
+	<entry type="RACE" level_id="21" laps="3"/>
+	<entry type="RACE" level_id="22" laps="3"/>
+	<entry type="RACE" level_id="16" laps="3"/>
+</championship>

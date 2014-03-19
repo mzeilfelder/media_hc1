@@ -1,0 +1,373 @@
+<?xml version="1.0" ?>
+<dialog>
+	<skin name="skin1"
+		default_type="CLASSIC"
+		font="ui/gun4fc.ttf"
+		>
+		<color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+		<color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+		<color type="3D_DARK_SHADOW" a="0"/>
+		<color type="3D_SHADOW" a="0"/>
+		<color type="3D_HIGH_LIGHT" a="0"/>
+	</skin>
+
+
+
+
+	<gui type="IMAGE" name="letterbox"
+			 x="0" y="5" w="100" h="19"
+			 texture="ui/hud_letterboxlr.tga">
+	</gui>
+	<gui type="STATIC" name="currentlap"
+		 x="6" y="5" w="100" h="10"
+		 text="id_hdcurrentlap" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="timeCurLap"
+		 x="6" y="12" w="100" h="14"
+		 text="00.00.00 (CuAl)" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+	</gui>
+	<gui type="IMAGE" name="letterbox"
+		x="0" y="25" w="100" h="19"
+	 	texture="ui/hud_letterboxlr.tga">
+	</gui>
+	<gui type="STATIC" name="bestlap"
+		 x="6" y="25" w="100" h="10"
+		 text="id_hdbestlap" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="timeBestLap"
+		 x="6" y="32" w="100" h="14"
+		 text="00.00.00 (CuAl)" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+	 	font_size="10"
+	 	font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="IMAGE" name="letterbox"
+		 x="0" y="45" w="100" h="19"
+		 texture="ui/hud_letterboxlr.tga">
+	</gui>
+	<gui type="STATIC" name="time"
+		 x="6" y="45" w="100" h="10"
+		 text="id_hdtime" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<gui type="STATIC" name="timeTrack"
+		 x="6" y="52" w="100" h="14"
+		 text="00.00.00 (CuAl)" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+	 	font_size="10"
+	 	font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="IMAGE" name="bg_trackrecord" 
+		 x="0" y="85" w="100" h="19" 
+		 texture="ui/hud_letterboxlr.tga">
+	</gui>
+<gui type="STATIC" name="trackrecord" 
+			 x="6" y="85" w="100" h="10"  
+			 text="id_hdtrackrecord" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="timeTrackRecord" 
+			 x="6" y="92" w="100" h="10"  
+			 text="00.00.00 (GAME)" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		</gui>
+
+<gui type="IMAGE" name="letterbox" 
+		 x="0" y="65" w="100" h="19" 
+		 texture="ui/hud_letterboxlr.tga">
+	</gui>
+<gui type="STATIC" name="laprecord" 
+			 x="6" y="65" w="100" h="10"  
+			 text="id_hdlaprecord" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<gui type="STATIC" name="timeLapRecord" 
+			 x="6" y="72" w="100" h="10"  
+			 text="00.00.00 (GAME)" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		</gui>
+
+	<gui type="IMAGE" name="pos_background"
+		 x="6" y="452" w="122" h="26"
+		 texture="ui/hud_speed_bg02.jpg">
+	</gui>
+	<gui type="IMAGE" name="posmarker1"
+		 x="220" y="452" w="2" h="26"
+		 texture="ui/hud_positionmarker.jpg">
+	</gui>
+	<gui type="IMAGE" name="posmarker2"
+		 x="220" y="452" w="2" h="26"
+		 texture="ui/hud_positionmarker.jpg">
+	</gui>
+	<gui type="IMAGE" name="posmarker3"
+		 x="220" y="452" w="2" h="26"
+		 texture="ui/hud_positionmarker.jpg">
+	</gui>
+	<gui type="IMAGE" name="thrust"
+		x="0" y="440" w="160" h="40"
+		texture="ui/hud_position.tga">
+	</gui>
+
+	<gui type="IMAGE" name="speed_background"
+		 x="511" y="452" w="122" h="26"
+		 texture="ui/hud_speed_bg.jpg">
+	</gui>
+	<gui type="IMAGE" name="speed_bar"
+		 x="511" y="452" w="120" h="26"
+		 texture="ui/hud_speed.jpg">
+	</gui>
+	<gui type="IMAGE" name="speed"
+		 x="480" y="440" w="160" h="40"
+		 texture="ui/hud_speed02r.tga">
+	</gui>
+
+	<gui type="IMAGE" name="letterbox"
+		 x="540" y="5" w="100" h="14"
+		 texture="ui/hud_letterboxrl.tga">
+	</gui>
+	<gui type="STATIC" name="lapcount"
+		 x="550" y="5" w="100" h="14"
+		 text="id_hdlapcount" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="IMAGE" name="letterbox"
+		 x="540" y="20" w="100" h="14"
+		 texture="ui/hud_letterboxrl.tga">
+	</gui>
+	<gui type="STATIC" name="position"
+		 x="550" y="20" w="100" h="14"
+		 text="id_hdposition" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+	</gui>
+
+	<gui type="STATIC" name="countdown"
+		 x="220" y="60" w="200" h="100"
+		 text="id_coundown3" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="48"
+		 font="ui/gun4fc.ttf">
+	</gui>
+	
+	<gui type="STATIC" name="special01"
+		 x="200" y="5" w="240" h="30"
+		 text="id_hdinsert01" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+	 	font_size="16"
+	 	font="ui/gun4fc.ttf">
+	 	<color r="73" g="211" b="246" a="255"/>
+	</gui>
+
+	<gui type="STATIC" name="special02"
+		x="220" y="25" w="200" h="30"
+		text="id_hdfinallap" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="16"
+	 	font="ui/gun4fc.ttf">
+	</gui>
+	
+	<gui type="STATIC" name="gap"
+		x="220" y="25" w="200" h="30"
+		text="" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="16"
+	 	font="ui/gun4fc.ttf">
+	</gui>
+	
+	<gui type="STATIC" name="camera"
+		x="210" y="450" w="220" h="20"
+		text="id_hdcamera" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="10"
+	 	font="ui/gun4fc.ttf">
+	</gui>
+	
+	<gui type="STATIC" name="fps"
+		 x="570" y="33" w="100" h="14"
+		 text="id_hdfps" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="10"
+		 font="ui/gun4fc.ttf">
+	</gui>
+	
+	<!-- Only display for touchscreen devices -->
+	<gui type="IMAGE" name="touch_background_right"
+		 x="440" y="240" w="200" h="200"
+		 texture="ui/hud_touch_background.png">
+		<gui type="IMAGE" name="touch_pos_right"
+			 x="0" y="0" w="200" h="200"
+			 texture="ui/hud_touch_pos.png">
+		</gui>
+	</gui>
+	
+	<!-- only displays when an imported ghost is active  -->
+	<gui type="IMAGE" name="bg_ghostrecord"
+		 x="540" y="65" w="100" h="19"
+		 texture="ui/hud_letterboxrl.tga">
+	</gui>
+	<gui type="STATIC" name="ghost_record" 
+			 x="550" y="65" w="100" h="10"  
+			 text="id_ghost_record" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+		</gui>
+		<!-- shows (track) or (lap)  -->
+		<gui type="STATIC" name="ghost_ModeRecord" 
+			 x="550" y="72" w="100" h="10"  
+			 text="00.02.22 (track)" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		</gui>
+	
+	<gui type="IMAGE" name="bg_ghostgap"
+		 x="540" y="85" w="100" h="19"
+		 texture="ui/hud_letterboxrl.tga">
+	</gui>
+	
+	<gui type="STATIC" name="ghost_gapinfo" 
+			 x="550" y="85" w="100" h="10"  
+			 text="id_ghost_gap" alpha="255"
+			 border="1" word_wrap="1" fill_bk="0"
+			 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+		
+	<!-- ideally updated permanently, otherwise everytime crossing the finishline  -->
+	<gui type="STATIC" name="ghost_gap" 
+		 x="550" y="92" w="100" h="10"  
+		 text="+00.00.22" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+	</gui>
+	
+	
+	<!-- only displays on rivals tourney  -->
+	<gui type="IMAGE" name="bg_sessionrecord"
+		 x="540" y="65" w="100" h="19"
+		 texture="ui/hud_letterboxrl.tga">
+	</gui>
+	<gui type="IMAGE" name="bg_sessiongap"
+		 x="540" y="85" w="100" h="19"
+		 texture="ui/hud_letterboxrl.tga">
+	</gui>
+	<gui type="IMAGE" name="bg_sessiongap2"
+		 x="540" y="45" w="100" h="19"
+		 texture="ui/hud_letterboxrl.tga">
+	</gui>
+	
+	<gui type="STATIC" name="session_record" 
+		 x="550" y="65" w="100" h="10"  
+		 text="id_sessionrecord" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<!-- shows (track)  -->
+	<gui type="STATIC" name="session_ModeRecord" 
+		 x="550" y="72" w="100" h="10"  
+		 text="00.02.22 (track)" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		</gui>
+	
+	
+	<gui type="STATIC" name="session_gapinfo" 
+		 x="550" y="85" w="100" h="10"  
+		 text="id_gapbest" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+	<!-- ideally updated permanently, otherwise everytime crossing the finishline  -->
+	<gui type="STATIC" name="session_gap" 
+		 x="550" y="92" w="100" h="10"  
+		 text="+00.00.22" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+	</gui>
+		
+	<gui type="STATIC" name="active_player" 
+		 x="550" y="45" w="100" h="10"  
+		 text="id_activeplayer" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+		
+	<gui type="STATIC" name="playername" 
+		 x="550" y="52" w="100" h="10"  
+		 text="profilename" alpha="255"
+		 border="1" word_wrap="1" fill_bk="0"
+		 hcenter="0"
+		 font_size="8"
+		 font="ui/gun4fc.ttf">
+	</gui>
+	
+</dialog>

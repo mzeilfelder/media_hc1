@@ -1,0 +1,137 @@
+newmtl Preset_Barriers_blinn8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_arrows02.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Barriers_lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.93 0.93 0.93
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Preset_Barriers_lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.40 0.40 0.40
+map_Kd race_invisible.tga
+Ni 1.00
+newmtl Preset_Barriers_race_darkmetal_small01SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_darkmetal01_small.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_CamLine02_blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_metal01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_CamLine02_lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.93 0.93 0.93
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Preset_CamLine02_race_supp03SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_supp03.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Promoboard_blinn9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.17 0.17 0.17
+Tf 1.00 1.00 1.00
+map_Kd race_promo01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Promoboard_lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.93 0.93 0.93
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl Preset_Promoboard_race_darkmetal_small01SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_darkmetal01_small.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Preset_Promoboard_race_promo02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.19 0.19 0.19
+Tf 1.00 1.00 1.00
+map_Kd race_promo02.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_rim03.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd camline01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_floor03.jpg
+Ni 1.00
+newmtl pasted__blinn7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_lamp01.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__lambert3SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.93 0.93 0.93
+Tf 1.00 1.00 1.00
+map_Kd race_light01.jpg
+Ni 1.00
+newmtl race_floor01startergridSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_floor03startergrid.jpg
+Ni 1.00
+newmtl race_rim01sSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd race_rim03s.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50

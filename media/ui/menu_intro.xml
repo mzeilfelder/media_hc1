@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<dialog>
+
+	<skin name="skin1" default_type="CLASSIC" font="ui/gun4fc.ttf">
+		<color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+		<color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+        <color type="3D_DARK_SHADOW" a="0"/>
+		<color type="3D_SHADOW" a="0"/>
+		<color type="3D_HIGH_LIGHT" a="0"/>
+	 </skin>
+
+	
+	<gui type="IMAGE" name="img1" 
+		 x="0" y="0" w="640" h="480" 
+		 texture="ui/intro.jpg">
+	</gui>
+	<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1">
+	</gui>
+	<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2">
+	</gui>	
+
+</dialog>

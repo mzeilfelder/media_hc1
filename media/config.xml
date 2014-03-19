@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<config>
+    <graphics drivertype="OPENGL" far_clipping="150000.0" fullscreen="0" use_screen_res="0" res_x="800" res_y="600" bitdepth="32" min_time="16" vsync="0" freq="0" bi="1" tri="0" ani="1" gouraud="1" particles="0" shadow="1" aa="0" mip="1" tex16="0" tex32="0" tex_qual="0" tex_speed="1" />
+    <input>
+        <devices>
+            <joystick dead_area="3276" max_area="32767" />
+        </devices>
+        <controller>
+            <asteer type="AX" deviceType="JS" joystickId="0" axisId="0" goofy="0" analog="1" digital="0" dir="2" />
+            <aacc type="AX" deviceType="JS" joystickId="0" axisId="3" goofy="0" analog="1" digital="0" dir="1" />
+            <abrake type="AX" deviceType="JS" joystickId="0" axisId="3" goofy="1" analog="1" digital="0" dir="1" />
+            <dleft type="BT" deviceType1="JS" joystickId1="0" buttonId1="0" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
+            <dright type="BT" deviceType1="JS" joystickId1="0" buttonId1="2" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
+            <dacc type="BT" deviceType1="JS" joystickId1="0" buttonId1="3" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
+            <dbrake type="BT" deviceType1="JS" joystickId1="0" buttonId1="1" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
+            <pause deviceType="JS" joystickId="0" buttonId="5" />
+            <camera deviceType="JS" joystickId="0" buttonId="4" />
+        </controller>
+    </input>
+    <!-- rotation_speed: how fast is the hover rotated. Higher value is faster rotation.  -->
+    <!-- scale_rotation: rotation is slowed down when hover is speeded up. Should be between 0 (no slowdown) and 1  -->
+    <!-- force_factor: The force which does move the hover -->
+    <steering rotation_speed="0.460000" scale_min_speed="675.0" scale_rotation_controller="0.000000" scale_rotation_speed="0.828000" force_factor="660000.000000" brake_factor="180000.000000" scale_rolling="2.000000" scale_rolling_back="2.800000" max_rolling="57.000000" scale_pitch_flying="0.000000" scale_alignment="3.500000" relocate_no_coll="3000" relocate_freeze="500" resume_freeze="1500" />
+    <!-- cam_behind: how far the camera is behind the hover -->
+    <!-- cam_height: start height (relative to hover) -->
+    <!-- cam_height_change: how fast the camera moves up/down when flying -->
+    <!-- target_in_front: point at which the camera looks at (relativ to hover) -->
+    <!--- cam_trailing: how fast camera does move -->
+    <!--- cam_speed_factor: how much trailing behind depends on current speed -->
+    <cameras>
+        <camera cam_name="camera: far02" cam_behind="-238.000000" cam_height="95.000000" cam_height_upwards="1.750000" cam_height_downwards="8.000000" time_to_air="100" target_angle="18.000000" cam_trailing="0.999940" cam_speed_factor_slow="0.015000" cam_speed_factor_fast="0.043000" cam_fov_speed="1500" pitch_cam="0.4" pitch_target="0.42" smooth_speed_y="50" smooth_max_y="0" cam_roll="0.0" cam_first_person="0" cam_fov_default="2.5" cam_fov_factor="-1.2" intro_cam_x="-0.003" intro_cam_sqr_x="-0.00002" intro_cam_y="0.002" intro_cam_sqr_y="0.00002" intro_cam_z="0.04" intro_cam_sqr_z="0.00002" intro_time_reduced="1000" outro_time_max="9000" outro_cam_x="0" outro_cam_sqr_x="0" outro_cam_y="0.003" outro_cam_sqr_y="0.00001" outro_cam_z="0.01" outro_cam_sqr_z="0.00001" />
+        <camera cam_name="camera: mid01" cam_behind="-220.000000" cam_height="70.000000" cam_height_upwards="1.650000" cam_height_downwards="8.000000" time_to_air="100" target_angle="5.000000" cam_trailing="0.999950" cam_speed_factor_slow="0.015000" cam_speed_factor_fast="0.040000" cam_fov_speed="1500" pitch_cam="0.5" pitch_target="0.2" smooth_speed_y="50" smooth_max_y="0" cam_roll="0.0" cam_first_person="0" cam_fov_default="2.5" cam_fov_factor="-1.2" intro_cam_x="-0.003" intro_cam_sqr_x="-0.00002" intro_cam_y="0.002" intro_cam_sqr_y="0.00002" intro_cam_z="0.04" intro_cam_sqr_z="0.00002" intro_time_reduced="1000" outro_time_max="9000" outro_cam_x="0" outro_cam_sqr_x="0" outro_cam_y="0.003" outro_cam_sqr_y="0.00001" outro_cam_z="0.01" outro_cam_sqr_z="0.00001" />
+        <camera cam_name="camera: mid02 (tilting)" cam_behind="-220.000000" cam_height="70.000000" cam_height_upwards="1.650000" cam_height_downwards="8.000000" time_to_air="100" target_angle="5.000000" cam_trailing="0.999950" cam_speed_factor_slow="0.015000" cam_speed_factor_fast="0.040000" cam_fov_speed="1500" pitch_cam="0.3" pitch_target="0.2" smooth_speed_y="50" smooth_max_y="0" cam_roll="0.25" cam_first_person="0" cam_fov_default="2.5" cam_fov_factor="-1.2" intro_cam_x="-0.003" intro_cam_sqr_x="-0.00002" intro_cam_y="0.002" intro_cam_sqr_y="0.00002" intro_cam_z="0.04" intro_cam_sqr_z="0.00002" intro_time_reduced="1000" outro_time_max="9000" outro_cam_x="0" outro_cam_sqr_x="0" outro_cam_y="0.003" outro_cam_sqr_y="0.00001" outro_cam_z="0.01" outro_cam_sqr_z="0.00001" />
+        <camera cam_name="camera: near01" cam_behind="-170.000000" cam_height="50.000000" cam_height_upwards="1.400000" cam_height_downwards="4.000000" time_to_air="100" target_angle="5.000000" cam_trailing="0.999975" cam_speed_factor_slow="0.010000" cam_speed_factor_fast="0.010000" cam_fov_speed="1500" pitch_cam="0.8" pitch_target="0.1" smooth_speed_y="50" smooth_max_y="0" cam_roll="0.0" cam_first_person="0" cam_fov_default="2.5" cam_fov_factor="-1.2" intro_cam_x="-0.003" intro_cam_sqr_x="-0.00002" intro_cam_y="0.002" intro_cam_sqr_y="0.00002" intro_cam_z="0.04" intro_cam_sqr_z="0.00002" intro_time_reduced="1000" outro_time_max="9000" outro_cam_x="0" outro_cam_sqr_x="0" outro_cam_y="0.003" outro_cam_sqr_y="0.00001" outro_cam_z="0.01" outro_cam_sqr_z="0.00001" />
+        <camera cam_name="camera: near02 (tilting)" cam_behind="-170.000000" cam_height="50.000000" cam_height_upwards="1.400000" cam_height_downwards="4.000000" time_to_air="100" target_angle="5.000000" cam_trailing="0.999975" cam_speed_factor_slow="0.010000" cam_speed_factor_fast="0.010000" cam_fov_speed="1500" pitch_cam="0.8" pitch_target="0.1" smooth_speed_y="50" smooth_max_y="0" cam_roll="0.3" cam_first_person="0" cam_fov_default="2.5" cam_fov_factor="-1.2" intro_cam_x="-0.003" intro_cam_sqr_x="-0.00002" intro_cam_y="0.002" intro_cam_sqr_y="0.00002" intro_cam_z="0.04" intro_cam_sqr_z="0.00002" intro_time_reduced="1000" outro_time_max="9000" outro_cam_x="0" outro_cam_sqr_x="0" outro_cam_y="0.003" outro_cam_sqr_y="0.00001" outro_cam_z="0.01" outro_cam_sqr_z="0.00001" />
+        <camera cam_name="camera: first person (static)" cam_behind="-67.000000" cam_height="25.000000" cam_height_upwards="1.400000" cam_height_downwards="4.000000" time_to_air="100" target_angle="1.000000" cam_trailing="0.999988" cam_speed_factor_slow="0.010000" cam_speed_factor_fast="0.010000" cam_fov_speed="1500" pitch_cam="1.0" pitch_target="0.0" smooth_speed_y="50" smooth_max_y="10" cam_roll="0.0" cam_first_person="1" cam_fov_default="2.5" cam_fov_factor="-1.2" intro_cam_x="0.00" intro_cam_sqr_x="0.0000" intro_cam_y="0.002" intro_cam_sqr_y="0.00002" intro_cam_z="-0.5" intro_cam_sqr_z="-0.00003" intro_time_reduced="1000" outro_time_max="9000" outro_cam_x="0" outro_cam_sqr_x="0" outro_cam_y="0.003" outro_cam_sqr_y="0.00001" outro_cam_z="0.01" outro_cam_sqr_z="0.00001" />
+        <camera cam_name="camera: first person (tilting)" cam_behind="-67.000000" cam_height="25.000000" cam_height_upwards="1.400000" cam_height_downwards="4.000000" time_to_air="100" target_angle="1.000000" cam_trailing="0.999988" cam_speed_factor_slow="0.010000" cam_speed_factor_fast="0.010000" cam_fov_speed="1500" pitch_cam="1.0" pitch_target="0.0" smooth_speed_y="50" smooth_max_y="10" cam_roll="0.45" cam_first_person="1" cam_fov_default="2.5" cam_fov_factor="-1.2" intro_cam_x="0.00" intro_cam_sqr_x="0.0000" intro_cam_y="0.002" intro_cam_sqr_y="0.00002" intro_cam_z="-0.5" intro_cam_sqr_z="-0.00003" intro_time_reduced="1000" outro_time_max="9000" outro_cam_x="0" outro_cam_sqr_x="0" outro_cam_y="0.003" outro_cam_sqr_y="0.00001" outro_cam_z="0.01" outro_cam_sqr_z="0.00001" />
+        <camera cam_name="camera: far01" cam_behind="-295.000000" cam_height="120.000000" cam_height_upwards="1.750000" cam_height_downwards="4.000000" time_to_air="100" target_angle="15.000000" cam_trailing="0.999930" cam_speed_factor_slow="0.020000" cam_speed_factor_fast="0.040000" cam_fov_speed="1500" pitch_cam="0.2" pitch_target="0.25" smooth_speed_y="50" smooth_max_y="0" cam_roll="0.0" cam_first_person="0" cam_fov_default="2.5" cam_fov_factor="-1.2" intro_cam_x="-0.003" intro_cam_sqr_x="-0.00002" intro_cam_y="0.002" intro_cam_sqr_y="0.00002" intro_cam_z="0.04" intro_cam_sqr_z="0.00002" intro_time_reduced="1000" outro_time_max="9000" outro_cam_x="0" outro_cam_sqr_x="0" outro_cam_y="0.003" outro_cam_sqr_y="0.00001" outro_cam_z="0.01" outro_cam_sqr_z="0.00001" />
+    </cameras>
+    <physic>
+        <settings timestep="0.020000" rollfriction="13000.000000" airconst="0.170000" gravity="5501.000000" wallfriction="200" wallboundary="0.3" collpush="500" />
+        <physicobjects>
+            <hover mass="125.000000" max_speed="2000.000000" />
+        </physicobjects>
+    </physic>
+    <sound sfx_vol="0.700000" music_vol="0.700000" sfx_rolloff="1.000000" sfx_ref_dist="120.000000" sfx_max_dist="1800.000000" sfx_dist_model="AL_EXPONENT_DISTANCE_CLAMPED" />
+    <hovers>
+        <blob model="hc_blobshadow" height="30.0" />
+        <hover name="id_hover1" model="Hover02" img="ui/selectH2.tga" points="0" lock="" />
+        <hover name="id_hover2" model="Hover01" img="ui/selectH1.tga" points="36" lock="id_unlock2" />
+        <hover name="id_hover3" model="Hover03" img="ui/selectH3.tga" points="72" lock="id_unlock3" />
+        <particles sparkle_rot_min="0.7" sparkle_speed_min="0.65" />
+    </hovers>
+    <dlgMain caption="H-Craft Championship" />
+    <i18n strings="ui/strings_us.xml" />
+    <etc tutorial_done="1" disable_sound="0" url_buy="http://www.manifestogames.com/cart/add/3574" />
+</config>

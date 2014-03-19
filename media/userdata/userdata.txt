@@ -1,0 +1,8 @@
+The files in here are:
+"profiles.xml" does save all your profiles.
+"scores" does save the highscores.
+The "*.rec" files contain the ghost recordings of the last race which did beat the highscores.
+
+All files will be created now when deleted, but certainly the content will be lost. 
+So in case you would like to start over with clean scores you could backup "scores" and all ".rec" files 
+(because backing up is always a good idea) and just delete those files.
