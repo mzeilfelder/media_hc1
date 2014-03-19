@@ -20,27 +20,29 @@
 	<gui type="IMAGE" name="touch_background_left"
 		 x="0" y="260" w="180" h="180"
 		 texture="ui/hud_touch_background.png">
-	</gui>
+	</gui> 
 	
 	<!-- touchpad vertical control right - horizontal left -->
 	<gui type="IMAGE" name="touch_background_right_v"
-		 x="460" y="305" w="180" h="90"
-		 texture="ui/hud_touch_background.png">
-	</gui>
-	<gui type="IMAGE" name="touch_background_left_h"
-		 x="0" y="260" w="90" h="180"
-		 texture="ui/hud_touch_background.png">
-	</gui>
-	
-	<!-- touchpad horizontal control right - vertical left -->
-	<gui type="IMAGE" name="touch_background_right_h"
 		 x="550" y="260" w="90" h="180"
 		 texture="ui/hud_touch_background.png">
 	</gui>
-	<gui type="IMAGE" name="touch_background_left_v"
+	<gui type="IMAGE" name="touch_background_left_h"
 		 x="0" y="305" w="180" h="90"
 		 texture="ui/hud_touch_background.png">
 	</gui>
+
+	
+	<!-- touchpad horizontal control right - vertical left  -->
+	<gui type="IMAGE" name="touch_background_right_h"
+		 x="460" y="305" w="180" h="90"
+		 texture="ui/hud_touch_background.png">
+	</gui>
+	<gui type="IMAGE" name="touch_background_left_v"
+		 x="0" y="260" w="90" h="180"
+		 texture="ui/hud_touch_background.png">
+	</gui> 
+	
 
 	<!-- 4-button controls right -->
 	<gui type="BUTTON" name="id_up_4r" 
@@ -78,10 +80,10 @@
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"
 		 font="ui/gun4fc.ttf">
-	</gui>
+	</gui> 
 	
 	
-	<!-- 4-button controls left -->
+	<!-- 4-button controls left  -->
 	<gui type="BUTTON" name="id_up_4l" 
 		 x="60" y="260" w="60" h="90"  
 		 text="UP" alpha="255"
@@ -157,7 +159,7 @@
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"
 		 font="ui/gun4fc.ttf">
-	</gui>
+	</gui> 
 	
 	<!-- up-down on left, left-right on right -->
 	<gui type="BUTTON" name="id_up_l" 
@@ -195,7 +197,7 @@
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"
 		 font="ui/gun4fc.ttf">
-	</gui>
+	</gui> 
 
 	
 	<!-- camera & pause buttons-->
@@ -276,6 +278,6 @@
 		 hcenter="0"
 		 font_size="8"
 		 font="ui/gun4fc.ttf">
-	</gui>
-	-->
+	</gui> -->
+	
 </dialog>

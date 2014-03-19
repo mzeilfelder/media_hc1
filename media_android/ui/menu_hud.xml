@@ -144,7 +144,7 @@
 		texture="ui/hud_position.tga">
 	</gui>
 
-	<gui type="IMAGE" name="speed_background"
+<gui type="IMAGE" name="speed_background"
 		 x="511" y="452" w="122" h="26"
 		 texture="ui/hud_speed_bg.jpg">
 	</gui>
@@ -236,16 +236,6 @@
 		 hcenter="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
-	</gui>
-	
-	<!-- Only display for touchscreen devices -->
-	<gui type="IMAGE" name="touch_background_right"
-		 x="440" y="240" w="200" h="200"
-		 texture="ui/hud_touch_background.png">
-		<gui type="IMAGE" name="touch_pos_right"
-			 x="0" y="0" w="200" h="200"
-			 texture="ui/hud_touch_pos.png">
-		</gui>
 	</gui>
 	
 	<!-- only displays when an imported ghost is active  -->
