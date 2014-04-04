@@ -45,7 +45,7 @@
 		</gui>
 		
 		<gui type="BUTTON" name="analogsteer" 
-			 x="250" y="72" w="140" h="18"  
+			 x="250" y="62" w="140" h="18"  
 			 text="STICK1 X-AXIS" alpha="255"
 			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -66,7 +66,7 @@
 		</gui>
 		
 		<gui type="BUTTON" name="analogacc" 
-			 x="250" y="107" w="140" h="18"  
+			 x="250" y="97" w="140" h="18"  
 			 text="STICK1 X-AXIS" alpha="255"
 			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -87,7 +87,7 @@
 		</gui>
 		
 		<gui type="BUTTON" name="analogbrake" 
-			 x="250" y="142" w="140" h="18"  
+			 x="250" y="132" w="140" h="18"  
 			 text="STICK1 X-AXIS" alpha="255"
 			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -107,7 +107,7 @@
 		</gui>
 		
 		<gui type="BUTTON" name="steerleft" 
-			 x="250" y="177" w="140" h="18"  
+			 x="250" y="167" w="140" h="18"  
 			 text="a" alpha="255"
 			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -115,7 +115,7 @@
 		 font="ui/gun4fc.ttf">
 		</gui>
 		
-				<gui type="STATIC" name="id_steerright" 
+		<gui type="STATIC" name="id_steerright" 
 			 x="240" y="190" w="160" h="30"  
 			 text="id_steerright" alpha="255"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -126,7 +126,7 @@
 		</gui>
 		
 		<gui type="BUTTON" name="steerright" 
-			 x="250" y="212" w="140" h="18"  
+			 x="250" y="202" w="140" h="18"  
 			 text="d" alpha="255"
 			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -134,7 +134,7 @@
 		 font="ui/gun4fc.ttf">
 		</gui>
 		
-				<gui type="STATIC" name="id_accelerate" 
+		<gui type="STATIC" name="id_accelerate" 
 			 x="240" y="225" w="160" h="30"  
 			 text="id_accelerate" alpha="255"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -145,7 +145,7 @@
 		</gui>
 		
 		<gui type="BUTTON" name="accelerate" 
-			 x="250" y="247" w="140" h="18"  
+			 x="250" y="237" w="140" h="18"  
 			 text="w" alpha="255"
 			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -153,7 +153,7 @@
 		 font="ui/gun4fc.ttf">
 		</gui>
 		
-				<gui type="STATIC" name="id_brake" 
+		<gui type="STATIC" name="id_brake" 
 			 x="240" y="260" w="160" h="30"  
 			 text="id_brake" alpha="255"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -164,7 +164,7 @@
 		</gui>
 		
 		<gui type="BUTTON" name="brake" 
-			 x="250" y="282" w="140" h="18"  
+			 x="250" y="272" w="140" h="18"  
 			 text="s" alpha="255"
 			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -173,7 +173,7 @@
 		</gui>
 		
 		
-				<gui type="STATIC" name="id_pause" 
+		<gui type="STATIC" name="id_pause" 
 			 x="240" y="295" w="160" h="30"  
 			 text="id_pause" alpha="255"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -184,7 +184,7 @@
 		</gui>
 		
 		<gui type="BUTTON" name="pause" 
-			 x="250" y="317" w="140" h="18"  
+			 x="250" y="307" w="140" h="18"  
 			 text="p" alpha="255"
 			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
 			 border="1" word_wrap="0" fill_bk="0"
@@ -203,7 +203,7 @@
 		</gui>
 		
 		<gui type="BUTTON" name="camera" 
-			 x="250" y="352" w="140" h="18"  
+			 x="250" y="342" w="140" h="18"  
 			 text="c" alpha="255"
 			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
 			 border="1" word_wrap="0" fill_bk="0"
