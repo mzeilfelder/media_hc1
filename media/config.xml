@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <config>
-    <graphics drivertype="OPENGL" far_clipping="150000.0" fullscreen="0" use_screen_res="0" res_x="800" res_y="600" bitdepth="32" min_time="16" vsync="0" freq="0" bi="1" tri="0" ani="1" gouraud="1" particles="0" shadow="1" aa="0" mip="1" tex16="0" tex32="0" tex_qual="0" tex_speed="1" />
+    <graphics drivertype="OPENGL" far_clipping="150000.0" fullscreen="0" use_screen_res="0" res_x="800" res_y="600" bitdepth="32" min_time="16" vsync="0" freq="0" bi="1" tri="0" ani="1" gouraud="1" particles="0" shadow="1" aa="0" mip="1" tex16="0" tex32="0" tex_qual="0" tex_speed="0" />
     <input>
         <devices>
             <joystick dead_area="3276" max_area="32767" />
