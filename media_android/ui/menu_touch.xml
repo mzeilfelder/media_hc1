@@ -47,7 +47,7 @@
 	<!-- 4-button controls right -->
 	<gui type="BUTTON" name="id_up_4r" 
 		 x="520" y="260" w="60" h="90"  
-		 text="UP" alpha="255"
+		 text="id_up" alpha="255"
 		 tex_norm="ui/ui_touch_up_norm.tga"
 		 tex_pressed="ui/ui_touch_up_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -56,7 +56,7 @@
 	</gui>
 	<gui type="BUTTON" name="id_down_4r" 
 		 x="520" y="350" w="60" h="90"  
-		 text="DOWN" alpha="255"
+		 text="id_down" alpha="255"
 		 tex_norm="ui/ui_touch_down_norm.tga"
 		 tex_pressed="ui/ui_touch_down_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -65,7 +65,7 @@
 	</gui>
 	<gui type="BUTTON" name="id_left_4r" 
 		 x="460" y="350" w="60" h="90"  
-		 text="LEFT" alpha="255"
+		 text="id_left" alpha="255"
 		 tex_norm="ui/ui_touch_left_norm.tga"
 		 tex_pressed="ui/ui_touch_left_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -74,7 +74,7 @@
 	</gui>
 	<gui type="BUTTON" name="id_right_4r" 
 		 x="580" y="350" w="60" h="90"  
-		 text="RIGHT" alpha="255"
+		 text="id_right" alpha="255"
 		 tex_norm="ui/ui_touch_right_norm.tga"
 		 tex_pressed="ui/ui_touch_right_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -86,7 +86,7 @@
 	<!-- 4-button controls left  -->
 	<gui type="BUTTON" name="id_up_4l" 
 		 x="60" y="260" w="60" h="90"  
-		 text="UP" alpha="255"
+		 text="id_up" alpha="255"
 		 tex_norm="ui/ui_touch_up_norm.tga"
 		 tex_pressed="ui/ui_touch_up_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -95,7 +95,7 @@
 	</gui>
 	<gui type="BUTTON" name="id_down_4l" 
 		 x="60" y="350" w="60" h="90"  
-		 text="DOWN" alpha="255"
+		 text="id_down" alpha="255"
 		 tex_norm="ui/ui_touch_down_norm.tga"
 		 tex_pressed="ui/ui_touch_down_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -104,7 +104,7 @@
 	</gui>	
 	<gui type="BUTTON" name="id_left_4l" 
 		 x="0" y="350" w="60" h="90"  
-		 text="LEFT" alpha="255"
+		 text="id_left" alpha="255"
 		 tex_norm="ui/ui_touch_left_norm.tga"
 		 tex_pressed="ui/ui_touch_left_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -113,7 +113,7 @@
 	</gui>
 	<gui type="BUTTON" name="id_right_4l" 
 		 x="120" y="350" w="60" h="90"  
-		 text="RIGHT" alpha="255"
+		 text="id_right" alpha="255"
 		 tex_norm="ui/ui_touch_right_norm.tga"
 		 tex_pressed="ui/ui_touch_right_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -125,7 +125,7 @@
 	<!-- left-right on left, up-down on right -->
 	<gui type="BUTTON" name="id_up_r" 
 		 x="550" y="260" w="90" h="90"  
-		 text="UP" alpha="255"
+		 text="id_up" alpha="255"
 		 tex_norm="ui/ui_touch_up_norm.tga"
 		 tex_pressed="ui/ui_touch_up_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -134,7 +134,7 @@
 	</gui>
 	<gui type="BUTTON" name="id_down_r" 
 		 x="550" y="350" w="90" h="90"  
-		 text="DOWN" alpha="255"
+		 text="id_down" alpha="255"
 		 tex_norm="ui/ui_touch_down_norm.tga"
 		 tex_pressed="ui/ui_touch_down_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -143,8 +143,8 @@
 	</gui>
 	
 	<gui type="BUTTON" name="id_left_l" 
-		 x="0" y="350" w="80" h="90"  
-		 text="LEFT" alpha="255"
+		 x="0" y="260" w="80" h="180"  
+		 text="id_left" alpha="255"
 		 tex_norm="ui/ui_touch_left_norm.tga"
 		 tex_pressed="ui/ui_touch_left_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -152,8 +152,8 @@
 		 font="ui/gun4fc.ttf">
 	</gui>
 	<gui type="BUTTON" name="id_right_l" 
-		 x="80" y="350" w="80" h="90"  
-		 text="RIGHT" alpha="255"
+		 x="80" y="260" w="80" h="180"  
+		 text="id_right" alpha="255"
 		 tex_norm="ui/ui_touch_right_norm.tga"
 		 tex_pressed="ui/ui_touch_right_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -164,7 +164,7 @@
 	<!-- up-down on left, left-right on right -->
 	<gui type="BUTTON" name="id_up_l" 
 		 x="0" y="260" w="90" h="90"  
-		 text="UP" alpha="255"
+		 text="id_up" alpha="255"
 		 tex_norm="ui/ui_touch_up_norm.tga"
 		 tex_pressed="ui/ui_touch_up_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -173,7 +173,7 @@
 	</gui>
 	<gui type="BUTTON" name="id_down_l" 
 		 x="0" y="350" w="90" h="90"  
-		 text="DOWN" alpha="255"
+		 text="id_down" alpha="255"
 		 tex_norm="ui/ui_touch_down_norm.tga"
 		 tex_pressed="ui/ui_touch_down_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -182,7 +182,7 @@
 	</gui>
 	<gui type="BUTTON" name="id_left_r" 
 		 x="480" y="350" w="80" h="90"  
-		 text="LEFT" alpha="255"
+		 text="id_left" alpha="255"
 		 tex_norm="ui/ui_touch_left_norm.tga"
 		 tex_pressed="ui/ui_touch_left_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -191,7 +191,7 @@
 	</gui>
 	<gui type="BUTTON" name="id_right_r" 
 		 x="560" y="350" w="80" h="90"  
-		 text="RIGHT" alpha="255"
+		 text="id_right" alpha="255"
 		 tex_norm="ui/ui_touch_right_norm.tga"
 		 tex_pressed="ui/ui_touch_right_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
@@ -202,9 +202,9 @@
 	
 	<!-- camera & pause buttons-->
 	<gui type="BUTTON" name="id_switch_camera" 
-		 x="220" y="440" w="200" h="30"  
+		 x="200" y="450" w="100" h="30"  
 		 text="id_switch_camera" alpha="255"
-		 tex_norm="ui/ui_selector_norm.tga"
+		 tex_norm="ui/ui_selector.tga"
 		 tex_pressed="ui/ui_selector_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"
@@ -212,9 +212,9 @@
 	</gui>
 	
 	<gui type="BUTTON" name="id_pause" 
-		 x="220" y="10" w="200" h="30"  
+		 x="340" y="450" w="100" h="30"  
 		 text="id_pause" alpha="255"
-		 tex_norm="ui/ui_selector_norm.tga"
+		 tex_norm="ui/ui_selector.tga"
 		 tex_pressed="ui/ui_selector_pressed.tga" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"

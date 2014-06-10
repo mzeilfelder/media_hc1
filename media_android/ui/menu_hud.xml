@@ -221,7 +221,7 @@
 	</gui>
 	
 	<gui type="STATIC" name="camera"
-		x="210" y="450" w="220" h="20"
+		x="210" y="420" w="220" h="20"
 		text="id_hdcamera" alpha="255"
 		border="1" word_wrap="0" fill_bk="0"
 		hcenter="80"
