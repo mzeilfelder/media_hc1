@@ -41,7 +41,7 @@
 		</gui>
 
 <gui type="BUTTON" name="id_hdresume" default_focus="1"
-			 x="240" y="150" w="160" h="30"  
+			 x="240" y="115" w="160" h="30"  
 			 text="id_hdresume" alpha="255"
                    tex_focused="ui/ui_selector.tga"
 				   tex_pressed="ui/ui_selector_pressed.tga" 
@@ -51,7 +51,7 @@
 		</gui>
 
 <gui type="BUTTON" name="id_hdrestart" 
-			 x="240" y="185" w="160" h="30"  
+			 x="240" y="150" w="160" h="30"  
 			 text="id_hdrestart" alpha="255"
                    tex_focused="ui/ui_selector.tga"
 				   tex_pressed="ui/ui_selector_pressed.tga" 
@@ -61,7 +61,7 @@
 		</gui>
 
 <gui type="STATIC" name="id_sfxvol" 
-			 x="240" y="220" w="160" h="30"  
+			 x="240" y="185" w="160" h="30"  
 			 text="id_sfxvol" alpha="255"
 			 border="1" word_wrap="0" fill_bk="0"
 			 hcenter="80"
@@ -73,7 +73,7 @@
     <gui type="TEXTSLIDER" name="sfxvolume"
 		 tex_focused="ui/ui_selector_slider.tga"
 		 btn_aspect_ratio = "1.0"
-		 x="220" y="245" w="200" h="30"
+		 x="220" y="210" w="200" h="30"
 		 alpha="255"
 		 font_size="14"
 		 font="ui/gun4fc.ttf"
@@ -83,7 +83,7 @@
 	</gui>	
 	
 	<gui type="STATIC" name="id_muvol" 
-			 x="240" y="280" w="160" h="30"  
+			 x="240" y="245" w="160" h="30"  
 			 text="id_muvol" alpha="255"
 			 border="1" word_wrap="0" fill_bk="0"
 			 hcenter="80"
@@ -95,7 +95,7 @@
 		<gui type="TEXTSLIDER" name="musicvolume"
 		 tex_focused="ui/ui_selector_slider.tga"
 		 btn_aspect_ratio = "1.0"
-		 x="220" y="305" w="200" h="30"
+		 x="220" y="270" w="200" h="30"
 		 alpha="255"
 		 font_size="14"
 		 font="ui/gun4fc.ttf"
@@ -104,9 +104,9 @@
 		 >
 	</gui>
 
-	<!-- touch-control for faster android testing -->
+	<!-- touch-controls for android -->
 	<gui type="STATIC" name="id_touch_control" 
-			 x="240" y="340" w="160" h="30"  
+			 x="240" y="305" w="160" h="30"  
 			 text="TOUCH CONTROLS" alpha="255"
 			 border="1" word_wrap="0" fill_bk="0"
 			 hcenter="80"
@@ -118,7 +118,7 @@
 		<gui type="TEXTSLIDER" name="touchcontrol"
 		 tex_focused="ui/ui_selector_slider.tga"
 		 btn_aspect_ratio = "1.0"
-		 x="220" y="365" w="200" h="30"
+		 x="220" y="330" w="200" h="30"
 		 alpha="255"
 		 font_size="14"
 		 font="ui/gun4fc.ttf"
@@ -137,20 +137,6 @@
 		 font_size="16"
 		 font="ui/gun4fc.ttf">
 		</gui>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </dialog>
