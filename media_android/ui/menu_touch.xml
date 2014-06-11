@@ -201,8 +201,14 @@
 
 	
 	<!-- camera & pause buttons-->
+
+	<gui type="IMAGE" name="bg_camera" 
+		 x="0" y="120" w="100" h="30" 
+		 texture="ui/hud_letterboxlr.tga">
+	</gui>
+	
 	<gui type="BUTTON" name="id_switch_camera" 
-		 x="200" y="450" w="100" h="30"  
+		 x="0" y="120" w="100" h="30"  
 		 text="id_switch_camera" alpha="255"
 		 tex_norm="ui/ui_selector.tga"
 		 tex_pressed="ui/ui_selector_pressed.tga" 
@@ -211,8 +217,13 @@
 		 font="ui/gun4fc.ttf">
 	</gui>
 	
+	<gui type="IMAGE" name="bg_pause" 
+		 x="0" y="160" w="100" h="30" 
+		 texture="ui/hud_letterboxlr.tga">
+	</gui>
+	
 	<gui type="BUTTON" name="id_pause" 
-		 x="340" y="450" w="100" h="30"  
+		 x="0" y="160" w="100" h="30"  
 		 text="id_pause" alpha="255"
 		 tex_norm="ui/ui_selector.tga"
 		 tex_pressed="ui/ui_selector_pressed.tga" 
@@ -222,7 +233,8 @@
 	</gui>
 
 
-	<!-- Placement does not matter - touch_pos will be moved around at runtime -->
+	<!-- Placement does not matter - touch_pos will be moved around at runtime 
+	(and maybe not used at all in the end as it's not really helping so far -->
 	<gui type="IMAGE" name="touch_pos_h"
 		 x="0" y="0" w="640" h="8"
 		 texture="ui/hud_touch_pos_h.png">
@@ -233,7 +245,7 @@
 	</gui>
 
 	
-	<!-- dummy to get feeling for hud-elements, not used - but comment in/out when editing the dialog 
+	<!-- dummy to get feeling for hud-elements, not used - but comment in/out when editing the dialog 	
 	<gui type="IMAGE" name="bg_trackrecord" 
 		 x="0" y="85" w="100" h="19" 
 		 texture="ui/hud_letterboxlr.tga">
@@ -278,6 +290,8 @@
 		 hcenter="0"
 		 font_size="8"
 		 font="ui/gun4fc.ttf">
-	</gui> -->
+	</gui> 
+	
+	-->
 	
 </dialog>
