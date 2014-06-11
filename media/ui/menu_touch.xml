@@ -23,7 +23,7 @@
 		</gui>
 		
 		<gui type="STATIC" name="touch_control_text" 
-				 x="240" y="305" w="160" h="30"  
+				 x="240" y="105" w="160" h="30"  
 				 text="id_android_controls" alpha="255"
 				 border="1" word_wrap="0" fill_bk="0"
 				 hcenter="80"
@@ -35,7 +35,7 @@
 		<gui type="TEXTSLIDER" name="touchcontrol"
 			 tex_focused="ui/ui_selector_slider.tga"
 			 btn_aspect_ratio = "1.0"
-			 x="220" y="330" w="200" h="30"
+			 x="200" y="140" w="240" h="30"  
 			 alpha="255"
 			 font_size="14"
 			 font="ui/gun4fc.ttf"
