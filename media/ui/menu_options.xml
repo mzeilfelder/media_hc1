@@ -54,6 +54,17 @@
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
 	</gui>
+	
+	<!-- touch-controls for android, id_analog and id_controls are disabled there -->
+	<gui type="BUTTON" name="id_touch_controls" 
+		 x="240" y="105" w="160" h="30"  
+		 text="id_android_controls" alpha="255"
+		   tex_focused="ui/ui_selector.tga"
+		   tex_pressed="ui/ui_selector_pressed.tga" 
+		 border="1" word_wrap="0" fill_bk="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+	</gui>
 		
 	<gui type="BUTTON" name="id_graphics" 
 		 x="240" y="140" w="160" h="30"  

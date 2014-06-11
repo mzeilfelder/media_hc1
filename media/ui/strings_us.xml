@@ -62,6 +62,7 @@
 <string id="id_accelerate">ACCELErATE</string>
 <string id="id_brake">BrAKE</string>
 <string id="id_pause">PAUSE</string>
+<string id="id_switch_camera">CAMErA</string>
 <string id="id_analogsteer">ANALOG STEEriNG</string>
 <string id="id_analogacc">ANALOG ACCELErATiON</string>
 <string id="id_analogbr">ANALOG BrAKE</string>
@@ -433,5 +434,12 @@ do not worry about your progress, choosing "next race" will always start your mo
 <string id="PA1">pa1</string>
 <string id="Clear">clear</string>
 <string id="unknown key">unknown key</string>
+
+<string id="id_left">LEFT</string>
+<string id="id_right">RIGHT</string>
+<string id="id_up">UP</string>
+<string id="id_down">DOWN</string>
+
+<string id="id_android_controls">CONTROLS</string>
 
 </strings>
