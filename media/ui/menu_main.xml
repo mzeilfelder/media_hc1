@@ -9,6 +9,9 @@
 		<color type="3D_HIGH_LIGHT" a="0"/>
 	</skin>
 
+	<gui type="STATIC" name="debug" x="0" y="0" w="640" h="480" text="id_activeprofile" alpha="255" border="0" word_wrap="0" fill_bk="0" hcenter="0" font_size="8" font="ui/gentium12px.xml">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
 
 
 	<gui type="IMAGE" name="img1" x="0" y="0" w="640" h="480" texture="ui/mainmenu01.jpg">
