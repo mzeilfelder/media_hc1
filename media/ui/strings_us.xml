@@ -439,7 +439,7 @@ do not worry about your progress, choosing "next race" will always start your mo
 <string id="id_right">RIGHT</string>
 <string id="id_up">UP</string>
 <string id="id_down">DOWN</string>
-
 <string id="id_android_controls">CONTROLS</string>
+<string id="id_retry">rETRY rACE</string>
 
 </strings>
