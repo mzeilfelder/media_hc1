@@ -55,7 +55,7 @@
 		
 		<gui type="BUTTON" name="id_back" 
 			 x="240" y="430" w="160" h="30"  
-			 text="id_back" alpha="255"
+			 text="id_mainmenu" alpha="255"
                    tex_focused="ui/ui_selector.tga"
 				   tex_pressed="ui/ui_selector_pressed.tga" 
 			  border="1" word_wrap="0" fill_bk="0"
