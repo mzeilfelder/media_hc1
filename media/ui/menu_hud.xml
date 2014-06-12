@@ -167,7 +167,7 @@
 
 <!-- speed display, "speed_bar" must exist 	-->
 	<gui type="IMAGE" filter="TOUCH" name="speed_bar"
-		 x="259" y="452" w="120" h="26"
+		 x="259" y="460" w="120" h="8"
 		 texture="ui/hud_speed_android.png">
 	</gui>
 
