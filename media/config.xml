@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <config>
-    <graphics drivertype="OPENGL" far_clipping="150000.0" fullscreen="0" use_screen_res="0" res_x="800" res_y="600" bitdepth="32" min_time="16" vsync="0" freq="0" bi="1" tri="0" ani="1" gouraud="1" particles="0" shadow="1" aa="0" mip="1" tex16="0" tex32="0" tex_qual="0" tex_speed="0" />
+    <graphics drivertype="OPENGL" near_clipping="10" far_clipping="150000.0" fullscreen="1" use_screen_res="1" res_x="1024" res_y="768" bitdepth="32" min_time="16" vsync="0" freq="0" bi="1" tri="0" ani="1" gouraud="1" particles="0" shadow="1" aa="0" mip="1" tex16="0" tex32="0" tex_qual="0" tex_speed="0" />
     <input>
         <devices>
             <joystick dead_area="3276" max_area="32767" />
@@ -9,12 +9,12 @@
             <asteer type="AX" deviceType="JS" joystickId="0" axisId="0" goofy="0" analog="1" digital="0" dir="2" />
             <aacc type="AX" deviceType="JS" joystickId="0" axisId="3" goofy="0" analog="1" digital="0" dir="1" />
             <abrake type="AX" deviceType="JS" joystickId="0" axisId="3" goofy="1" analog="1" digital="0" dir="1" />
-            <dleft type="BT" deviceType1="JS" joystickId1="0" buttonId1="0" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
-            <dright type="BT" deviceType1="JS" joystickId1="0" buttonId1="2" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
-            <dacc type="BT" deviceType1="JS" joystickId1="0" buttonId1="3" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
-            <dbrake type="BT" deviceType1="JS" joystickId1="0" buttonId1="1" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
-            <pause deviceType="JS" joystickId="0" buttonId="5" />
-            <camera deviceType="JS" joystickId="0" buttonId="4" />
+            <dleft type="BT" deviceType1="KB" joystickId1="0" buttonId1="37" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
+            <dright type="BT" deviceType1="KB" joystickId1="0" buttonId1="39" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
+            <dacc type="BT" deviceType1="KB" joystickId1="0" buttonId1="38" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
+            <dbrake type="BT" deviceType1="KB" joystickId1="0" buttonId1="40" stepSize1="0.500000" deviceType2="NO" joystickId2="0" buttonId2="0" stepSize2="0.500000" analog="0" digital="1" dir="1" />
+            <pause deviceType="KB" joystickId="0" buttonId="80" />
+            <camera deviceType="KB" joystickId="0" buttonId="67" />
         </controller>
     </input>
 	<!-- steering_style: 1 is default. 0 for classic steering as in hcraft 1.2  -->
@@ -45,7 +45,7 @@
             <hover mass="125.000000" max_speed="2000.000000" />
         </physicobjects>
     </physic>
-    <sound sfx_vol="0.700000" music_vol="0.700000" sfx_rolloff="1.000000" sfx_ref_dist="120.000000" sfx_max_dist="1800.000000" sfx_dist_model="AL_EXPONENT_DISTANCE_CLAMPED" />
+    <sound sfx_vol="1.000000" music_vol="0.800000" sfx_rolloff="1.000000" sfx_ref_dist="120.000000" sfx_max_dist="1800.000000" sfx_dist_model="AL_EXPONENT_DISTANCE_CLAMPED" />
     <hovers>
         <blob model="hc_blobshadow" height="30.0" />
         <hover name="id_hover1" model="Hover02" img="ui/selectH2.tga" points="0" lock="" />
@@ -55,5 +55,5 @@
     </hovers>
     <dlgMain caption="H-Craft Championship" />
     <i18n strings="ui/strings_us.xml" />
-    <etc tutorial_done="1" disable_sound="0" url_buy="http://www.manifestogames.com/cart/add/3574" />
+    <etc tutorial_done="0" disable_sound="0" url_buy="http://www.irrgheist.com/games.htm" />
 </config>
