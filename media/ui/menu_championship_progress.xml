@@ -66,53 +66,53 @@
 		
 		<gui type="IMAGE" name="grid"
 			 x="10" y="90" w="170" h="65"
-			 texture="ui/hc_champ_grid1.tga">
+			 texture="ui/hc_champ_grid1.png">
 	</gui>
 	<gui type="IMAGE" name="grid"
 			 x="10" y="180" w="170" h="65"
-			 texture="ui/hc_champ_grid1.tga">
+			 texture="ui/hc_champ_grid1.png">
 	</gui>
 	<gui type="IMAGE" name="grid"
 			 x="10" y="270" w="170" h="65"
-			 texture="ui/hc_champ_grid1.tga">
+			 texture="ui/hc_champ_grid1.png">
 	</gui>
 	<gui type="IMAGE" name="grid"
 			 x="10" y="360" w="170" h="65"
-			 texture="ui/hc_champ_grid1.tga">
+			 texture="ui/hc_champ_grid1.png">
 	</gui>
 	
 	<gui type="IMAGE" name="grid"
 			 x="215" y="90" w="170" h="65"
-			 texture="ui/hc_champ_grid2.tga">
+			 texture="ui/hc_champ_grid2.png">
 	</gui>
 	<gui type="IMAGE" name="grid"
 			 x="215" y="180" w="170" h="65"
-			 texture="ui/hc_champ_grid2.tga">
+			 texture="ui/hc_champ_grid2.png">
 	</gui>
 	<gui type="IMAGE" name="grid"
 			 x="215" y="270" w="170" h="65"
-			 texture="ui/hc_champ_grid2.tga">
+			 texture="ui/hc_champ_grid2.png">
 	</gui>
 	<gui type="IMAGE" name="grid"
 			 x="215" y="360" w="170" h="65"
-			 texture="ui/hc_champ_grid2.tga">
+			 texture="ui/hc_champ_grid2.png">
 	</gui>
 	
 	<gui type="IMAGE" name="grid"
 			 x="420" y="90" w="170" h="65"
-			 texture="ui/hc_champ_grid3.tga">
+			 texture="ui/hc_champ_grid3.png">
 	</gui>
 	<gui type="IMAGE" name="grid"
 			 x="420" y="180" w="170" h="65"
-			 texture="ui/hc_champ_grid3.tga">
+			 texture="ui/hc_champ_grid3.png">
 	</gui>
 	<gui type="IMAGE" name="grid"
 			 x="420" y="270" w="170" h="65"
-			 texture="ui/hc_champ_grid3.tga">
+			 texture="ui/hc_champ_grid3.png">
 	</gui>
 	<gui type="IMAGE" name="grid"
 			 x="420" y="360" w="170" h="65"
-			 texture="ui/hc_champ_grid3.tga">
+			 texture="ui/hc_champ_grid3.png">
 	</gui>
 	
 	
@@ -1059,9 +1059,9 @@
 		<gui type="BUTTON" name="retry1" 
 			 x="10" y="90" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1069,9 +1069,9 @@
 		<gui type="BUTTON" name="retry2" 
 			 x="10" y="106" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1079,9 +1079,9 @@
 		<gui type="BUTTON" name="retry3" 
 			 x="10" y="122" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1091,9 +1091,9 @@
 		<gui type="BUTTON" name="retry4" 
 			 x="10" y="180" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1101,9 +1101,9 @@
 		<gui type="BUTTON" name="retry5" 
 			 x="10" y="196" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1111,9 +1111,9 @@
 		<gui type="BUTTON" name="retry6" 
 			 x="10" y="212" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1123,9 +1123,9 @@
 		<gui type="BUTTON" name="retry7" 
 			 x="10" y="270" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1133,9 +1133,9 @@
 		<gui type="BUTTON" name="retry8" 
 			 x="10" y="286" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1143,9 +1143,9 @@
 		<gui type="BUTTON" name="retry9" 
 			 x="10" y="302" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1155,9 +1155,9 @@
 		<gui type="BUTTON" name="retry10" 
 			 x="10" y="360" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1165,9 +1165,9 @@
 		<gui type="BUTTON" name="retry11" 
 			 x="10" y="376" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1175,9 +1175,9 @@
 		<gui type="BUTTON" name="retry12" 
 			 x="10" y="392" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1191,9 +1191,9 @@
 		<gui type="BUTTON" name="retry13" 
 			 x="215" y="90" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1201,9 +1201,9 @@
 		<gui type="BUTTON" name="retry14" 
 			 x="215" y="106" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1211,9 +1211,9 @@
 		<gui type="BUTTON" name="retry15" 
 			 x="215" y="122" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1223,9 +1223,9 @@
 		<gui type="BUTTON" name="retry16" 
 			 x="215" y="180" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1233,9 +1233,9 @@
 		<gui type="BUTTON" name="retry17" 
 			 x="215" y="196" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1243,9 +1243,9 @@
 		<gui type="BUTTON" name="retry18" 
 			 x="215" y="212" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1255,9 +1255,9 @@
 		<gui type="BUTTON" name="retry19" 
 			 x="215" y="270" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1265,9 +1265,9 @@
 		<gui type="BUTTON" name="retry20" 
 			 x="215" y="286" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1275,9 +1275,9 @@
 		<gui type="BUTTON" name="retry21" 
 			 x="215" y="302" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1287,9 +1287,9 @@
 		<gui type="BUTTON" name="retry22" 
 			 x="215" y="360" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1297,9 +1297,9 @@
 		<gui type="BUTTON" name="retry23" 
 			 x="215" y="376" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1307,9 +1307,9 @@
 		<gui type="BUTTON" name="retry24" 
 			 x="215" y="392" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1321,9 +1321,9 @@
 		<gui type="BUTTON" name="retry25" 
 			 x="420" y="90" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1331,9 +1331,9 @@
 		<gui type="BUTTON" name="retry26" 
 			 x="420" y="106" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1341,9 +1341,9 @@
 		<gui type="BUTTON" name="retry27" 
 			 x="420" y="122" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1353,9 +1353,9 @@
 		<gui type="BUTTON" name="retry28" 
 			 x="420" y="180" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1363,9 +1363,9 @@
 		<gui type="BUTTON" name="retry29" 
 			 x="420" y="196" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1373,9 +1373,9 @@
 		<gui type="BUTTON" name="retry30" 
 			 x="420" y="212" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1385,9 +1385,9 @@
 		<gui type="BUTTON" name="retry31" 
 			 x="420" y="270" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1395,9 +1395,9 @@
 		<gui type="BUTTON" name="retry32" 
 			 x="420" y="286" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1405,9 +1405,9 @@
 		<gui type="BUTTON" name="retry33" 
 			 x="420" y="302" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1417,9 +1417,9 @@
 		<gui type="BUTTON" name="retry34" 
 			 x="420" y="360" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1427,9 +1427,9 @@
 		<gui type="BUTTON" name="retry35" 
 			 x="420" y="376" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1437,9 +1437,9 @@
 		<gui type="BUTTON" name="retry36" 
 			 x="420" y="392" w="197" h="17"  
 			  text=" " alpha="255"
-			 	tex_norm="ui/hc_champ_button01.tga"
-				   tex_focused="ui/hc_champ_button03.tga"
-				   tex_pressed="ui/hc_champ_button02.tga"
+			 	tex_norm="ui/hc_champ_button01.png"
+				   tex_focused="ui/hc_champ_button03.png"
+				   tex_pressed="ui/hc_champ_button02.png"
 			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="14"
 		 font="ui/gun4fc.ttf">
