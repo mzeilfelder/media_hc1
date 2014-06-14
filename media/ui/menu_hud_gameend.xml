@@ -12,31 +12,31 @@
 
 
 
-	<gui type="IMAGE" name="letterbox" x="170" y="0" w="300" h="480" texture="ui/hud_letterbox_big.tga">
+	<gui type="IMAGE" name="letterbox" x="170" y="0" w="300" h="480" texture="ui/hud_letterbox_big.png">
 	</gui>
 
-	<gui type="IMAGE" name="letterbox" x="0" y="5" w="100" h="19" texture="ui/hud_letterboxlr.tga">
+	<gui type="IMAGE" name="letterbox" x="0" y="5" w="100" h="19" texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="currentlap" x="6" y="5" w="100" h="10" text="id_hdcurrentlap" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="8" font="ui/gun4fc.ttf"> <color r="73" g="211" b="246" a="255"/>
 	</gui>
 	<gui type="STATIC" name="timeCurLap" x="6" y="12" w="100" h="14" text="00.00.00 (CuAl)" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="10" font="ui/gun4fc.ttf">
 	</gui>
 		
-	<gui type="IMAGE" name="letterbox" x="0" y="25" w="100" h="19" texture="ui/hud_letterboxlr.tga">
+	<gui type="IMAGE" name="letterbox" x="0" y="25" w="100" h="19" texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="bestlap" x="6" y="25" w="100" h="10" text="id_hdbestlap" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="8" font="ui/gun4fc.ttf"> <color r="73" g="211" b="246" a="255"/>
 	</gui>
 	<gui type="STATIC" name="timeBestLap" x="6" y="32" w="100" h="14" text="00.00.00 (CuAl)" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="10" font="ui/gun4fc.ttf">
 	</gui>
 		
-	<gui type="IMAGE" name="letterbox" x="0" y="45" w="100" h="19" texture="ui/hud_letterboxlr.tga">
+	<gui type="IMAGE" name="letterbox" x="0" y="45" w="100" h="19" texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="time" x="6" y="45" w="100" h="10" text="id_hdtime" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="8" font="ui/gun4fc.ttf"> <color r="73" g="211" b="246" a="255"/>
 	</gui>
 	<gui type="STATIC" name="timeTrack" x="6" y="52" w="100" h="14" text="00.00.00 (CuAl)" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="10" font="ui/gun4fc.ttf">
 	</gui>
 
-	<gui type="IMAGE" name="bg_trackrecord" x="0" y="85" w="100" h="19" texture="ui/hud_letterboxlr.tga">
+	<gui type="IMAGE" name="bg_trackrecord" x="0" y="85" w="100" h="19" texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="trackrecord" x="6" y="85" w="100" h="10" text="id_hdtrackrecord" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="8" font="ui/gun4fc.ttf">
 		<color r="73" g="211" b="246" a="255"/>
@@ -44,7 +44,7 @@
 	<gui type="STATIC" name="timeTrackRecord" x="6" y="92" w="100" h="10" text="00.00.00 (GAME)" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="8" font="ui/gun4fc.ttf">
 	</gui>
 
-	<gui type="IMAGE" name="letterbox" x="0" y="65" w="100" h="19" texture="ui/hud_letterboxlr.tga">
+	<gui type="IMAGE" name="letterbox" x="0" y="65" w="100" h="19" texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="laprecord" x="6" y="65" w="100" h="10" text="id_hdlaprecord" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="8" font="ui/gun4fc.ttf">
 		 <color r="73" g="211" b="246" a="255"/>
@@ -54,12 +54,12 @@
 		
 	
 	
-	<gui type="IMAGE" name="letterbox" x="540" y="5" w="100" h="14" texture="ui/hud_letterboxrl.tga">
+	<gui type="IMAGE" name="letterbox" x="540" y="5" w="100" h="14" texture="ui/hud_letterboxrl.png">
 	</gui>
 	<gui type="STATIC" name="lapcount" x="550" y="5" w="100" h="14" text="id_hdlapcount" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="10" font="ui/gun4fc.ttf">
 	</gui>
 		
-	<gui type="IMAGE" name="letterbox" x="540" y="20" w="100" h="14" texture="ui/hud_letterboxrl.tga">
+	<gui type="IMAGE" name="letterbox" x="540" y="20" w="100" h="14" texture="ui/hud_letterboxrl.png">
 	</gui>
 	<gui type="STATIC" name="position" x="550" y="20" w="100" h="14" text="id_hdposition" alpha="255" border="1" word_wrap="1" fill_bk="0" hcenter="0" font_size="10" font="ui/gun4fc.ttf">
 	</gui>
@@ -98,7 +98,7 @@
 		<!-- only displays when an imported ghost is active  -->
 	<gui type="IMAGE" name="bg_ghostrecord"
 		 x="540" y="65" w="100" h="19"
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	<gui type="STATIC" name="ghost_record" 
 		 x="550" y="65" w="100" h="10"  
@@ -121,7 +121,7 @@
 	
 	<gui type="IMAGE" name="bg_ghostgap"
 		 x="540" y="85" w="100" h="19"
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	
 	<gui type="STATIC" name="ghost_gapinfo" 

@@ -16,7 +16,7 @@
 
 	<gui type="IMAGE" name="letterbox"
 			 x="0" y="5" w="100" h="19"
-			 texture="ui/hud_letterboxlr.tga">
+			 texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="currentlap"
 		 x="6" y="5" w="100" h="10"
@@ -37,7 +37,7 @@
 	</gui>
 	<gui type="IMAGE" name="letterbox"
 		x="0" y="25" w="100" h="19"
-	 	texture="ui/hud_letterboxlr.tga">
+	 	texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="bestlap"
 		 x="6" y="25" w="100" h="10"
@@ -59,7 +59,7 @@
 
 	<gui type="IMAGE" name="letterbox"
 		 x="0" y="45" w="100" h="19"
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="time"
 		 x="6" y="45" w="100" h="10"
@@ -81,7 +81,7 @@
 
 	<gui type="IMAGE" name="bg_trackrecord" 
 		 x="0" y="85" w="100" h="19" 
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 <gui type="STATIC" name="trackrecord" 
 			 x="6" y="85" w="100" h="10"  
@@ -103,7 +103,7 @@
 
 <gui type="IMAGE" name="letterbox" 
 		 x="0" y="65" w="100" h="19" 
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 <gui type="STATIC" name="laprecord" 
 			 x="6" y="65" w="100" h="10"  
@@ -161,7 +161,7 @@
 	</gui>
 	<gui type="IMAGE" filter="PC" name="thrust"
 		x="0" y="440" w="160" h="40"
-		texture="ui/hud_position.tga">
+		texture="ui/hud_position.png">
 	</gui>
 	
 
@@ -181,14 +181,14 @@
 	</gui>
 	<gui type="IMAGE" filter="PC" name="speed"
 		 x="480" y="440" w="160" h="40"
-		 texture="ui/hud_speed02r.tga">
+		 texture="ui/hud_speed02r.png">
 	</gui>
 
 
 
 	<gui type="IMAGE" name="letterbox"
 		 x="540" y="5" w="100" h="14"
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	<gui type="STATIC" name="lapcount"
 		 x="550" y="5" w="100" h="14"
@@ -201,7 +201,7 @@
 
 	<gui type="IMAGE" name="letterbox"
 		 x="540" y="20" w="100" h="14"
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	<gui type="STATIC" name="position"
 		 x="550" y="20" w="100" h="14"
@@ -279,7 +279,7 @@
 	<!-- only displays when an imported ghost is active  -->
 	<gui type="IMAGE" name="bg_ghostrecord"
 		 x="540" y="65" w="100" h="19"
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	<gui type="STATIC" name="ghost_record" 
 			 x="550" y="65" w="100" h="10"  
@@ -302,7 +302,7 @@
 	
 	<gui type="IMAGE" name="bg_ghostgap"
 		 x="540" y="85" w="100" h="19"
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	
 	<gui type="STATIC" name="ghost_gapinfo" 
@@ -329,15 +329,15 @@
 	<!-- only displays on rivals tourney  -->
 	<gui type="IMAGE" name="bg_sessionrecord"
 		 x="540" y="65" w="100" h="19"
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	<gui type="IMAGE" name="bg_sessiongap"
 		 x="540" y="85" w="100" h="19"
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	<gui type="IMAGE" name="bg_sessiongap2"
 		 x="540" y="45" w="100" h="19"
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	
 	<gui type="STATIC" name="session_record" 

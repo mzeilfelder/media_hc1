@@ -18,7 +18,7 @@
 
 <gui type="IMAGE" name="letterbox" 
 		 x="170" y="0" w="300" h="480" 
-		 texture="ui/hud_letterbox_big.tga">
+		 texture="ui/hud_letterbox_big.png">
 	</gui>
 
 <gui type="STATIC" name="id_trackname" 

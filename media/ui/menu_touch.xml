@@ -153,7 +153,7 @@
 
 	<gui type="IMAGE" name="bg_camera" 
 		 x="0" y="120" w="100" h="30" 
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 	
 	<gui type="BUTTON" name="id_switch_camera" 
@@ -168,7 +168,7 @@
 	
 	<gui type="IMAGE" name="bg_pause" 
 		 x="0" y="160" w="100" h="30" 
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 	
 	<gui type="BUTTON" name="id_pause" 
@@ -197,7 +197,7 @@
 	<!-- dummy to get feeling for hud-elements, not used - but comment in/out when editing the dialog 	
 	<gui type="IMAGE" name="bg_trackrecord" 
 		 x="0" y="85" w="100" h="19" 
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="timeTrackRecord" 
 		 x="6" y="92" w="100" h="10"  
@@ -210,12 +210,12 @@
 
 	<gui type="IMAGE" name="thrust"
 		x="0" y="440" w="160" h="40"
-		texture="ui/hud_position.tga">
+		texture="ui/hud_position.png">
 	</gui>
 
 	<gui type="IMAGE" name="speed"
 		 x="480" y="440" w="160" h="40"
-		 texture="ui/hud_speed02r.tga">
+		 texture="ui/hud_speed02r.png">
 	</gui>
 
 	<gui type="STATIC" name="countdown"
@@ -229,7 +229,7 @@
 	
 	<gui type="IMAGE" name="bg_sessiongap"
 		 x="540" y="85" w="100" h="19"
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	
 	<gui type="STATIC" name="session_gap" 

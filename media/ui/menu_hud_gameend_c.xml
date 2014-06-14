@@ -18,13 +18,13 @@
 
 	<gui type="IMAGE" name="letterbox" 
 		 x="170" y="0" w="300" h="480" 
-		 texture="ui/hud_letterbox_big.tga">
+		 texture="ui/hud_letterbox_big.png">
 	</gui>
 
 
 	<gui type="IMAGE" name="letterbox" 
 		 x="0" y="5" w="100" h="19" 
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="currentlap" 
 			 x="6" y="5" w="100" h="10"  
@@ -46,7 +46,7 @@
 		
 	<gui type="IMAGE" name="letterbox" 
 		 x="0" y="25" w="100" h="19" 
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="bestlap" 
 			 x="6" y="25" w="100" h="10"  
@@ -68,7 +68,7 @@
 		
 	<gui type="IMAGE" name="letterbox" 
 		 x="0" y="45" w="100" h="19" 
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="time" 
 			 x="6" y="45" w="100" h="10"  
@@ -90,7 +90,7 @@
 
 	<gui type="IMAGE" name="bg_trackrecord" 
 		 x="0" y="85" w="100" h="19" 
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="trackrecord" 
 			 x="6" y="85" w="100" h="10"  
@@ -112,7 +112,7 @@
 
 	<gui type="IMAGE" name="letterbox" 
 		 x="0" y="65" w="100" h="19" 
-		 texture="ui/hud_letterboxlr.tga">
+		 texture="ui/hud_letterboxlr.png">
 	</gui>
 	<gui type="STATIC" name="laprecord" 
 			 x="6" y="65" w="100" h="10"  
@@ -137,7 +137,7 @@
 		
 	<gui type="IMAGE" name="letterbox" 
 		 x="540" y="5" w="100" h="14" 
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	<gui type="STATIC" name="lapcount" 
 		 x="550" y="5" w="100" h="14"  
@@ -150,7 +150,7 @@
 		
 	<gui type="IMAGE" name="letterbox" 
 		 x="540" y="20" w="100" h="14" 
-		 texture="ui/hud_letterboxrl.tga">
+		 texture="ui/hud_letterboxrl.png">
 	</gui>
 	<gui type="STATIC" name="position" 
 		 x="550" y="20" w="100" h="14"  
