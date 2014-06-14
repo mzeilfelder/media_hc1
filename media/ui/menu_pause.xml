@@ -43,8 +43,8 @@
 <gui type="BUTTON" name="id_hdresume" default_focus="1"
 			 x="240" y="115" w="160" h="30"  
 			 text="id_hdresume" alpha="255"
-                   tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+                   tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 			  border="1" word_wrap="0" fill_bk="0"
 		 font_size="16"
 		 font="ui/gun4fc.ttf">
@@ -53,8 +53,8 @@
 <gui type="BUTTON" name="id_hdrestart" 
 			 x="240" y="150" w="160" h="30"  
 			 text="id_hdrestart" alpha="255"
-                   tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+                   tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 			  border="1" word_wrap="0" fill_bk="0"
 		 font_size="16"
 		 font="ui/gun4fc.ttf">
@@ -71,7 +71,7 @@
 		</gui>
     
     <gui type="TEXTSLIDER" name="sfxvolume"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="210" w="200" h="30"
 		 alpha="255"
@@ -93,7 +93,7 @@
 		</gui>
 		
 		<gui type="TEXTSLIDER" name="musicvolume"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="270" w="200" h="30"
 		 alpha="255"
@@ -108,8 +108,8 @@
 	<gui type="BUTTON" name="id_touch_controls" 
 		 x="240" y="305" w="160" h="30"  
 		 text="id_android_controls" alpha="255"
-		   tex_focused="ui/ui_selector.tga"
-		   tex_pressed="ui/ui_selector_pressed.tga" 
+		   tex_focused="ui/ui_selector.png"
+		   tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -119,8 +119,8 @@
 	<gui type="BUTTON" name="id_hdquit" 
 			 x="240" y="395" w="160" h="30"  
 			 text="id_exit" alpha="255"
-                   tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+                   tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 			  border="1" word_wrap="0" fill_bk="0"
 		 font_size="16"
 		 font="ui/gun4fc.ttf">

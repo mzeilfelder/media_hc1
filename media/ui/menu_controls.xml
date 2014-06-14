@@ -47,7 +47,7 @@
 		<gui type="BUTTON" name="analogsteer" 
 			 x="250" y="62" w="140" h="18"  
 			 text="STICK1 X-AXIS" alpha="255"
-			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
 			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
@@ -68,7 +68,7 @@
 		<gui type="BUTTON" name="analogacc" 
 			 x="250" y="97" w="140" h="18"  
 			 text="STICK1 X-AXIS" alpha="255"
-			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
 			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
@@ -89,7 +89,7 @@
 		<gui type="BUTTON" name="analogbrake" 
 			 x="250" y="132" w="140" h="18"  
 			 text="STICK1 X-AXIS" alpha="255"
-			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
 			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
@@ -109,7 +109,7 @@
 		<gui type="BUTTON" name="steerleft" 
 			 x="250" y="167" w="140" h="18"  
 			 text="a" alpha="255"
-			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
 			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
@@ -128,7 +128,7 @@
 		<gui type="BUTTON" name="steerright" 
 			 x="250" y="202" w="140" h="18"  
 			 text="d" alpha="255"
-			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
 			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
@@ -147,7 +147,7 @@
 		<gui type="BUTTON" name="accelerate" 
 			 x="250" y="237" w="140" h="18"  
 			 text="w" alpha="255"
-			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
 			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
@@ -166,7 +166,7 @@
 		<gui type="BUTTON" name="brake" 
 			 x="250" y="272" w="140" h="18"  
 			 text="s" alpha="255"
-			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
 			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
@@ -186,7 +186,7 @@
 		<gui type="BUTTON" name="pause" 
 			 x="250" y="307" w="140" h="18"  
 			 text="p" alpha="255"
-			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
 			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
@@ -205,7 +205,7 @@
 		<gui type="BUTTON" name="camera" 
 			 x="250" y="342" w="140" h="18"  
 			 text="c" alpha="255"
-			 tex_norm="ui/ui_selector.tga" tex_focused="ui/ui_selector_norm.tga" tex_pressed="ui/ui_selector_pressed.tga"
+			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
 			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
@@ -216,8 +216,8 @@
 	<gui type="BUTTON" name="id_accept" default_focus="1"
 			 x="240" y="395" w="160" h="30"  
 			 text="id_accept" alpha="255"
-                   tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+                   tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -226,8 +226,8 @@
 		<gui type="BUTTON" name="id_cancel" 
 			 x="240" y="430" w="160" h="30"  
 			 text="id_cancel" alpha="255"
-                   tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+                   tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 			  border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">

@@ -38,8 +38,8 @@
 	<gui type="BUTTON" name="id_controls" default_focus="1"
 		 x="235" y="70" w="170" h="30"  
 		 text="id_controls" alpha="255"
-		   tex_focused="ui/ui_selector.tga"
-		   tex_pressed="ui/ui_selector_pressed.tga" 
+		   tex_focused="ui/ui_selector.png"
+		   tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -48,8 +48,8 @@
 	<gui type="BUTTON" name="id_analog" 
 		 x="240" y="105" w="160" h="30"  
 		 text="id_analog" alpha="255"
-		   tex_focused="ui/ui_selector.tga"
-		   tex_pressed="ui/ui_selector_pressed.tga" 
+		   tex_focused="ui/ui_selector.png"
+		   tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -59,8 +59,8 @@
 	<gui type="BUTTON" name="id_touch_controls" 
 		 x="240" y="105" w="160" h="30"  
 		 text="id_android_controls" alpha="255"
-		   tex_focused="ui/ui_selector.tga"
-		   tex_pressed="ui/ui_selector_pressed.tga" 
+		   tex_focused="ui/ui_selector.png"
+		   tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -69,8 +69,8 @@
 	<gui type="BUTTON" name="id_graphics" 
 		 x="240" y="140" w="160" h="30"  
 		 text="id_gpxgraphics" alpha="255"
-		   tex_focused="ui/ui_selector.tga"
-		   tex_pressed="ui/ui_selector_pressed.tga" 
+		   tex_focused="ui/ui_selector.png"
+		   tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -89,7 +89,7 @@
 	</gui>
 
 	<gui type="TEXTSLIDER" name="sfxvolume"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="220" w="200" h="30"
 		 alpha="255"
@@ -111,7 +111,7 @@
 	</gui>
 		
 	<gui type="TEXTSLIDER" name="musicvolume"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="280" w="200" h="30"
 		 alpha="255"
@@ -125,8 +125,8 @@
 	<gui type="BUTTON" name="id_watchcredits" 
 		 x="240" y="335" w="160" h="30"  
 		 text="id_watchcredits" alpha="255"
-		 tex_focused="ui/ui_selector.tga"
-		 tex_pressed="ui/ui_selector_pressed.tga" 
+		 tex_focused="ui/ui_selector.png"
+		 tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -137,8 +137,8 @@
 	<gui type="BUTTON" name="id_accept" 
 		 x="240" y="395" w="160" h="30"  
 		 text="id_accept" alpha="255"
-		   tex_focused="ui/ui_selector.tga"
-		   tex_pressed="ui/ui_selector_pressed.tga" 
+		   tex_focused="ui/ui_selector.png"
+		   tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -147,8 +147,8 @@
 	<gui type="BUTTON" name="id_cancel" 
 		 x="240" y="430" w="160" h="30"  
 		 text="id_cancel" alpha="255"
-		   tex_focused="ui/ui_selector.tga"
-		   tex_pressed="ui/ui_selector_pressed.tga" 
+		   tex_focused="ui/ui_selector.png"
+		   tex_pressed="ui/ui_selector_pressed.png" 
 		  border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">

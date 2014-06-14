@@ -47,7 +47,7 @@
 	</gui>
 
 	<gui type="TEXTSLIDER" name="scoretype"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="115" w="200" h="30"
 		 alpha="255"
@@ -68,7 +68,7 @@
 	</gui>
     
     <gui type="TEXTSLIDER" name="trackdifficulty"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="175" w="200" h="30"
 		 alpha="255"
@@ -89,7 +89,7 @@
 		</gui>
     
     <gui type="TEXTSLIDER" name="track"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="235" w="200" h="30"
 		 alpha="255"
@@ -148,8 +148,8 @@
 	<gui type="BUTTON" name="id_back" default_focus="1"
 		x="240" y="430" w="160" h="30"  
 		text="id_back" alpha="255"
-		tex_focused="ui/ui_selector.tga"
-		tex_pressed="ui/ui_selector_pressed.tga" 
+		tex_focused="ui/ui_selector.png"
+		tex_pressed="ui/ui_selector_pressed.png" 
 		border="1" word_wrap="0" fill_bk="0"
 		font_size="14"
 		font="ui/gun4fc.ttf">

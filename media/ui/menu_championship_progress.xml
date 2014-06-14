@@ -1448,8 +1448,8 @@
 		<gui type="BUTTON" filter="PC" name="id_quit" 
 			 x="400" y="440" w="100" h="22"  
 			 text="id_mainmenu" alpha="255"
-			 tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+			 tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 			  border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1458,8 +1458,8 @@
 		<gui type="BUTTON" filter="TOUCH" name="id_quit" 
 			 x="300" y="440" w="100" h="22"  
 			 text="id_mainmenu" alpha="255"
-			 tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+			 tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 			  border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1468,8 +1468,8 @@
 		<gui type="BUTTON" filter="TOUCH" name="id_retry" 
 			 x="400" y="440" w="100" h="22"  
 			 text="id_retry" alpha="255"
-			 tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+			 tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 			  border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -1478,8 +1478,8 @@
 	<gui type="BUTTON" name="id_continue" default_focus="1"
 			 x="500" y="440" w="120" h="22"  
 			 text="id_hdnextrace" alpha="255"
-			 tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+			 tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 			  border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">

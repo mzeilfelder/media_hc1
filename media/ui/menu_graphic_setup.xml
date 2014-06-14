@@ -58,7 +58,7 @@
 	</gui>
 
 	<gui type="TEXTSLIDER" name="sld_resolution"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="20" y="110" w="200" h="30"
 		 alpha="255"
@@ -79,7 +79,7 @@
 	</gui>
     
     <gui type="TEXTSLIDER" name="sld_filter"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="20" y="172" w="200" h="30"
 		 alpha="255"
@@ -101,7 +101,7 @@
 	</gui>
 
     <gui type="TEXTSLIDER" name="sld_antialias"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="20" y="234" w="200" h="30"
 		 alpha="255"
@@ -122,7 +122,7 @@
 	</gui>
 		
 	<gui type="TEXTSLIDER" name="sld_particles"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="20" y="296" w="200" h="30"
 		 alpha="255"
@@ -143,7 +143,7 @@
 	</gui>
 		
 	<gui type="TEXTSLIDER" name="sld_vsync"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="20" y="358" w="200" h="30"
 		 alpha="255"
@@ -168,8 +168,8 @@
 	<gui type="BUTTON" name="id_accept" default_focus="1"
 		 x="40" y="440" w="160" h="30"  
 		 text="id_accept" alpha="255"
-		 tex_focused="ui/ui_selector.tga"
-		 tex_pressed="ui/ui_selector_pressed.tga" 
+		 tex_focused="ui/ui_selector.png"
+		 tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -178,8 +178,8 @@
 	<gui type="BUTTON" name="id_cancel" 
 		 x="410" y="440" w="160" h="30"  
 		 text="id_cancel" alpha="255"
-		 tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+		 tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">

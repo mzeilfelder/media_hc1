@@ -43,7 +43,7 @@
 	</gui>
 
 	<gui type="TEXTSLIDER" name="difficulty"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="67" w="200" h="30"
 		 alpha="255"
@@ -64,7 +64,7 @@
 	</gui>
     
     <gui type="TEXTSLIDER" name="track"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="123" w="200" h="30"
 		 alpha="255"
@@ -85,7 +85,7 @@
 	</gui>
 		
 	<gui type="TEXTSLIDER" name="racemode"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="179" w="200" h="30"
 		 alpha="255"
@@ -106,7 +106,7 @@
 	</gui>
 
     <gui type="TEXTSLIDER" name="ghost"
-		 tex_focused="ui/ui_selector_slider.tga"
+		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
 		 x="220" y="235" w="200" h="30"
 		 alpha="255"
@@ -149,8 +149,8 @@
 <gui type="BUTTON" name="id_ghostexport" default_focus="1"
 		 x="240" y="315" w="160" h="26"  
 		 text="id_ghostexport" alpha="255"
-		 tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+		 tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="12"
 		 font="ui/gun4fc.ttf">
@@ -179,8 +179,8 @@
 	<gui type="BUTTON" name="id_start" default_focus="1"
 		 x="240" y="395" w="160" h="30"  
 		 text="id_start" alpha="255"
-		 tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+		 tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
@@ -189,8 +189,8 @@
 	<gui type="BUTTON" name="id_back" 
 		 x="240" y="430" w="160" h="30"  
 		 text="id_mainmenu" alpha="255"
-		 tex_focused="ui/ui_selector.tga"
-				   tex_pressed="ui/ui_selector_pressed.tga" 
+		 tex_focused="ui/ui_selector.png"
+				   tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">

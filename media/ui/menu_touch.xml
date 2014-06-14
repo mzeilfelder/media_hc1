@@ -33,7 +33,7 @@
 			</gui>
 			
 		<gui type="TEXTSLIDER" name="touchcontrol"
-			 tex_focused="ui/ui_selector_slider.tga"
+			 tex_focused="ui/ui_selector_slider.png"
 			 btn_aspect_ratio = "1.0"
 			 x="200" y="140" w="240" h="30"  
 			 alpha="255"
@@ -44,7 +44,7 @@
 			 >
 		</gui>
 		
-		<gui type="BUTTON" name="btn_back" default_focus="1" x="240" y="438" w="160" h="30" text="id_back" alpha="255" tex_focused="ui/ui_selector.tga" tex_pressed="ui/ui_selector_pressed.tga" border="1" word_wrap="0" fill_bk="0" font_size="14" font="ui/gun4fc.ttf">
+		<gui type="BUTTON" name="btn_back" default_focus="1" x="240" y="438" w="160" h="30" text="id_back" alpha="255" tex_focused="ui/ui_selector.png" tex_pressed="ui/ui_selector_pressed.png" border="1" word_wrap="0" fill_bk="0" font_size="14" font="ui/gun4fc.ttf">
 		</gui>
 	</gui>
 
@@ -159,8 +159,8 @@
 	<gui type="BUTTON" name="id_switch_camera" 
 		 x="0" y="120" w="100" h="30"  
 		 text="id_switch_camera" alpha="255"
-		 tex_norm="ui/ui_selector.tga"
-		 tex_pressed="ui/ui_selector_pressed.tga" 
+		 tex_norm="ui/ui_selector.png"
+		 tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"
 		 font="ui/gun4fc.ttf">
@@ -174,8 +174,8 @@
 	<gui type="BUTTON" name="id_pause" 
 		 x="0" y="160" w="100" h="30"  
 		 text="id_pause" alpha="255"
-		 tex_norm="ui/ui_selector.tga"
-		 tex_pressed="ui/ui_selector_pressed.tga" 
+		 tex_norm="ui/ui_selector.png"
+		 tex_pressed="ui/ui_selector_pressed.png" 
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"
 		 font="ui/gun4fc.ttf">

@@ -323,8 +323,8 @@
 	<gui type="BUTTON" name="id_start" default_focus="1"
 		x="220" y="440" w="200" h="30"  
 		text="id_start" alpha="255"
-		tex_focused="ui/ui_selector.tga"
-		tex_pressed="ui/ui_selector_pressed.tga" 
+		tex_focused="ui/ui_selector.png"
+		tex_pressed="ui/ui_selector_pressed.png" 
 		border="1" word_wrap="0" fill_bk="0"
 		font_size="18" font="ui/gun4fc.ttf">
 	</gui>
@@ -332,8 +332,8 @@
 	<gui type="BUTTON" name="id_exit" 
 		x="440" y="440" w="160" h="30"  
 		text="id_exit" alpha="255"
-		tex_focused="ui/ui_selector.tga"
-		tex_pressed="ui/ui_selector_pressed.tga" 
+		tex_focused="ui/ui_selector.png"
+		tex_pressed="ui/ui_selector_pressed.png" 
 		border="1" word_wrap="0" fill_bk="0"
 		font_size="18" font="ui/gun4fc.ttf">
 	</gui>
