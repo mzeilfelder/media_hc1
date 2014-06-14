@@ -52,22 +52,22 @@
 	<!-- touchpad vertical control right - horizontal left -->
 	<gui type="IMAGE" name="touch_background_right_v"
 		 x="550" y="260" w="90" h="180"
-		 texture="ui/hud_touch_background.png">
+		 texture="ui/hud_touch_vertical.png">
 	</gui>
 	<gui type="IMAGE" name="touch_background_left_h"
 		 x="0" y="305" w="180" h="90"
-		 texture="ui/hud_touch_background.png">
+		 texture="ui/hud_touch_horizontal.png">
 	</gui>
 
 	
 	<!-- touchpad horizontal control right - vertical left  -->
 	<gui type="IMAGE" name="touch_background_right_h"
 		 x="460" y="305" w="180" h="90"
-		 texture="ui/hud_touch_background.png">
+		 texture="ui/hud_touch_horizontal.png">
 	</gui>
 	<gui type="IMAGE" name="touch_background_left_v"
 		 x="0" y="260" w="90" h="180"
-		 texture="ui/hud_touch_background.png">
+		 texture="ui/hud_touch_vertical.png">
 	</gui> 
 	
 
