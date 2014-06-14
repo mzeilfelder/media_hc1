@@ -150,7 +150,6 @@
 
 	
 	<!-- camera & pause buttons-->
-
 	<gui type="IMAGE" name="bg_camera" 
 		 x="0" y="120" w="100" h="30" 
 		 texture="ui/hud_letterboxlr.png">
