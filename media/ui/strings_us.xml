@@ -135,20 +135,21 @@
 
 <string id="id_tut01_text01">H-CrAFT rOOKiE TrAiNiNG 01</string>
 <string id="id_tut01_text02">WELCOME TO THE rOOKiE TrAiNiNG!  
-you will get to race 3 laps against the clock. 
-beating the targettime scores 3 points for the championship. 
-the farther you finish from that time the less points you get. 
-but do not worry too much, you will get the chance to repeat the race later on.</string>
-<string id="id_tut01_text02B">HerE ArE SOME GENErAL TiPS: iF YOU DO NOT PrESS THE 
-ACCELErATiON BUTTON YOUr H-CrAFT WiLL KEEP DriFTiNG ON iTS iNiTiAL DirECTiON DESPiTE THE DirECTiON YOU STEEr TO. reaccelerating after you have changed your alignment will Quickly forward you to the new direction. iF YOU DO iT riGHT YOU CAN USE THiS TECHNiQUE TO PErFOrM 
-180 DEGrEE TUrNS ON A STrAiGHT LiNE. VErY HANDY FOr HAirPiN TUrNS AND OTHEr TriCKY BiTS. 
+
+beat the targettime to score 3 points for the championship. 
+And no worries - you can repeat the race later on.</string>
+<string id="id_tut01_text02B">HiNTS: 
+- Release power before turning and push it again after the h-craft looks in the new direction.
+- H-Craft cabins are heavy, so they will turn around their front.
+
 HAVE FUN ON YOUr FirST riDE, GOOD LUCK! </string>
 <string id="id_tut01_text03">objective: COMPLETE 3 LAPS WiTHiN 00.56 MiNUTES</string>
 <string id="id_tut02_text01">H-CrAFT rOOKiE TrAiNiNG 02</string>
-<string id="id_tut02_text02">WELCOME BACK! how did you do on the first training? 
-well, racing against the clock is one thing, racing against real opponents is another. 
-thus this training will prepare you for that. 
-finishing first will score 3 points and teach your competitors respect!</string>
+<string id="id_tut02_text02">WELCOME BACK! How did you do on the first training? 
+
+Racing against the clock is one thing, racing against opponents another. This training will prepare you for that. 
+
+Finish first to score 3 points and teach your competitors respect!</string>
 <string id="id_tut02_text03">objective: FiNiSH THE rACE ON FirST PLACE</string>
 <string id="id_tut03_text01">congratulations! you finished the first Quarter of the championship. </string>
 <string id="id_tut03_text02">finishing a Quarter gives you retry buttons for each single track of it. 
