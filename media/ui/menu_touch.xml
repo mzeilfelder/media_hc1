@@ -51,22 +51,22 @@
 
 	<!-- touchpad vertical control right - horizontal left -->
 	<gui type="IMAGE" name="touch_background_right_v"
-		 x="540" y="260" w="90" h="180"
+		 x="450" y="260" w="180" h="180"
 		 texture="ui/hud_touch_vertical.png">
 	</gui>
 	<gui type="IMAGE" name="touch_background_left_h"
-		 x="10" y="305" w="180" h="90"
+		 x="10" y="260" w="180" h="180"
 		 texture="ui/hud_touch_horizontal.png">
 	</gui>
 
 	
 	<!-- touchpad horizontal control right - vertical left  -->
 	<gui type="IMAGE" name="touch_background_right_h"
-		 x="450" y="305" w="180" h="90"
+		 x="450" y="260" w="180" h="180"
 		 texture="ui/hud_touch_horizontal.png">
 	</gui>
 	<gui type="IMAGE" name="touch_background_left_v"
-		 x="10" y="260" w="90" h="180"
+		 x="10" y="260" w="180" h="180"
 		 texture="ui/hud_touch_vertical.png">
 	</gui> 
 	
@@ -130,7 +130,7 @@
 		 font="ui/gun4fc.ttf">
 	</gui>
 	<gui type="BUTTON" name="id_left_r" 
-		 x="480" y="350" w="80" h="90"  
+		 x="480" y="260" w="80" h="180"  
 		 text="id_left" alpha="255"
 		 tex_norm="ui/ui_touch_left_norm.png"
 		 tex_pressed="ui/ui_touch_left_pressed.png" 
@@ -139,7 +139,7 @@
 		 font="ui/gun4fc.ttf">
 	</gui>
 	<gui type="BUTTON" name="id_right_r" 
-		 x="560" y="350" w="80" h="90"  
+		 x="560" y="260" w="80" h="180"  
 		 text="id_right" alpha="255"
 		 tex_norm="ui/ui_touch_right_norm.png"
 		 tex_pressed="ui/ui_touch_right_pressed.png" 
