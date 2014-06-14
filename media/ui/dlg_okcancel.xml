@@ -10,7 +10,7 @@
 	
 	<gui type="IMAGE" name="insert" 
 		 x="140" y="180" w="360" h="140" 
-		 texture="ui/gui_insert.tga">
+		 texture="ui/gui_insert.png">
 	</gui>
 	 
 	<gui type="BUTTON" name="id_ok" 
