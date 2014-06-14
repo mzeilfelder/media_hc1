@@ -53,7 +53,7 @@
 		 alpha="255"
 		 font_size="12"
 		 font="ui/gun4fc.ttf"
-		 left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga"
+		 left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png"
 		 >
 	</gui>
 	

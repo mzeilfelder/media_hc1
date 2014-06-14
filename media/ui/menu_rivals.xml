@@ -27,7 +27,7 @@ if random # is selected, only tracks from the filtered class are used as random 
 		<color r="73" g="211" b="246" a="255"/>
 	</gui>
 
-	<gui type="TEXTSLIDER" name="difficulty" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="20" y="80" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga">
+	<gui type="TEXTSLIDER" name="difficulty" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="20" y="80" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png">
 	</gui>
 
 <!-- number of races can be: single race, random 3, random 5, random 7-->
@@ -35,7 +35,7 @@ if random # is selected, only tracks from the filtered class are used as random 
 		<color r="73" g="211" b="246" a="255"/>
 	</gui>
 		
-	<gui type="TEXTSLIDER" name="slider_num_races" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="80" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga">
+	<gui type="TEXTSLIDER" name="slider_num_races" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="80" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png">
 	</gui>
 	
 	<!-- grey out if a random # of races is selected -->
@@ -43,7 +43,7 @@ if random # is selected, only tracks from the filtered class are used as random 
 		 <color r="73" g="211" b="246" a="255"/>
 	</gui>
     
-    <gui type="TEXTSLIDER" name="track" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="420" y="80" w="188" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga">
+    <gui type="TEXTSLIDER" name="track" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="420" y="80" w="188" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png">
 	</gui>
 	
 	<gui type="STATIC" name="id_player1" x="20" y="170" w="160" h="30" text="id_player1" alpha="255" border="1" word_wrap="0" fill_bk="0" hcenter="80" font_size="14" font="ui/gun4fc.ttf">
@@ -62,13 +62,13 @@ if random # is selected, only tracks from the filtered class are used as random 
 		<color r="73" g="211" b="246" a="255"/>
 	</gui>
 		
-	<gui type="TEXTSLIDER" name="player1" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="170" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga">
+	<gui type="TEXTSLIDER" name="player1" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="170" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png">
 	</gui>
-	<gui type="TEXTSLIDER" name="player2" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="220" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga">
+	<gui type="TEXTSLIDER" name="player2" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="220" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png">
 	</gui>
-	<gui type="TEXTSLIDER" name="player3" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="270" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga">
+	<gui type="TEXTSLIDER" name="player3" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="270" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png">
 	</gui>
-	<gui type="TEXTSLIDER" name="player4" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="320" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.tga" left_tex_pressed="ui/ui_Bleft_A.tga" right_tex_norm="ui/ui_Bright.tga" right_tex_pressed="ui/ui_Bright_A.tga">
+	<gui type="TEXTSLIDER" name="player4" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="320" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png">
 	</gui>
 
 	<gui type="BUTTON" name="id_mainmenu" x="400" y="438" w="100" h="30" text="id_mainmenu" alpha="255" tex_focused="ui/ui_selector.png" tex_pressed="ui/ui_selector_pressed.png" border="1" word_wrap="0" fill_bk="0" font_size="14" font="ui/gun4fc.ttf">
