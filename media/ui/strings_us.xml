@@ -443,6 +443,8 @@ do not worry about your progress, choosing "next race" will always start your mo
 <string id="id_android_controls">CONTROLS</string>
 <string id="id_retry">rETRY rACE</string>
 <string id="id_licenses">LICENSES</string>
+<string id="id_cushion_strength">force fields</string>
+<string id="id_slow_fall">slow fall</string>
 
 <string id="id_copyright_freetype">Portions of this software are copyright (2006) by The FreeType Project (www.freetype.org). All rights reserved.</string>
 <string id="id_copyright_jpg">This software is based in part on the work of the Independent JPEG Group.</string>
