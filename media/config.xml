@@ -40,7 +40,7 @@
         <camera cam_name="camera: far01" cam_behind="-295.000000" cam_height="120.000000" cam_height_upwards="1.750000" cam_height_downwards="4.000000" time_to_air="100" target_angle="15.000000" cam_trailing="0.999930" cam_speed_factor_slow="0.020000" cam_speed_factor_fast="0.040000" cam_fov_speed="1500" pitch_cam="0.2" pitch_target="0.25" smooth_speed_y="50" smooth_max_y="0" cam_roll="0.0" cam_first_person="0" cam_fov_default="2.5" cam_fov_factor="-1.2" intro_cam_x="-0.003" intro_cam_sqr_x="-0.00002" intro_cam_y="0.002" intro_cam_sqr_y="0.00002" intro_cam_z="0.04" intro_cam_sqr_z="0.00002" intro_time_reduced="1000" outro_time_max="9000" outro_cam_x="0" outro_cam_sqr_x="0" outro_cam_y="0.003" outro_cam_sqr_y="0.00001" outro_cam_z="0.01" outro_cam_sqr_z="0.00001" />
     </cameras>
     <physic>
-        <settings timestep="0.020000" rollfriction="13000.000000" airconst="0.170000" gravity="5501.000000" wallfriction="200" wallboundary="0.3" collpush="500" cushion="0.600000" slowfall="0.300000" />
+        <settings timestep="0.020000" rollfriction="13000.000000" airconst="0.170000" gravity="5501.000000" wallfriction="200" wallboundary="0.3" collpush="500" cushion="0.900000" slowfall="0.300000" />
         <physicobjects>
             <hover mass="125.000000" max_speed="2000.000000" />
         </physicobjects>
