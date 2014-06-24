@@ -23,7 +23,7 @@
 		</gui>
 		
 		<gui type="STATIC" name="touch_control_text" 
-				 x="240" y="105" w="160" h="30"  
+				 x="200" y="105" w="240" h="30"  
 				 text="id_android_controls" alpha="255"
 				 border="1" word_wrap="0" fill_bk="0"
 				 hcenter="80"
@@ -44,8 +44,31 @@
 			 >
 		</gui>
 		
+		<gui type="STATIC" name="controls_pos" 
+				 x="200" y="185" w="240" h="30"  
+				 text="id_controls_pos" alpha="255"
+				 border="1" word_wrap="0" fill_bk="0"
+				 hcenter="80"
+			 font_size="16"
+			 font="ui/gun4fc.ttf">
+			 <color r="73" g="211" b="246" a="255"/>
+			</gui>
+			
+		<gui type="TEXTSLIDER" name="controlspos_slider"
+			 tex_focused="ui/ui_selector_slider.png"
+			 btn_aspect_ratio = "1.0"
+			 x="200" y="210" w="240" h="30"  
+			 alpha="255"
+			 font_size="14"
+			 font="ui/gun4fc.ttf"
+			 wrap="0"
+			 left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png"
+			 >
+		</gui>
+		
+		<!-- debug elements -->
 		<gui type="STATIC" name="cushion_strength_text" 
-				 x="240" y="175" w="160" h="30"  
+				 x="240" y="255" w="160" h="30"  
 				 text="id_cushion_strength" alpha="255"
 				 border="1" word_wrap="0" fill_bk="0"
 				 hcenter="80"
@@ -57,7 +80,7 @@
 		<gui type="TEXTSLIDER" name="cushion_strength_slider"
 			 tex_focused="ui/ui_selector_slider.png"
 			 btn_aspect_ratio = "1.0"
-			 x="200" y="210" w="240" h="30"  
+			 x="200" y="280" w="240" h="30"  
 			 alpha="255"
 			 font_size="14"
 			 font="ui/gun4fc.ttf"
@@ -67,7 +90,7 @@
 		</gui>
 
 		<gui type="STATIC" name="slow_fall_text" 
-				 x="240" y="255" w="160" h="30"  
+				 x="240" y="335" w="160" h="30"  
 				 text="id_slow_fall" alpha="255"
 				 border="1" word_wrap="0" fill_bk="0"
 				 hcenter="80"
@@ -79,7 +102,7 @@
 		<gui type="TEXTSLIDER" name="slow_fall_slider"
 			 tex_focused="ui/ui_selector_slider.png"
 			 btn_aspect_ratio = "1.0"
-			 x="200" y="280" w="240" h="30"  
+			 x="200" y="360" w="240" h="30"  
 			 alpha="255"
 			 font_size="14"
 			 font="ui/gun4fc.ttf"
@@ -93,104 +116,118 @@
 	</gui>
 
 
-	<!-- touchpad vertical control right - horizontal left -->
-	<gui type="IMAGE" name="touch_background_right_v"
-		 x="450" y="260" w="180" h="180"
-		 texture="ui/hud_touch_vertical.png">
-	</gui>
-	<gui type="IMAGE" name="touch_background_left_h"
-		 x="10" y="260" w="180" h="180"
-		 texture="ui/hud_touch_horizontal.png">
-	</gui>
-
-	
-	<!-- touchpad horizontal control right - vertical left  -->
-	<gui type="IMAGE" name="touch_background_right_h"
-		 x="450" y="260" w="180" h="180"
-		 texture="ui/hud_touch_horizontal.png">
-	</gui>
-	<gui type="IMAGE" name="touch_background_left_v"
-		 x="10" y="260" w="180" h="180"
-		 texture="ui/hud_touch_vertical.png">
+	<!-- position range. Control elements can move inside That (only y values matter) -->
+ 	<gui type="STATIC" name="pos_range_y" text=""
+			 x="1" y="200" w="1" h="275">
 	</gui> 
 	
-
-	<!-- left-right on left, up-down on right -->
-	<gui type="BUTTON" name="id_up_r" 
-		 x="550" y="260" w="90" h="90"  
-		 text="id_up" alpha="255"
-		 tex_norm="ui/ui_touch_up_norm.png"
-		 tex_pressed="ui/ui_touch_up_pressed.png" 
-		 border="1" word_wrap="0" fill_bk="0"
-		 font_size="18"
-		 font="ui/gun4fc.ttf">
-	</gui>
-	<gui type="BUTTON" name="id_down_r" 
-		 x="550" y="350" w="90" h="90"  
-		 text="id_down" alpha="255"
-		 tex_norm="ui/ui_touch_down_norm.png"
-		 tex_pressed="ui/ui_touch_down_pressed.png" 
-		 border="1" word_wrap="0" fill_bk="0"
-		 font_size="18"
-		 font="ui/gun4fc.ttf">
+	<!-- control elements on the left -->
+	<gui type="STATIC" name="left_controls" text=""
+				 x="0" y="260" w="190" h="180"  
+				 border="0" fill_bk="0">
+		<!-- touchpad horizontal -->
+		<gui type="IMAGE" name="touch_background_left_h"
+			 x="10" y="0" w="180" h="180"
+			 texture="ui/hud_touch_horizontal.png">
+		</gui>
+		<!-- touchpad vertical -->
+		<gui type="IMAGE" name="touch_background_left_v"
+			 x="10" y="0" w="180" h="180"
+			 texture="ui/hud_touch_vertical.png">
+		</gui> 
+		<!-- left-right buttons -->
+		<gui type="BUTTON" name="id_left_l" 
+			 x="0" y="0" w="80" h="180"  
+			 text="id_left" alpha="255"
+			 tex_norm="ui/ui_touch_left_norm.png"
+			 tex_pressed="ui/ui_touch_left_pressed.png" 
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="18"
+			 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="id_right_l" 
+			 x="80" y="0" w="80" h="180"  
+			 text="id_right" alpha="255"
+			 tex_norm="ui/ui_touch_right_norm.png"
+			 tex_pressed="ui/ui_touch_right_pressed.png" 
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="18"
+			 font="ui/gun4fc.ttf">
+		</gui> 
+		<!-- up-down buttons -->
+		<gui type="BUTTON" name="id_up_l" 
+			 x="0" y="0" w="90" h="90"  
+			 text="id_up" alpha="255"
+			 tex_norm="ui/ui_touch_up_norm.png"
+			 tex_pressed="ui/ui_touch_up_pressed.png" 
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="18"
+			 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="id_down_l" 
+			 x="0" y="90" w="90" h="90"  
+			 text="id_down" alpha="255"
+			 tex_norm="ui/ui_touch_down_norm.png"
+			 tex_pressed="ui/ui_touch_down_pressed.png" 
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="18"
+			 font="ui/gun4fc.ttf">
+		</gui>
 	</gui>
 	
-	<gui type="BUTTON" name="id_left_l" 
-		 x="0" y="260" w="80" h="180"  
-		 text="id_left" alpha="255"
-		 tex_norm="ui/ui_touch_left_norm.png"
-		 tex_pressed="ui/ui_touch_left_pressed.png" 
-		 border="1" word_wrap="0" fill_bk="0"
-		 font_size="18"
-		 font="ui/gun4fc.ttf">
+	<!-- control elements on the right -->
+	<gui type="STATIC" name="right_controls" text=""
+				 x="450" y="260" w="180" h="180"  
+				 border="0" fill_bk="0">
+		<!-- touchpad vertical -->
+		<gui type="IMAGE" name="touch_background_right_v"
+			 x="0" y="0" w="180" h="180"
+			 texture="ui/hud_touch_vertical.png">
+		</gui>
+		<!-- touchpad horizontal -->
+		<gui type="IMAGE" name="touch_background_right_h"
+			 x="0" y="0" w="180" h="180"
+			 texture="ui/hud_touch_horizontal.png">
+		</gui>
+		<!-- up-down buttons -->
+		<gui type="BUTTON" name="id_up_r" 
+			 x="100" y="0" w="90" h="90"  
+			 text="id_up" alpha="255"
+			 tex_norm="ui/ui_touch_up_norm.png"
+			 tex_pressed="ui/ui_touch_up_pressed.png" 
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="18"
+			 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="id_down_r" 
+			 x="100" y="90" w="90" h="90"  
+			 text="id_down" alpha="255"
+			 tex_norm="ui/ui_touch_down_norm.png"
+			 tex_pressed="ui/ui_touch_down_pressed.png" 
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="18"
+			 font="ui/gun4fc.ttf">
+		</gui>
+		<!-- left-right buttons -->
+		<gui type="BUTTON" name="id_left_r" 
+			 x="30" y="0" w="80" h="180"  
+			 text="id_left" alpha="255"
+			 tex_norm="ui/ui_touch_left_norm.png"
+			 tex_pressed="ui/ui_touch_left_pressed.png" 
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="18"
+			 font="ui/gun4fc.ttf">
+		</gui>
+		<gui type="BUTTON" name="id_right_r" 
+			 x="110" y="0" w="80" h="180"  
+			 text="id_right" alpha="255"
+			 tex_norm="ui/ui_touch_right_norm.png"
+			 tex_pressed="ui/ui_touch_right_pressed.png" 
+			 border="1" word_wrap="0" fill_bk="0"
+			 font_size="18"
+			 font="ui/gun4fc.ttf">
+		</gui> 
 	</gui>
-	<gui type="BUTTON" name="id_right_l" 
-		 x="80" y="260" w="80" h="180"  
-		 text="id_right" alpha="255"
-		 tex_norm="ui/ui_touch_right_norm.png"
-		 tex_pressed="ui/ui_touch_right_pressed.png" 
-		 border="1" word_wrap="0" fill_bk="0"
-		 font_size="18"
-		 font="ui/gun4fc.ttf">
-	</gui> 
-	
-	<!-- up-down on left, left-right on right -->
-	<gui type="BUTTON" name="id_up_l" 
-		 x="0" y="260" w="90" h="90"  
-		 text="id_up" alpha="255"
-		 tex_norm="ui/ui_touch_up_norm.png"
-		 tex_pressed="ui/ui_touch_up_pressed.png" 
-		 border="1" word_wrap="0" fill_bk="0"
-		 font_size="18"
-		 font="ui/gun4fc.ttf">
-	</gui>
-	<gui type="BUTTON" name="id_down_l" 
-		 x="0" y="350" w="90" h="90"  
-		 text="id_down" alpha="255"
-		 tex_norm="ui/ui_touch_down_norm.png"
-		 tex_pressed="ui/ui_touch_down_pressed.png" 
-		 border="1" word_wrap="0" fill_bk="0"
-		 font_size="18"
-		 font="ui/gun4fc.ttf">
-	</gui>
-	<gui type="BUTTON" name="id_left_r" 
-		 x="480" y="260" w="80" h="180"  
-		 text="id_left" alpha="255"
-		 tex_norm="ui/ui_touch_left_norm.png"
-		 tex_pressed="ui/ui_touch_left_pressed.png" 
-		 border="1" word_wrap="0" fill_bk="0"
-		 font_size="18"
-		 font="ui/gun4fc.ttf">
-	</gui>
-	<gui type="BUTTON" name="id_right_r" 
-		 x="560" y="260" w="80" h="180"  
-		 text="id_right" alpha="255"
-		 tex_norm="ui/ui_touch_right_norm.png"
-		 tex_pressed="ui/ui_touch_right_pressed.png" 
-		 border="1" word_wrap="0" fill_bk="0"
-		 font_size="18"
-		 font="ui/gun4fc.ttf">
-	</gui> 
 
 	
 	<!-- camera & pause buttons-->

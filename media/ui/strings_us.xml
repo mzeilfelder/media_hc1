@@ -445,6 +445,13 @@ do not worry about your progress, choosing "next race" will always start your mo
 <string id="id_licenses">LICENSES</string>
 <string id="id_cushion_strength">force fields</string>
 <string id="id_slow_fall">slow fall</string>
+<string id="id_controls_pos">placement</string>
+<string id="id_digi_rh">right handed</string>
+<string id="id_digi_lh">left handed</string>
+<string id="id_digi_pads_rh">BUTTONS & PADS RH</string>
+<string id="id_digi_pads_lh">BUTTONS & PADS LH</string>
+<string id="id_pads_rh">PADS RH</string>
+<string id="id_pads_lh">PADS LH</string>
 
 <string id="id_copyright_freetype">Portions of this software are copyright (2006) by The FreeType Project (www.freetype.org). All rights reserved.</string>
 <string id="id_copyright_jpg">This software is based in part on the work of the Independent JPEG Group.</string>
