@@ -177,7 +177,7 @@
 	
 	<!-- control elements on the right -->
 	<gui type="STATIC" name="right_controls" text=""
-				 x="450" y="260" w="180" h="180"  
+				 x="450" y="260" w="190" h="180"  
 				 border="0" fill_bk="0">
 		<!-- touchpad vertical -->
 		<gui type="IMAGE" name="touch_background_right_v"

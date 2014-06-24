@@ -452,6 +452,11 @@ do not worry about your progress, choosing "next race" will always start your mo
 <string id="id_digi_pads_lh">BUTTONS & PADS LH</string>
 <string id="id_pads_rh">PADS RH</string>
 <string id="id_pads_lh">PADS LH</string>
+<string id="id_place_1">top</string>
+<string id="id_place_2">high</string>
+<string id="id_place_3">medium</string>
+<string id="id_place_4">low</string>
+<string id="id_place_5">bottom</string>
 
 <string id="id_copyright_freetype">Portions of this software are copyright (2006) by The FreeType Project (www.freetype.org). All rights reserved.</string>
 <string id="id_copyright_jpg">This software is based in part on the work of the Independent JPEG Group.</string>
