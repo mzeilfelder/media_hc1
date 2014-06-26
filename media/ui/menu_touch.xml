@@ -240,7 +240,8 @@
 		 x="0" y="120" w="100" h="30"  
 		 text="id_switch_camera" alpha="255"
 		 tex_norm="ui/ui_selector.png"
-		 tex_pressed="ui/ui_selector_pressed.png" 
+		 tex_pressed="ui/ui_selector_pressed.png"
+		 tex_disabled="ui/ui_selector_disabled.png"
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"
 		 font="ui/gun4fc.ttf">
@@ -255,7 +256,8 @@
 		 x="0" y="160" w="100" h="30"  
 		 text="id_pause" alpha="255"
 		 tex_norm="ui/ui_selector.png"
-		 tex_pressed="ui/ui_selector_pressed.png" 
+		 tex_pressed="ui/ui_selector_pressed.png"
+		 tex_disabled="ui/ui_selector_disabled.png"
 		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"
 		 font="ui/gun4fc.ttf">
