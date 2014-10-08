@@ -246,9 +246,10 @@ do not worry about your progress, choosing "next race" will always start your mo
 <string id="id_gpxresolution">ScrEEN rESOLUTiON</string>
 <string id="id_gpxfilter">Texture FiLTEr</string>
 <string id="id_gpxantialias">antialiasing</string>
+<string id="id_lights">light</string>
 <string id="id_gpxparticles">PArTiCLES</string>
 <string id="id_gpxshadows">SHADOWS</string>
-<string id="id_gpxinfo">note: graphic changes reQuire to restart the game to take effect.</string>
+<string id="id_gpxinfo">changes reQuire a game restart to take effect.</string>
 <string id="id_gpxgraphics">GrAPHiC SETUP</string>
 <string id="id_gpxvsync">vsync</string>
 
@@ -256,6 +257,7 @@ do not worry about your progress, choosing "next race" will always start your mo
 <string id="id_gpxinfo_screenres">higher screenresolutions make for a more detailed picture, at the cost of game speed. if you have any performance issues you should consider reducing the resolution. "auto" sets the resolution to your screen`s default. </string>
 <string id="id_gpxinfo_filter">the texture filter defines the texture sharpness. "bilinear" looks a bit blurred but can help to speed up the game. "anisotropic" is the highest Quality setting.</string>
 <string id="id_gpxinfo_aa">antialiasing reduces small jags and adds to the Quality. recommended for high performance systems.</string>
+<string id="id_gpxinfo_lights">static light is faster, dynamic light looks nicer</string>
 <string id="id_gpxinfo_particles">particles are mostly used for weather effects and the h-craft`s stream. choose "weather off" or "all off" if you can not get the game to run smooth tweaking the other settings.</string>
 <string id="id_gpxinfo_vsync">vsync gives you a more stable, steady picture, but can result in lags on low performance systems. some graphic cards need to be set to "triple buffering" to run vsync properly.</string>
 
@@ -264,6 +266,8 @@ do not worry about your progress, choosing "next race" will always start your mo
 <string id="id_filter_bilinear">bilinear</string>
 <string id="id_filter_trilinear">trilinear</string>
 <string id="id_filter_anisotropic">anisotropic</string>
+<string id="id_light_static">static</string>
+<string id="id_light_dynamic">dynamic</string>
 
 <string id="id_ghost_record">GHOST rECOrD</string>
 <string id="id_ghost_gap">gap to GHOST</string>
