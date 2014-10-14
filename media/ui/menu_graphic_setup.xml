@@ -48,7 +48,7 @@
 	</gui>
 	
 	<gui type="STATIC" filter="PC" name="id_gpxresolution" 
-		 x="20" y="85" w="180" h="30"  
+		 x="20" y="85" w="200" h="30"  
 		 text="id_gpxresolution" alpha="255"
 		 border="1" word_wrap="0" fill_bk="0"
 		 hcenter="0"
@@ -68,10 +68,9 @@
 		 >
 	</gui>
   
-
-	<gui type="STATIC" filter="TOUCH" name="id_lights" 
-		 x="20" y="147" w="160" h="30"  
-		 text="id_lights" alpha="255"
+	<gui type="STATIC" filter="TOUCH" name="id_gpxlights" 
+		 x="20" y="85" w="200" h="30"  
+		 text="id_gpxlights" alpha="255"
 		 border="1" word_wrap="0" fill_bk="0"
 		 hcenter="0"
 		 font_size="14"
@@ -82,7 +81,7 @@
     <gui type="TEXTSLIDER" filter="TOUCH" name="sld_lights"
 		 tex_focused="ui/ui_selector_slider.png"
 		 btn_aspect_ratio = "1.0"
-		 x="20" y="172" w="200" h="30"
+		 x="20" y="110" w="200" h="30"
 		 alpha="255"
 		 font_size="12"
 		 font="ui/gun4fc.ttf"
@@ -90,8 +89,30 @@
 		 >
 	</gui>	
 	
+	<gui type="STATIC" filter="TOUCH" name="id_gpx_texture_resolution" 
+		 x="20" y="147" w="200" h="30"  
+		 text="id_gpx_texture_resolution" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="0"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
+
+    <gui type="TEXTSLIDER" filter="TOUCH" name="sld_texture_resolution"
+		 tex_focused="ui/ui_selector_slider.png"
+		 btn_aspect_ratio = "1.0"
+		 x="20" y="172" w="200" h="30"
+		 alpha="255"
+		 font_size="12"
+		 font="ui/gun4fc.ttf"
+		 wrap="0"
+		 left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png"
+		 >
+	</gui>	
+	
 	<gui type="STATIC" filter="PC" name="id_gpxantialias" 
-		 x="20" y="147" w="160" h="30"  
+		 x="20" y="147" w="200" h="30"  
 		 text="id_gpxantialias" alpha="255"
 		 border="1" word_wrap="0" fill_bk="0"
 		 hcenter="0"
@@ -112,7 +133,7 @@
 	</gui>
 	
 	<gui type="STATIC" name="id_gpxfilter" 
-		 x="20" y="209" w="160" h="30"  
+		 x="20" y="209" w="200" h="30"  
 		 text="id_gpxfilter" alpha="255"
 		 border="1" word_wrap="0" fill_bk="0"
 		 hcenter="0"
@@ -135,7 +156,7 @@
 	
 	
 	<gui type="STATIC" name="id_gpxparticles" 
-		 x="20" y="271" w="160" h="30"  
+		 x="20" y="271" w="200" h="30"  
 		 text="id_gpxparticles" alpha="255"
 		 border="1" word_wrap="0" fill_bk="0"
 		 hcenter="0"
@@ -156,7 +177,7 @@
 	</gui>
   
   <gui type="STATIC" filter="PC" name="id_gpxvsync" 
-		 x="20" y="333" w="160" h="30"  
+		 x="20" y="333" w="200" h="30"  
 		 text="id_gpxvsync" alpha="255"
 		 border="1" word_wrap="0" fill_bk="0"
 		 hcenter="0"
