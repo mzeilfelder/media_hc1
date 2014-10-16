@@ -41,7 +41,7 @@
 	</gui>
 	<gui type="STATIC" name="" 
 		x="220" y="63" w="200" h="12"  
-		text="irrgheist" alpha="255"
+		text="IRRGHEIST" alpha="255"
 		border="1" word_wrap="0" fill_bk="0"
 		hcenter="80"
 		font_size="12"
@@ -59,7 +59,7 @@
 	</gui>
 	<gui type="STATIC" name="" 
 		x="220" y="98" w="200" h="12"  
-		text="Philipp Lossack" alpha="255"
+		text="PHILIPP LOSSACK" alpha="255"
 		border="1" word_wrap="0" fill_bk="0"
 		hcenter="80"
 		font_size="12"
@@ -77,7 +77,7 @@
 	</gui>
 	<gui type="STATIC" name="" 
 		x="220" y="128" w="200" h="12"  
-		text="Michael Zeilfelder" alpha="255"
+		text="MICHAEL ZEILFELDER" alpha="255"
 		border="1" word_wrap="0" fill_bk="0"
 		hcenter="80"
 		font_size="12"
@@ -94,16 +94,35 @@
 		<color r="73" g="211" b="246" a="255"/>
 	</gui>
 	<gui type="STATIC" name="" 
-		x="220" y="170" w="200" h="12"  
-		text="Manolo Camp" alpha="255"
+		x="220" y="163" w="200" h="12"  
+		text="MANOLO CAMP" alpha="255"
 		border="1" word_wrap="0" fill_bk="0"
 		hcenter="80"
 		font_size="12"
 		font="ui/gun4fc.ttf">
 	</gui>
+	
+	<gui type="STATIC" filter="TOUCH" name="" 
+		x="220" y="180" w="200" h="24"  
+		text="Android programming support" alpha="255"
+		border="0" word_wrap="1" fill_bk="0"
+		hcenter="80"
+		font_size="10"
+		font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>
+	
+	<gui type="STATIC" filter="TOUCH" name="" 
+		x="220" y="193" w="200" h="12"  
+		text="PATRYK NADROWSKI" alpha="255"
+		border="1" word_wrap="0" fill_bk="0"
+		hcenter="80"
+		font_size="12"
+		font="ui/gun4fc.ttf">
+	</gui>	
 		
 	<gui type="STATIC" filter="TOUCH" name="" 
-		 x="220" y="200" w="200" h="12"  
+		 x="220" y="215" w="200" h="12"  
 		 text="powered by" alpha="255"
 		 border="1" word_wrap="0" fill_bk="0"
 		 hcenter="80"
@@ -113,7 +132,7 @@
 	</gui>
 		
 	<gui type="IMAGE" filter="TOUCH" name="" 
-		 x="224" y="220" w="192" h="55" 
+		 x="224" y="235" w="192" h="55" 
 		 texture="ui/irrlichtlogo.png">
 	</gui>
 		
