@@ -268,7 +268,7 @@
 	</gui>
 	
 	<gui type="STATIC" name="fps"
-		 x="570" y="33" w="100" h="14"
+		 x="480" y="5" w="60" h="14"
 		 text="id_hdfps" alpha="255"
 		 border="1" word_wrap="1" fill_bk="0"
 		 hcenter="0"
