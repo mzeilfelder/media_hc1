@@ -320,6 +320,12 @@ do not worry about your progress, choosing "next race" will always start your mo
 <string id="id_unlock_grats">congratulations !</string>
 <string id="id_unlock_info">you have unlocked a new h-craft !</string>
 
+<string id="id_nag_advert">Get rid of the advertisments
++
+support the irrgheist</string>
+<string id="id_nag_product">Product: </string>
+<string id="id_nag_price">Price: </string>
+<string id="id_nag_text1_touch">News, Infos and even the game source code at</string>
 <string id="id_nag_text1">take the challenge of beating all 36 races on the exciting championship</string>
 <string id="id_nag_text2">www.irrgheist.com</string>
 <string id="id_buy_button">buy</string>

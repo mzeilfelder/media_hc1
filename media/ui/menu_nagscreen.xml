@@ -12,22 +12,67 @@
 		<color type="3D_HIGH_LIGHT" a="0"/>
 	 </skin>
 
-	
 	<gui 
-		type="IMAGE" name="img_nag" 
+		type="IMAGE" filter="PC" name="img_nag" 
 		 x="0" y="0" w="640" h="480" 
 		 texture="ui/hc_nagscreen.jpg">
 	</gui>
+	<gui 
+		type="IMAGE" filter="TOUCH" name="img_nag" 
+		 x="0" y="0" w="640" h="480" 
+		 texture="ui/hc_nagscreen_mobile.jpg">
+	</gui>	
 	<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1">
 	</gui>
 	<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2">
 	</gui>	
+
+	<gui type="STATIC" filter="TOUCH" name="nag_advertise" 
+		 x="120" y="220" w="400" h="60"  
+		 text="id_nag_advert" alpha="255"
+		 border="1" word_wrap="1" fill_bk="1"
+		 hcenter="1"
+		 font_size="16"
+ 
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
 	
-	<gui type="STATIC" name="nag_text1" 
+	<gui type="BUTTON" filter="TOUCH" name="id_buy" 
+		 x="220" y="300" w="200" h="24"  
+		 text="id_buy_button" alpha="255"
+		 tex_focused="ui/ui_selector.png"
+		 tex_pressed="ui/ui_selector_pressed.png" 
+		 border="1" word_wrap="0" fill_bk="0"
+		 font_size="20"
+		 font="ui/gun4fc.ttf">
+	</gui>		
+	
+	<gui type="STATIC" filter="TOUCH" name="nag_price" 
+		 x="120" y="340" w="400" h="60"  
+		 text="id_nag_price" alpha="255"
+		 border="1" word_wrap="1" fill_bk="1"
+		 hcenter="1"
+		 font_size="14"
+ 		 font="ui/andika/Andika-R.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>	
+	
+	<gui type="STATIC" filter="TOUCH" name="nag_text1" 
+		 x="18" y="398" w="600" h="30"  
+		 text="id_nag_text1_touch" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="1"
+		 font_size="12"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>	
+	
+	<gui type="STATIC" filter="PC" name="nag_text1" 
 		 x="18" y="398" w="600" h="30"  
 		 text="id_nag_text1" alpha="255"
 		 border="1" word_wrap="0" fill_bk="0"
-		 hcenter="80"
+		 hcenter="1"
 		 font_size="12"
 		 font="ui/gun4fc.ttf">
 		 <color r="73" g="211" b="246" a="255"/>
@@ -37,13 +82,13 @@
 		 x="18" y="414" w="600" h="30"  
 		 text="id_nag_text2" alpha="255"
 		 border="1" word_wrap="0" fill_bk="0"
-		 hcenter="80"
+		 hcenter="1"
 		 font_size="15"
 		 font="ui/gun4fc.ttf">
 		 <color r="73" g="211" b="246" a="255"/>
 	</gui>
 		
-	<gui type="BUTTON" name="id_buy" 
+	<gui type="BUTTON" filter="PC" name="id_buy" 
 		 x="150" y="441" w="140" h="24"  
 		 text="id_buy_button" alpha="255"
 		tex_focused="ui/ui_selector.png"
@@ -53,7 +98,7 @@
 		 font="ui/gun4fc.ttf">
 	</gui>
 	
-	<gui type="BUTTON" name="id_quit" default_focus="1"
+	<gui type="BUTTON" filter="PC" name="id_quit" default_focus="1"
 		 x="350" y="441" w="140" h="24"  
 		 text="id_quit" alpha="255"
 		tex_focused="ui/ui_selector.png"
@@ -62,6 +107,16 @@
 		 font_size="15"
 		 font="ui/gun4fc.ttf">
 	</gui>
+	
+	<gui type="BUTTON" filter="TOUCH" name="id_quit" default_focus="1"
+		 x="250" y="441" w="140" h="24"  
+		 text="id_quit" alpha="255"
+		tex_focused="ui/ui_selector.png"
+		tex_pressed="ui/ui_selector_pressed.png" 
+		 border="1" word_wrap="0" fill_bk="0"
+		 font_size="15"
+		 font="ui/gun4fc.ttf">
+	</gui>	
 
 
 </dialog>

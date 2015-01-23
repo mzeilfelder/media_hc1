@@ -33,7 +33,8 @@
 		text="id_copyright_freetype" alpha="255"
 		border="1" word_wrap="1" fill_bk="0"
 		hcenter="80"
-		font="ui/gentium12px.xml">
+		font_size="10"
+		font="ui/andika/Andika-R.ttf">
 	</gui>
 		
 	<gui type="STATIC" name="" 
@@ -41,7 +42,8 @@
 		 text="id_copyright_jpg" alpha="255"
 		 border="1" word_wrap="1" fill_bk="0"
 		 hcenter="80"
-		 font="ui/gentium12px.xml">
+		 font_size="10"
+		 font="ui/andika/Andika-R.ttf">
 	</gui>
 
 	<!-- Thanks to the tremor license, this stuff no longer fits in the credits. So had to program a new dialog. 
@@ -53,7 +55,8 @@
 		text="id_copyright_tremor" alpha="255"
 		border="1" word_wrap="1" fill_bk="0"
 		hcenter="80"
-		font="ui/gentium12px.xml">
+		font_size="10"
+		font="ui/andika/Andika-R.ttf">
 	</gui>
 
 	<gui type="BUTTON" name="id_back" default_focus="1"
