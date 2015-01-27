@@ -321,6 +321,9 @@ do not worry about your progress, choosing "next race" will always start your mo
 <string id="id_nag_advert">Get rid of the advertisments
 +
 support the irrgheist</string>
+<string id="id_nag_thanks">
+
+Thank you for your support!</string>
 <string id="id_nag_product">Product: </string>
 <string id="id_nag_price">Price: </string>
 <string id="id_nag_text1_touch">News, Infos and even the game source code at</string>
