@@ -36,6 +36,7 @@
 <string id="id_setup">CONTrOLS SETUP</string>
 <string id="id_showreplay">SHOW rEPLAY</string>
 <string id="id_back">BACK</string>
+<string id="id_profile_level">LEVEL: </string>
 <string id="id_selectprofile">SELECT PrOFiLE</string>
 <string id="id_newprofile">NEW PrOFiLE</string>
 <string id="id_deleteprofile">DELETE PrOFiLE</string>

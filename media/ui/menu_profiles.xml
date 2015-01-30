@@ -57,8 +57,14 @@
 		 >
 	</gui>
 	
+	<gui type="STATIC" name="level" x="220" y="150" w="200" h="20"  
+		text="id_profile_level" alpha="255" fill_bk="0"
+		hcenter="1" font_size="12" font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</gui>	
+	
 	<gui type="BUTTON" name="id_newprofile" 
-		 x="240" y="170" w="160" h="30"  
+		 x="240" y="200" w="160" h="30"  
 		 text="id_newprofile" alpha="255"
 		   tex_focused="ui/ui_selector.png"
 		   tex_pressed="ui/ui_selector_pressed.png" 
@@ -68,7 +74,7 @@
 	 </gui>
 
 	 <gui type="BUTTON" name="id_deleteprofile" 
-		 x="240" y="205" w="160" h="30"  
+		 x="240" y="235" w="160" h="30"  
 		 text="id_deleteprofile" alpha="255"
 		   tex_focused="ui/ui_selector.png"
 		   tex_pressed="ui/ui_selector_pressed.png" 
