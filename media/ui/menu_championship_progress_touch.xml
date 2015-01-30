@@ -1,0 +1,373 @@
+<?xml version="1.0" ?>
+<dialog>
+
+<skin name="skin1" default_type="CLASSIC" font="ui/gun4fc.ttf">
+	<color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+    <color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+    <color type="3D_DARK_SHADOW" a="0"/>
+	<color type="3D_SHADOW" a="0"/>
+	<color type="3D_HIGH_LIGHT" a="0"/>
+</skin>
+
+<!-- background images -->
+<gui type="IMAGE" name="img1" x="0" y="0" w="640" h="480" texture="ui/hc_infoscreen.jpg"></gui>
+<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1"></gui>
+<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2"></gui>
+
+<gui type="STATIC" name="headline"x="10" y="14" w="300" h="20"  
+	text="H-CrAFT CHAMPiONSHiP" alpha="255"	fill_bk="0" 
+	hcenter="0"	font_size="18" font="ui/gun4fc.ttf">
+</gui>
+
+<!-- text for active profile -->
+<gui type="STATIC" name="act_profile" x="530" y="14" w="160" h="16"  
+	text="id_activeprofile" alpha="255"
+	hcenter="0" font_size="8" font="ui/gun4fc.ttf">
+	<color r="73" g="211" b="246" a="255"/>
+</gui>
+<gui type="STATIC" name="act_profile2" x="530" y="24" w="160" h="16"  
+	text="id_showactiveprofile" alpha="255"
+	hcenter="0" font_size="10" font="ui/gun4fc.ttf">
+	<color r="73" g="211" b="246" a="255"/>
+</gui>
+
+<!-- Styles on top instead of beside elements using them because this dialog is a little strange and has 3 tabs and styles can't be inside the tabs -->
+<style name="img_grid1">
+	<template type="IMAGE" w="200" h="50" texture="ui/hc_champ_grid1_touch.png"/>
+</style>
+<style name="img_grid2">
+	<template type="IMAGE" w="200" h="50" texture="ui/hc_champ_grid2_touch.png"/>
+</style>
+<style name="img_grid3">
+	<template type="IMAGE" w="200" h="50" texture="ui/hc_champ_grid3_touch.png"/>
+</style>
+<style name="required">
+	<template type="STATIC" w="210" h="15"  
+		alpha="255" fill_bk="0"	hcenter="0" 
+		font_size="10" font="ui/gun4fc.ttf">
+		<color r="73" g="211" b="246" a="255"/>
+	</template>
+</style>
+<style name="race_name">
+	<template type="STATIC" w="200" h="15"  
+		alpha="255"fill_bk="0" hcenter="0" 
+		font_size="12" font="ui/gun4fc.ttf">
+	</template>
+</style>
+<style name="race_result">
+	<template type="STATIC" w="200" h="15" 
+		text="0/3" alpha="255" fill_bk="0" hcenter="0" 
+		font_size="12" font="ui/gun4fc.ttf">
+	</template>
+</style>
+<style name="race_progression">
+	<template type="STATIC" w="80" h="15"  
+		text="id_quat_res_text" alpha="255" fill_bk="0"
+		hcenter="0" font_size="10" font="ui/gun4fc.ttf">
+	</template>
+</style>
+<style name="quat_result">
+	<template type="STATIC" w="40" h="15"  
+		text="30/39" alpha="255" fill_bk="0"
+		hcenter="1" font_size="11" font="ui/gun4fc.ttf">
+	</template>
+</style>
+<style name="btn_season">
+	<template type="BUTTON" w="160" h="24" alpha="255" push="1"
+		tex_norm="ui/ui_push_norm.png"
+		tex_focused="ui/ui_push_focused.png"
+		tex_pressed="ui/ui_push_pressed.png" 
+		tex_pressed_focused="ui/ui_selector_pressed.png" 
+		font_size="14" font="ui/gun4fc.ttf"/>
+</style>
+<style name="retry_button">
+	<template type="BUTTON" w="200" h="50"  
+		text="" alpha="255"
+		tex_norm="ui/hc_champ_button01_touch.png"
+		tex_focused="ui/hc_champ_button02_touch.png"
+		tex_pressed="ui/hc_champ_button03_touch.png"
+		font_size="14"font="ui/gun4fc.ttf">
+	</template>
+</style>
+<style name="season">
+	<template type="STATIC" x="0" y="0" w="640" h="480"  
+		alpha="1" fill_bk="0">
+	</template>
+</style>
+
+<!-- Somewhat lazy coder solution. All elements are copied 3 times and names adapted. Their parent is enabled/disabled per season in code.
+Would have been  nicer to code that part completely, but this dialog looked very different once. Re-coding it in the masterphase is more risk than just 
+adapting a few lines of xml. -->
+<gui style="season" name="season1">
+	<!-- Grids (background images for each race) -->		
+	<gui style="img_grid1" x="10" y="90"/>
+	<gui style="img_grid1" x="220" y="90"/>
+	<gui style="img_grid1" x="430" y="90"/>
+	<gui style="img_grid1" x="10" y="180"/>
+	<gui style="img_grid1" x="220" y="180"/>
+	<gui style="img_grid1" x="430" y="180"/>
+	<gui style="img_grid1" x="10" y="270"/>
+	<gui style="img_grid1" x="220" y="270"/>
+	<gui style="img_grid1" x="430" y="270"/>
+	<gui style="img_grid1" x="10" y="360"/>
+	<gui style="img_grid1" x="220" y="360"/>
+	<gui style="img_grid1" x="430" y="360"/>
+		
+
+	<!-- S0x Q0x Level required: -->
+	<gui style="required" name="required1" x="15" y="76" text="id_s1q1req"/>
+	<gui style="required" name="required2" x="15" y="166" text="id_s1q2req"/>
+	<gui style="required" name="required3" x="15" y="256" text="id_s1q3req"/>
+	<gui style="required" name="required4" x="15" y="346" text="id_s1q4req"/>
+			
+	<!-- race names -->		
+	<gui style="race_name" name="race_name1" x="17" y="98" text="id_1ch1"/>
+	<gui style="race_name" name="race_name2" x="227" y="98" text="id_1ch2"/>
+	<gui style="race_name" name="race_name3" x="437" y="98" text="id_1ch3"/>
+
+	<gui style="race_name" name="race_name4" x="17" y="188" text="id_1ch4"/>
+	<gui style="race_name" name="race_name5" x="227" y="188" text="id_1ch5"/>
+	<gui style="race_name" name="race_name6" x="437" y="188" text="id_1ch6"/>
+
+	<gui style="race_name" name="race_name7" x="17" y="278"	text="id_1ch7"/>
+	<gui style="race_name" name="race_name8" x="227" y="278" text="id_1ch8"/>
+	<gui style="race_name" name="race_name9" x="437" y="278" text="id_1ch9"/>
+
+	<gui style="race_name" name="race_name10" x="17" y="368" text="id_1ch10"/>
+	<gui style="race_name" name="race_name11" x="227" y="368" text="id_1ch11"/>
+	<gui style="race_name" name="race_name12" x="437" y="368" text="id_1ch12"/>
+
+	<!-- race results -->	
+	<gui style="race_result" name="race_res1" x="17" y="115"/>
+	<gui style="race_result" name="race_res2" x="227" y="115"/>
+	<gui style="race_result" name="race_res3" x="437" y="115"/>
+
+	<gui style="race_result" name="race_res4" x="17" y="205"/>
+	<gui style="race_result" name="race_res5" x="227" y="205"/>
+	<gui style="race_result" name="race_res6" x="437" y="205"/>
+
+	<gui style="race_result" name="race_res7" x="17" y="295"/>
+	<gui style="race_result" name="race_res8" x="227" y="295"/>
+	<gui style="race_result" name="race_res9" x="437" y="295"/>
+
+	<gui style="race_result" name="race_res10" x="17" y="385"/>
+	<gui style="race_result" name="race_res11" x="227" y="385"/>
+	<gui style="race_result" name="race_res12" x="437" y="385"/>
+
+	<!-- progression -->		
+	<gui style="race_progression" name="restext1" x="500" y="145"/>
+	<gui style="quat_result" name="res_quat1" x="585" y="145"/>
+	<gui style="race_progression" name="restext2" x="500" y="235"/>
+	<gui style="quat_result" name="res_quat2" x="585" y="235"/>
+	<gui style="race_progression" name="restext3" x="500" y="325"/>
+	<gui style="quat_result" name="res_quat3" x="585" y="325"/>
+	<gui style="race_progression" name="restext4" x="500" y="415"/>
+	<gui style="quat_result" name="res_quat4" x="585" y="415"/>
+
+	<!-- retry buttons (ensure they are below other gui-element as they can't be clicked if another element is above them) -->
+	<gui style="retry_button" name="retry1" x="10" y="90"/>
+	<gui style="retry_button" name="retry2" x="220" y="90"/>
+	<gui style="retry_button" name="retry3" x="430" y="90"/>
+	<gui style="retry_button" name="retry4" x="10" y="180"/>
+	<gui style="retry_button" name="retry5" x="220" y="180"/>
+	<gui style="retry_button" name="retry6" x="430" y="180"/>
+	<gui style="retry_button" name="retry7" x="10" y="270"/>
+	<gui style="retry_button" name="retry8" x="220" y="270"/>
+	<gui style="retry_button" name="retry9" x="430" y="270"/>
+	<gui style="retry_button" name="retry10" x="10" y="360"/>
+	<gui style="retry_button" name="retry11" x="220" y="360"/>
+	<gui style="retry_button" name="retry12" x="430" y="360"/>	
+</gui>	
+
+<gui style="season" name="season2">
+	<!-- Grids (background images for each race) -->		
+	<gui style="img_grid2" x="10" y="90"/>
+	<gui style="img_grid2" x="220" y="90"/>
+	<gui style="img_grid2" x="430" y="90"/>
+	<gui style="img_grid2" x="10" y="180"/>
+	<gui style="img_grid2" x="220" y="180"/>
+	<gui style="img_grid2" x="430" y="180"/>
+	<gui style="img_grid2" x="10" y="270"/>
+	<gui style="img_grid2" x="220" y="270"/>
+	<gui style="img_grid2" x="430" y="270"/>
+	<gui style="img_grid2" x="10" y="360"/>
+	<gui style="img_grid2" x="220" y="360"/>
+	<gui style="img_grid2" x="430" y="360"/>
+		
+
+	<!-- S0x Q0x Level required: -->
+	<gui style="required" name="required5" x="15" y="76" text="id_s2q1req"/>
+	<gui style="required" name="required6" x="15" y="166" text="id_s2q2req"/>
+	<gui style="required" name="required7" x="15" y="256" text="id_s2q3req"/>
+	<gui style="required" name="required8" x="15" y="346" text="id_s2q4req"/>
+			
+	<!-- race names -->		
+	<gui style="race_name" name="race_name13" x="17" y="98" text="id_2ch1"/>
+	<gui style="race_name" name="race_name14" x="227" y="98" text="id_2ch2"/>
+	<gui style="race_name" name="race_name15" x="437" y="98" text="id_2ch3"/>
+
+	<gui style="race_name" name="race_name16" x="17" y="188" text="id_2ch4"/>
+	<gui style="race_name" name="race_name17" x="227" y="188" text="id_2ch5"/>
+	<gui style="race_name" name="race_name18" x="437" y="188" text="id_2ch6"/>
+
+	<gui style="race_name" name="race_name19" x="17" y="278"	text="id_2ch7"/>
+	<gui style="race_name" name="race_name20" x="227" y="278" text="id_2ch8"/>
+	<gui style="race_name" name="race_name21" x="437" y="278" text="id_2ch9"/>
+
+	<gui style="race_name" name="race_name22" x="17" y="368" text="id_2ch10"/>
+	<gui style="race_name" name="race_name23" x="227" y="368" text="id_2ch11"/>
+	<gui style="race_name" name="race_name24" x="437" y="368" text="id_2ch12"/>
+
+	<!-- race results -->	
+	<gui style="race_result" name="race_res13" x="17" y="115"/>
+	<gui style="race_result" name="race_res14" x="227" y="115"/>
+	<gui style="race_result" name="race_res15" x="437" y="115"/>
+
+	<gui style="race_result" name="race_res16" x="17" y="205"/>
+	<gui style="race_result" name="race_res17" x="227" y="205"/>
+	<gui style="race_result" name="race_res18" x="437" y="205"/>
+
+	<gui style="race_result" name="race_res19" x="17" y="295"/>
+	<gui style="race_result" name="race_res20" x="227" y="295"/>
+	<gui style="race_result" name="race_res21" x="437" y="295"/>
+
+	<gui style="race_result" name="race_res22" x="17" y="385"/>
+	<gui style="race_result" name="race_res23" x="227" y="385"/>
+	<gui style="race_result" name="race_res24" x="437" y="385"/>
+
+	<!-- progression -->		
+	<gui style="race_progression" name="restext5" x="500" y="145"/>
+	<gui style="quat_result" name="res_quat5" x="585" y="145"/>
+	<gui style="race_progression" name="restext6" x="500" y="235"/>
+	<gui style="quat_result" name="res_quat6" x="585" y="235"/>
+	<gui style="race_progression" name="restext7" x="500" y="325"/>
+	<gui style="quat_result" name="res_quat7" x="585" y="325"/>
+	<gui style="race_progression" name="restext8" x="500" y="415"/>
+	<gui style="quat_result" name="res_quat8" x="585" y="415"/>
+
+	<!-- retry buttons (ensure they are below other gui-element as they can't be clicked if another element is above them) -->
+	<gui style="retry_button" name="retry13" x="10" y="90"/>
+	<gui style="retry_button" name="retry14" x="220" y="90"/>
+	<gui style="retry_button" name="retry15" x="430" y="90"/>
+	<gui style="retry_button" name="retry16" x="10" y="180"/>
+	<gui style="retry_button" name="retry17" x="220" y="180"/>
+	<gui style="retry_button" name="retry18" x="430" y="180"/>
+	<gui style="retry_button" name="retry19" x="10" y="270"/>
+	<gui style="retry_button" name="retry20" x="220" y="270"/>
+	<gui style="retry_button" name="retry21" x="430" y="270"/>
+	<gui style="retry_button" name="retry22" x="10" y="360"/>
+	<gui style="retry_button" name="retry23" x="220" y="360"/>
+	<gui style="retry_button" name="retry24" x="430" y="360"/>	
+</gui>	
+
+<gui style="season" name="season3">
+	<!-- Grids (background images for each race) -->		
+	<gui style="img_grid3" x="10" y="90"/>
+	<gui style="img_grid3" x="220" y="90"/>
+	<gui style="img_grid3" x="430" y="90"/>
+	<gui style="img_grid3" x="10" y="180"/>
+	<gui style="img_grid3" x="220" y="180"/>
+	<gui style="img_grid3" x="430" y="180"/>
+	<gui style="img_grid3" x="10" y="270"/>
+	<gui style="img_grid3" x="220" y="270"/>
+	<gui style="img_grid3" x="430" y="270"/>
+	<gui style="img_grid3" x="10" y="360"/>
+	<gui style="img_grid3" x="220" y="360"/>
+	<gui style="img_grid3" x="430" y="360"/>
+		
+
+	<!-- S0x Q0x Level required: -->
+	<gui style="required" name="required9" x="15" y="76" text="id_s3q1req"/>
+	<gui style="required" name="required10" x="15" y="166" text="id_s3q2req"/>
+	<gui style="required" name="required11" x="15" y="256" text="id_s3q3req"/>
+	<gui style="required" name="required12" x="15" y="346" text="id_s3q4req"/>
+			
+	<!-- race names -->		
+	<gui style="race_name" name="race_name25" x="17" y="98" text="id_3ch1"/>
+	<gui style="race_name" name="race_name26" x="227" y="98" text="id_3ch2"/>
+	<gui style="race_name" name="race_name27" x="437" y="98" text="id_3ch3"/>
+
+	<gui style="race_name" name="race_name28" x="17" y="188" text="id_3ch4"/>
+	<gui style="race_name" name="race_name29" x="227" y="188" text="id_3ch5"/>
+	<gui style="race_name" name="race_name30" x="437" y="188" text="id_3ch6"/>
+
+	<gui style="race_name" name="race_name31" x="17" y="278"	text="id_3ch7"/>
+	<gui style="race_name" name="race_name32" x="227" y="278" text="id_3ch8"/>
+	<gui style="race_name" name="race_name33" x="437" y="278" text="id_3ch9"/>
+
+	<gui style="race_name" name="race_name34" x="17" y="368" text="id_3ch10"/>
+	<gui style="race_name" name="race_name35" x="227" y="368" text="id_3ch11"/>
+	<gui style="race_name" name="race_name36" x="437" y="368" text="id_3ch12"/>
+
+	<!-- race results -->	
+	<gui style="race_result" name="race_res25" x="17" y="115"/>
+	<gui style="race_result" name="race_res26" x="227" y="115"/>
+	<gui style="race_result" name="race_res27" x="437" y="115"/>
+
+	<gui style="race_result" name="race_res28" x="17" y="205"/>
+	<gui style="race_result" name="race_res29" x="227" y="205"/>
+	<gui style="race_result" name="race_res30" x="437" y="205"/>
+
+	<gui style="race_result" name="race_res31" x="17" y="295"/>
+	<gui style="race_result" name="race_res32" x="227" y="295"/>
+	<gui style="race_result" name="race_res33" x="437" y="295"/>
+
+	<gui style="race_result" name="race_res34" x="17" y="385"/>
+	<gui style="race_result" name="race_res35" x="227" y="385"/>
+	<gui style="race_result" name="race_res36" x="437" y="385"/>
+
+	<!-- progression -->		
+	<gui style="race_progression" name="restext9" x="500" y="145"/>
+	<gui style="quat_result" name="res_quat9" x="585" y="145"/>
+	<gui style="race_progression" name="restext10" x="500" y="235"/>
+	<gui style="quat_result" name="res_quat10" x="585" y="235"/>
+	<gui style="race_progression" name="restext11" x="500" y="325"/>
+	<gui style="quat_result" name="res_quat11" x="585" y="325"/>
+	<gui style="race_progression" name="restext12" x="500" y="415"/>
+	<gui style="quat_result" name="res_quat12" x="585" y="415"/>
+
+	<!-- retry buttons (ensure they are below other gui-element as they can't be clicked if another element is above them) -->
+	<gui style="retry_button" name="retry25" x="10" y="90"/>
+	<gui style="retry_button" name="retry26" x="220" y="90"/>
+	<gui style="retry_button" name="retry27" x="430" y="90"/>
+	<gui style="retry_button" name="retry28" x="10" y="180"/>
+	<gui style="retry_button" name="retry29" x="220" y="180"/>
+	<gui style="retry_button" name="retry30" x="430" y="180"/>
+	<gui style="retry_button" name="retry31" x="10" y="270"/>
+	<gui style="retry_button" name="retry32" x="220" y="270"/>
+	<gui style="retry_button" name="retry33" x="430" y="270"/>
+	<gui style="retry_button" name="retry34" x="10" y="360"/>
+	<gui style="retry_button" name="retry35" x="220" y="360"/>
+	<gui style="retry_button" name="retry36" x="430" y="360"/>	
+</gui>	
+
+<!-- buttons at bottom-->
+<gui type="BUTTON" name="id_quit" x="400" y="440" w="100" h="22"  
+	text="id_mainmenu" alpha="255"
+	tex_focused="ui/ui_selector.png"
+	tex_pressed="ui/ui_selector_pressed.png" 
+	font_size="14" font="ui/gun4fc.ttf">
+</gui>
+
+<gui type="BUTTON" name="id_continue" default_focus="1" x="500" y="440" w="120" h="22"  
+	text="id_hdnextrace" alpha="255"
+	tex_focused="ui/ui_selector.png"
+	tex_pressed="ui/ui_selector_pressed.png" 
+	font_size="14" font="ui/gun4fc.ttf">
+</gui>	
+
+<!-- season01 - season03 buttons and background image (at the end to put it above season statics and still in good button-tab order -->
+<gui type="IMAGE" x="10" y="50" w="480" h="22" texture="ui/hc_champ_tab.png"></gui>
+<gui style="btn_season" name="1ch_title" x="10" y="49" text="id_1ch_title"/>
+<gui style="btn_season" name="2ch_title" x="170" y="49" text="id_2ch_title"/>
+<gui style="btn_season" name="3ch_title" x="330" y="49"text="id_3ch_title"/>
+
+<!-- total level -->		
+<gui type="STATIC" name="ch_totalpoints" x="10" y="440" w="260" h="18"  
+	text="id_ch_totalpoints" alpha="255" fill_bk="0"
+	hcenter="0" font_size="16" font="ui/gun4fc.ttf">
+	<color r="73" g="211" b="246" a="255"/>
+</gui>
+
+
+</dialog>
