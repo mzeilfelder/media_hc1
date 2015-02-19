@@ -9,8 +9,8 @@ Note that the media is *not* under a free license. You may not redistribute it o
 
 ### How do I get set up? ###
 
-Put it in a folder besides the hcraft1 project folder. That folder must be called media_hc1.
-See the hcraft1 documentation for the rest.
+Put it in a folder besides the H-Craft project folder. This repository folder must be called media_hc1 as that name is used in the build-scripts of H-Craft.
+See the H-Craft Championship documentation for the rest.
 
 ### Who do I talk to? ###
 
