@@ -3,9 +3,9 @@
 ### What is this repository for? ###
 
 This repository contains the media for the game H-Craft Championship.
-You may use it as test-media while working with the H-Craft Championship sources.
+The idea is that you may use it as test-media while working with the H-Craft Championship sources.
 See http://www.irrgheist.com/hcraftsource.htm for the sources.
-Note that the media is *not* under a free license. You may not redistribute it or create any derivate work. 
+Note that the media is *not* under a free license. You may not redistribute it or create any derivate work.  Check the media_license.txt in the root folder for more details.
 
 ### How do I get set up? ###
 
