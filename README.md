@@ -1,29 +1,17 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+This repository contains the media for the game H-Craft Championship.
+You may use it as test-media while working with the H-Craft Championship sources.
+See http://www.irrgheist.com/hcraftsource.htm for the sources.
+Note that the media is *not* under a free license. You may not redistribute it or create any derivate work. 
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
+Put it in a folder besides the hcraft1 project folder. That folder must be called media_hc1.
+See the hcraft1 documentation for the rest.
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+Contact: zeilfelder@irrgheist.com
