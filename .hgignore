@@ -1,3 +1,6 @@
 syntax: glob
 .directory
 media/provider.xml
+
+# Those are in the code repository, but for Android a soft-link is generated in here sometimes.
+media/shaders
