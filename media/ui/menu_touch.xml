@@ -111,7 +111,7 @@
 			 >
 		</gui>
 		
-		<gui type="BUTTON" name="btn_back" default_focus="1" x="240" y="438" w="160" h="30" text="id_back" alpha="255" tex_focused="ui/ui_selector.png" tex_pressed="ui/ui_selector_pressed.png" border="1" word_wrap="0" fill_bk="0" font_size="14" font="ui/gun4fc.ttf">
+		<gui type="BUTTON" name="btn_back" default_focus="1" x="240" y="438" w="160" h="30" text="id_back" alpha="255" tex_focused="ui/ui_selector.png" tex_pressed="ui/ui_selector_pressed.png" font_size="14" font="ui/gun4fc.ttf">
 		</gui>
 	</gui>
 
@@ -141,7 +141,6 @@
 			 text="id_left" alpha="255"
 			 tex_norm="ui/ui_touch_left_norm.png"
 			 tex_pressed="ui/ui_touch_left_pressed.png" 
-			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="18"
 			 font="ui/gun4fc.ttf">
 		</gui>
@@ -150,7 +149,6 @@
 			 text="id_right" alpha="255"
 			 tex_norm="ui/ui_touch_right_norm.png"
 			 tex_pressed="ui/ui_touch_right_pressed.png" 
-			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="18"
 			 font="ui/gun4fc.ttf">
 		</gui> 
@@ -160,7 +158,6 @@
 			 text="id_up" alpha="255"
 			 tex_norm="ui/ui_touch_up_norm.png"
 			 tex_pressed="ui/ui_touch_up_pressed.png" 
-			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="18"
 			 font="ui/gun4fc.ttf">
 		</gui>
@@ -169,7 +166,6 @@
 			 text="id_down" alpha="255"
 			 tex_norm="ui/ui_touch_down_norm.png"
 			 tex_pressed="ui/ui_touch_down_pressed.png" 
-			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="18"
 			 font="ui/gun4fc.ttf">
 		</gui>
@@ -195,7 +191,6 @@
 			 text="id_up" alpha="255"
 			 tex_norm="ui/ui_touch_up_norm.png"
 			 tex_pressed="ui/ui_touch_up_pressed.png" 
-			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="18"
 			 font="ui/gun4fc.ttf">
 		</gui>
@@ -204,7 +199,6 @@
 			 text="id_down" alpha="255"
 			 tex_norm="ui/ui_touch_down_norm.png"
 			 tex_pressed="ui/ui_touch_down_pressed.png" 
-			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="18"
 			 font="ui/gun4fc.ttf">
 		</gui>
@@ -214,7 +208,6 @@
 			 text="id_left" alpha="255"
 			 tex_norm="ui/ui_touch_left_norm.png"
 			 tex_pressed="ui/ui_touch_left_pressed.png" 
-			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="18"
 			 font="ui/gun4fc.ttf">
 		</gui>
@@ -223,7 +216,6 @@
 			 text="id_right" alpha="255"
 			 tex_norm="ui/ui_touch_right_norm.png"
 			 tex_pressed="ui/ui_touch_right_pressed.png" 
-			 border="1" word_wrap="0" fill_bk="0"
 			 font_size="18"
 			 font="ui/gun4fc.ttf">
 		</gui> 
@@ -242,7 +234,6 @@
 		 tex_norm="ui/ui_selector.png"
 		 tex_pressed="ui/ui_selector_pressed.png"
 		 tex_disabled="ui/ui_selector_disabled.png"
-		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"
 		 font="ui/gun4fc.ttf">
 	</gui>
@@ -258,7 +249,6 @@
 		 tex_norm="ui/ui_selector.png"
 		 tex_pressed="ui/ui_selector_pressed.png"
 		 tex_disabled="ui/ui_selector_disabled.png"
-		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="18"
 		 font="ui/gun4fc.ttf">
 	</gui>

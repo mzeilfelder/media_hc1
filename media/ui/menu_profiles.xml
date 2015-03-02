@@ -68,7 +68,6 @@
 		 text="id_newprofile" alpha="255"
 		   tex_focused="ui/ui_selector.png"
 		   tex_pressed="ui/ui_selector_pressed.png" 
-		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
 	 </gui>
@@ -78,7 +77,6 @@
 		 text="id_deleteprofile" alpha="255"
 		   tex_focused="ui/ui_selector.png"
 		   tex_pressed="ui/ui_selector_pressed.png" 
-		 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
 	 </gui>
@@ -88,7 +86,6 @@
 		 text="id_accept" alpha="255"
 		   tex_focused="ui/ui_selector.png"
 		   tex_pressed="ui/ui_selector_pressed.png" 
-		  border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
 	</gui>

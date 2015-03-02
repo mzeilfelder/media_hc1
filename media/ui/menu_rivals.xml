@@ -71,10 +71,10 @@ if random # is selected, only tracks from the filtered class are used as random 
 	<gui type="TEXTSLIDER" name="player4" tex_focused="ui/ui_selector_slider.png" btn_aspect_ratio="1.0" x="220" y="320" w="180" h="30" alpha="255" font_size="12" font="ui/gun4fc.ttf" left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png">
 	</gui>
 
-	<gui type="BUTTON" name="id_mainmenu" x="400" y="438" w="100" h="30" text="id_mainmenu" alpha="255" tex_focused="ui/ui_selector.png" tex_pressed="ui/ui_selector_pressed.png" border="1" word_wrap="0" fill_bk="0" font_size="14" font="ui/gun4fc.ttf">
+	<gui type="BUTTON" name="id_mainmenu" x="400" y="438" w="100" h="30" text="id_mainmenu" alpha="255" tex_focused="ui/ui_selector.png" tex_pressed="ui/ui_selector_pressed.png" font_size="14" font="ui/gun4fc.ttf">
 	</gui>
 
-	<gui type="BUTTON" name="id_start" default_focus="1" x="500" y="438" w="100" h="30" text="id_start" alpha="255" tex_focused="ui/ui_selector.png" tex_pressed="ui/ui_selector_pressed.png" border="1" word_wrap="0" fill_bk="0" font_size="14" font="ui/gun4fc.ttf">
+	<gui type="BUTTON" name="id_start" default_focus="1" x="500" y="438" w="100" h="30" text="id_start" alpha="255" tex_focused="ui/ui_selector.png" tex_pressed="ui/ui_selector_pressed.png" font_size="14" font="ui/gun4fc.ttf">
 	</gui>
 	
 </dialog>

@@ -48,7 +48,6 @@
 			 x="250" y="62" w="140" h="18"  
 			 text="STICK1 X-AXIS" alpha="255"
 			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
-			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
 		 <color r="73" g="211" b="246" a="255"/>
@@ -69,7 +68,6 @@
 			 x="250" y="97" w="140" h="18"  
 			 text="STICK1 X-AXIS" alpha="255"
 			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
-			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
 		 <color r="73" g="211" b="246" a="255"/>
@@ -90,7 +88,6 @@
 			 x="250" y="132" w="140" h="18"  
 			 text="STICK1 X-AXIS" alpha="255"
 			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
-			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
 		 <color r="73" g="211" b="246" a="255"/>
@@ -110,7 +107,6 @@
 			 x="250" y="167" w="140" h="18"  
 			 text="a" alpha="255"
 			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
-			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
 		</gui>
@@ -129,7 +125,6 @@
 			 x="250" y="202" w="140" h="18"  
 			 text="d" alpha="255"
 			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
-			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
 		</gui>
@@ -148,7 +143,6 @@
 			 x="250" y="237" w="140" h="18"  
 			 text="w" alpha="255"
 			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
-			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
 		</gui>
@@ -167,7 +161,6 @@
 			 x="250" y="272" w="140" h="18"  
 			 text="s" alpha="255"
 			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
-			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
 		</gui>
@@ -187,7 +180,6 @@
 			 x="250" y="307" w="140" h="18"  
 			 text="p" alpha="255"
 			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
-			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
 		</gui>
@@ -206,7 +198,6 @@
 			 x="250" y="342" w="140" h="18"  
 			 text="c" alpha="255"
 			 tex_norm="ui/ui_selector.png" tex_focused="ui/ui_selector_norm.png" tex_pressed="ui/ui_selector_pressed.png"
-			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="10"
 		 font="ui/gun4fc.ttf">
 		</gui>
@@ -218,7 +209,6 @@
 			 text="id_accept" alpha="255"
                    tex_focused="ui/ui_selector.png"
 				   tex_pressed="ui/ui_selector_pressed.png" 
-			 border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
 		</gui>
@@ -228,7 +218,6 @@
 			 text="id_cancel" alpha="255"
                    tex_focused="ui/ui_selector.png"
 				   tex_pressed="ui/ui_selector_pressed.png" 
-			  border="1" word_wrap="0" fill_bk="0"
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
 		</gui>
