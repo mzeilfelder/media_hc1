@@ -16,16 +16,12 @@
 
 
 
-	<gui type="IMAGE" name="img1" 
-		 x="0" y="0" w="640" h="480" 
-		 texture="ui/mainmenu01.jpg">
+	<gui type="IMAGE" name="img1" x="0" y="0" w="640" h="480" texture="ui/mainmenu01.jpg">
 	</gui>
 	<gui type="IMAGE" name="img1left" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="1">
 	</gui>
 	<gui type="IMAGE" name="img1right" x="0" y="0" w="640" h="480" texture="ui/hc_triplescreen01.jpg" triplehead="2">
 	</gui>	
-
-
 
 
 	<gui type="STATIC" name="Title" 
@@ -36,7 +32,29 @@
 		 font_size="14"
 		 font="ui/gun4fc.ttf">
 	</gui>
+	
+	<gui type="STATIC" filter="TOUCH" name="" 
+		 x="240" y="60" w="160" h="30"  
+		 text="id_select_kb" alpha="255"
+		 border="1" word_wrap="0" fill_bk="0"
+		 hcenter="80"
+		 font_size="14"
+		 font="ui/gun4fc.ttf">
+		 <color r="73" g="211" b="246" a="255"/>
+	</gui>
 
+	<gui type="TEXTSLIDER" filter="TOUCH" name="slider_kb"
+		 tex_focused="ui/ui_selector_slider.png"
+		 btn_aspect_ratio = "1.0"
+		 x="220" y="85" w="200" h="30"
+		 alpha="255"
+		 font_size="12"
+		 font="ui/gun4fc.ttf"
+		 wrap="1"
+		 left_tex_norm="ui/ui_Bleft.png" left_tex_pressed="ui/ui_Bleft_A.png" right_tex_norm="ui/ui_Bright.png" right_tex_pressed="ui/ui_Bright_A.png"
+		 >
+	</gui>	
+	
 	<gui type="STATIC" name="id_entername" 
 		 x="220" y="130" w="200" h="80"  
 		 text="id_entername" alpha="255"

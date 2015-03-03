@@ -41,6 +41,9 @@
 <string id="id_newprofile">NEW PrOFiLE</string>
 <string id="id_deleteprofile">DELETE PrOFiLE</string>
 <string id="id_entername">PLEASE ENTEr A PrOFiLENAME</string>
+<string id="id_select_kb">SELECT KEYBOArD</string>
+<string id="id_kb_system">SYSTEM</string>
+<string id="id_kb_alternative">ALTErNATiVE</string>
 <string id="id_trackdiff">TrACK FiLTEr</string>
 <string id="id_track">TrACK</string>
 <string id="id_laps">LAPS</string>

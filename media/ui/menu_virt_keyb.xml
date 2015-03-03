@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<dialog>
+
+	<skin name="skin1" 
+		   default_type="CLASSIC" 
+		 font="ui/gun4fc.ttf"
+		   >
+		<color type="BUTTON_TEXT" r="255" g="255" b="255" a="255"/>
+		<color type="3D_FACE" r="255" g="255" b="255" a="0"/>
+		<color type="3D_DARK_SHADOW" a="0"/>
+		<color type="3D_LIGHT" a="0"/>
+		<color type="WINDOW" a="0"/>
+		 <color type="3D_SHADOW" a="0"/>
+		 <color type="3D_HIGH_LIGHT" a="0"/>
+	 </skin>
+
+	<style name="btn_key">
+		<template type="BUTTON" w="64" h="56" alpha="255"
+			tex_norm="ui/key_bk.png"
+			font_size="24" font="ui/gun4fc.ttf"/>
+	</style>	
+	<style name="btn_num_key">
+		<template type="BUTTON" w="32" h="56" alpha="255"
+			tex_norm="ui/key_bk.png"
+			font_size="24" font="ui/gun4fc.ttf"/>
+	</style>
+	<style name="btn_cursor">
+		<template type="BUTTON" w="32" h="56" alpha="255"
+			font_size="24" font="ui/gun4fc.ttf"/>
+	</style>	
+	<gui type="IMAGE" filter="TOUCH" name="keyboard" x="0" y="256" w="640" h="240" texture="ui/keyboard_bk.png">
+		<!-- Not that the texts here are just for dialog design, the real one is set by code --> 
+		<gui style="btn_num_key" name="key_0" x="0" y="3" text="!"/>
+		<gui style="btn_num_key" name="key_1" x="32" y="3" text="?"/>
+		<gui style="btn_num_key" name="key_2" x="64" y="3" text="-"/>
+		<gui style="btn_num_key" name="key_3" x="96" y="3" text="1"/>
+		<gui style="btn_num_key" name="key_4" x="128" y="3" text="2"/>
+		<gui style="btn_num_key" name="key_5" x="160" y="3" text="3"/>
+		<gui style="btn_num_key" name="key_6" x="192" y="3" text="4"/>
+		<gui style="btn_num_key" name="key_7" x="224" y="3" text="5"/>
+
+		<gui type="BUTTON" w="128" h="56" x="256" y="3" text=" "
+			alpha="255" tex_norm="ui/key_bk.png"
+			font_size="24" font="ui/gun4fc.ttf" name="key_8"/>
+	
+		<gui style="btn_num_key" name="key_9" x="384" y="3" text="6"/>
+		<gui style="btn_num_key" name="key_10" x="416" y="3" text="7"/>
+		<gui style="btn_num_key" name="key_11" x="448" y="3" text="8"/>
+		<gui style="btn_num_key" name="key_12" x="480" y="3" text="9"/>
+		<gui style="btn_num_key" name="key_13" x="512" y="3" text="0"/>
+		
+		<gui type="BUTTON" w="96" h="56" x="544" y="3" text="BACK"
+			alpha="255" tex_norm="ui/key_bk.png"
+			font_size="24" font="ui/gun4fc.ttf" name="key_14"/>
+	
+		<gui style="btn_key" name="key_15" x="0" y="58" text="Q"/>
+		<gui style="btn_key" name="key_16" x="64" y="58" text="W"/>
+		<gui style="btn_key" name="key_17" x="128" y="58" text="E"/>
+		<gui style="btn_key" name="key_18" x="192" y="58" text="R"/>
+		<gui style="btn_key" name="key_19" x="256" y="58" text="T"/>
+		<gui style="btn_key" name="key_20" x="320" y="58" text="Y"/>
+		<gui style="btn_key" name="key_21" x="384" y="58" text="U"/>
+		<gui style="btn_key" name="key_22" x="448" y="58" text="I"/>
+		<gui style="btn_key" name="key_23" x="512" y="58" text="O"/>
+		<gui style="btn_key" name="key_24" x="576" y="58" text="P"/>
+		
+		<gui style="btn_num_key" name="key_25" x="0" y="113" text="@"/>
+		<gui style="btn_key" name="key_26" x="32" y="113" text="A"/>
+		<gui style="btn_key" name="key_27" x="96" y="113" text="S"/>
+		<gui style="btn_key" name="key_28" x="160" y="113" text="D"/>
+		<gui style="btn_key" name="key_29" x="224" y="113" text="F"/>
+		<gui style="btn_key" name="key_30" x="288" y="113" text="G"/>
+		<gui style="btn_key" name="key_31" x="352" y="113" text="H"/>
+		<gui style="btn_key" name="key_32" x="416" y="113" text="J"/>
+		<gui style="btn_key" name="key_33" x="480" y="113" text="K"/>
+		<gui style="btn_key" name="key_34" x="544" y="113" text="L"/>
+		<gui style="btn_num_key" name="key_35" x="608" y="113" text="#"/>
+
+		<gui style="btn_cursor" name="key_36" x="0" y="168" tex_norm="ui/key_bk_cursor_left.png"/>
+		<gui style="btn_cursor" name="key_37" x="32" y="168" tex_norm="ui/key_bk_cursor_right.png"/>
+		<gui style="btn_key" name="key_38" x="64" y="168" text="Z"/>
+		<gui style="btn_key" name="key_39" x="128" y="168" text="X"/>
+		<gui style="btn_key" name="key_40" x="192" y="168" text="C"/>
+		<gui style="btn_key" name="key_41" x="256" y="168" text="V"/>
+		<gui style="btn_key" name="key_42" x="320" y="168" text="B"/>
+		<gui style="btn_key" name="key_43" x="384" y="168" text="N"/>
+		<gui style="btn_key" name="key_44" x="448" y="168" text="M"/>
+		
+		<gui type="BUTTON" w="128" h="56" x="512" y="168" text="enter"
+			alpha="255" tex_norm="ui/key_bk.png"
+			font_size="24" font="ui/gun4fc.ttf" name="key_45"/>
+		
+	</gui>
+
+</dialog>
