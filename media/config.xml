@@ -76,7 +76,7 @@
     </hovers>
     <dlgMain caption="H-Craft Championship" />
     <i18n strings="ui/strings_us.xml" />
-	<etc tutorial_done="0" disable_sound="0" url_buy="http://www.irrgheist.com/games.htm" />
+	<etc tutorial_done="0" disable_sound="0" url_buy="http://www.irrgheist.com/games.htm" keyboard="0"/>
 	<!-- 0=not yet checked (no ads), < 0 display ads, > 0 no ads -->
 	<billing adfree="0" />
 </config>
