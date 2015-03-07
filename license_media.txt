@@ -3,3 +3,11 @@ The media are free for personal use only.
 You may not redistribute it.
 You may not create derivate works from it.
 You may not use it in other products.
+
+This license file may not be removed from any distribution of the H-Craft Championship media.
+
+Exception:
+Openpandora (openpandora.org) may distribute the media as part of the package for the H-Craft Championship game for Pandora
+as long as that package contains only binaries for the Pandora platform, is offered free of cost and the game sources for the 
+binaries they distribute in this package are available under a free software license approved by the Open Source Initiative 
+(http://opensource.org/licenses). All other restrictions still apply.
