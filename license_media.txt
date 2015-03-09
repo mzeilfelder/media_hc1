@@ -9,5 +9,7 @@ This license file may not be removed from any distribution of the H-Craft Champi
 Exception:
 Openpandora (openpandora.org) may distribute the media as part of the package for the H-Craft Championship game for Pandora
 as long as that package contains binaries only for the Pandora platform, is offered free of cost and the game sources for the 
-binaries they distribute in this package are available under a free software license approved by the Open Source Initiative 
-(http://opensource.org/licenses). All other restrictions still apply.
+binaries they distribute in this package are available publicly under a free software license approved by the Open Source Initiative 
+(http://opensource.org/licenses) or compatible with the GPL (https://www.gnu.org/philosophy/license-list.html#GPLCompatibleLicenses)
+and can be accessed in a similar easy way as the binary package (a working online download for the sources is sufficient).
+All other restrictions still apply.
