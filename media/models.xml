@@ -297,7 +297,6 @@
     <node type="mesh" name="cam_block01" file="levels/cam_block01.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
     <node type="mesh" name="cam_block02" file="levels/cam_block02.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
     <node type="mesh" name="cam_block03" file="levels/cam_block03.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
-	<node type="mesh" name="drift_marker" file="models/Hover_fire_single.obj" c_x="0.000000" c_y="0.000000" c_z="0.000000" r_x="0.000000" r_y="0.000000" r_z="0.000000" s_x="1.000000" s_y="1.000000" s_z="1.000000" backface_culling="1"/>
 	
 	<node type="skybox" name="skybox1" up="sky_up01.jpg" down="sky_dn01.jpg" left="sky_lf01.jpg" right="sky_rt01.jpg" front="sky_ft01.jpg" back="sky_bk01.jpg">
 		<animator type="anirot" r_x="0.0" r_y="0.01" r_z="0.0"/>
